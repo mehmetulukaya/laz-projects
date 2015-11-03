@@ -1,0 +1,103 @@
+* Converting file /media/data/radu/dale mele/tmp/CPU Sim/CpuSim.dpr *
+Added defines -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL in custom options
+Found all unit files
+* Fixing used units for file /media/data/radu/dale mele/tmp/CPU Sim/CpuSim.dpr *
+
+*** Converting unit files belonging to project/package ***
+* Converting file /media/data/radu/dale mele/tmp/CPU Sim/main.pas *
+Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+* Converting file /media/data/radu/dale mele/tmp/CPU Sim/GrfCpu.pas *
+* Converting file /media/data/radu/dale mele/tmp/CPU Sim/Cpu.pas *
+Replaced call FileExists(fl) with FileExistsUTF8(fl) { *Converted from FileExists* }
+Added unit FileUtil to uses section
+* Converting file /media/data/radu/dale mele/tmp/CPU Sim/about.pas *
+Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+* Converting file /media/data/radu/dale mele/tmp/CPU Sim/Settings.pas *
+Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+
+*** Converting unit files found during conversion ***
+* Converting file /media/data/radu/dale mele/tmp/CPU Sim/InOutUtils.pas *
+Replaced unit "Windows" with "LCLIntf, LCLType, LMessages" in uses section.
+
+*** Fixing used units and Repairing form files ***
+* Repairing form file /media/data/radu/dale mele/tmp/CPU Sim/main.lfm *
+Removed property "DesignSize".
+Removed property "EditLabel.Transparent".
+Removed property "Items.Data".
+Removed property "FlatScrollBars".
+Removed property "EditLabel.Transparent".
+Removed property "EditLabel.Transparent".
+Removed property "EditLabel.Transparent".
+Removed property "EditLabel.Transparent".
+Removed property "EditLabel.Transparent".
+Removed property "EditLabel.Transparent".
+Removed property "EditLabel.Transparent".
+Removed property "EditLabel.ParentBiDiMode".
+Removed property "EditLabel.BiDiMode".
+Removed property "Items.Data".
+Removed property "FlatScrollBars".
+Removed property "ParentCtl3D".
+Removed property "Ctl3D".
+Removed property "ParentCtl3D".
+Removed property "Ctl3D".
+Removed property "IncrementalDisplay".
+Removed property "DragKind".
+Removed property "TextHeight".
+Removed property "DesignSize".
+Removed property "OldCreateOrder".
+Changed Top coord of TEdit from "219" to "205" inside TGroupBox.
+Changed Left coord of TEdit from "8" to "6" inside TGroupBox.
+Changed Top coord of TRichEdit from "15" to "1" inside TGroupBox.
+Changed Left coord of TRichEdit from "2" to "0" inside TGroupBox.
+Changed Top coord of TGroupBox from "334" to "320" inside TGroupBox.
+Changed Left coord of TGroupBox from "2" to "0" inside TGroupBox.
+Changed Top coord of TEdit from "285" to "271" inside TGroupBox.
+Changed Left coord of TEdit from "8" to "6" inside TGroupBox.
+Changed Top coord of TRichEdit from "15" to "1" inside TGroupBox.
+Changed Left coord of TRichEdit from "2" to "0" inside TGroupBox.
+Changed Top coord of TGroupBox from "15" to "1" inside TGroupBox.
+Changed Left coord of TGroupBox from "2" to "0" inside TGroupBox.
+Changed Top coord of TSplitter from "328" to "314" inside TGroupBox.
+Changed Left coord of TSplitter from "2" to "0" inside TGroupBox.
+Changed Top coord of TLabeledEdit from "440" to "426" inside TGroupBox.
+Changed Left coord of TLabeledEdit from "24" to "22" inside TGroupBox.
+Changed Top coord of TListView from "546" to "532" inside TGroupBox.
+Changed Left coord of TListView from "128" to "126" inside TGroupBox.
+Changed Top coord of TLabeledEdit from "496" to "482" inside TGroupBox.
+Changed Left coord of TLabeledEdit from "256" to "254" inside TGroupBox.
+Changed Top coord of TLabeledEdit from "448" to "434" inside TGroupBox.
+Changed Left coord of TLabeledEdit from "256" to "254" inside TGroupBox.
+Changed Top coord of TLabeledEdit from "400" to "386" inside TGroupBox.
+Changed Left coord of TLabeledEdit from "256" to "254" inside TGroupBox.
+Changed Top coord of TLabeledEdit from "352" to "338" inside TGroupBox.
+Changed Left coord of TLabeledEdit from "256" to "254" inside TGroupBox.
+Changed Top coord of TLabeledEdit from "304" to "290" inside TGroupBox.
+Changed Left coord of TLabeledEdit from "256" to "254" inside TGroupBox.
+Changed Top coord of TLabeledEdit from "256" to "242" inside TGroupBox.
+Changed Left coord of TLabeledEdit from "256" to "254" inside TGroupBox.
+Changed Top coord of TLabeledEdit from "104" to "90" inside TGroupBox.
+Changed Left coord of TLabeledEdit from "256" to "254" inside TGroupBox.
+Changed Top coord of TListView from "154" to "140" inside TGroupBox.
+Changed Left coord of TListView from "256" to "254" inside TGroupBox.
+Changed Top coord of TPanel from "154" to "140" inside TGroupBox.
+Changed Left coord of TPanel from "256" to "254" inside TGroupBox.
+Changed Top coord of TPanel from "546" to "532" inside TGroupBox.
+Changed Left coord of TPanel from "128" to "126" inside TGroupBox.
+Changed Top coord of TLabel from "528" to "514" inside TGroupBox.
+Changed Left coord of TLabel from "128" to "126" inside TGroupBox.
+Changed Top coord of TLabel from "136" to "122" inside TGroupBox.
+Changed Left coord of TLabel from "256" to "254" inside TGroupBox.
+Changed Top coord of TImage from "15" to "1" inside TGroupBox.
+Changed Left coord of TImage from "2" to "0" inside TGroupBox.
+* Fixing used units for file /media/data/radu/dale mele/tmp/CPU Sim/main.pas *
+* Fixing used units for file /media/data/radu/dale mele/tmp/CPU Sim/GrfCpu.pas *
+* Fixing used units for file /media/data/radu/dale mele/tmp/CPU Sim/Cpu.pas *
+* Repairing form file /media/data/radu/dale mele/tmp/CPU Sim/about.lfm *
+* Fixing used units for file /media/data/radu/dale mele/tmp/CPU Sim/about.pas *
+* Repairing form file /media/data/radu/dale mele/tmp/CPU Sim/Settings.lfm *
+Removed property "TextHeight".
+Removed property "OldCreateOrder".
+* Fixing used units for file /media/data/radu/dale mele/tmp/CPU Sim/Settings.pas *
+* Fixing used units for file /media/data/radu/dale mele/tmp/CPU Sim/InOutUtils.pas *
+Conversion took: 00:00:08
+Conversion Ready.

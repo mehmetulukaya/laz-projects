@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="AstroDemo.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="3"/>
+        <CursorPos Y="25"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="U_AstroDemo.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="U_AstroDemo"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="628"/>
+        <CursorPos X="16" Y="697"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="UAstronomy.pas"/>
+        <UnitName Value="UAstronomy"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="2391"/>
+        <CursorPos X="24" Y="2410"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="U_ConvertTest.pas"/>
+        <ComponentName Value="TConvertTest"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="U_ConvertTest"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="305"/>
+        <CursorPos X="33" Y="325"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3645"/>
+        <CursorPos Y="3657"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\lcl\forms.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1389"/>
+        <CursorPos X="15" Y="1400"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2141"/>
+        <CursorPos X="3" Y="2158"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1255" Column="31" TopLine="1231"/>
+      </Position1>
+      <Position2>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1254" Column="31" TopLine="1230"/>
+      </Position2>
+      <Position3>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1253" Column="31" TopLine="1229"/>
+      </Position3>
+      <Position4>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1252" Column="31" TopLine="1228"/>
+      </Position4>
+      <Position5>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1251" Column="31" TopLine="1227"/>
+      </Position5>
+      <Position6>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1250" Column="31" TopLine="1226"/>
+      </Position6>
+      <Position7>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1249" Column="31" TopLine="1225"/>
+      </Position7>
+      <Position8>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1248" Column="31" TopLine="1224"/>
+      </Position8>
+      <Position9>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1247" Column="31" TopLine="1223"/>
+      </Position9>
+      <Position10>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1246" Column="31" TopLine="1222"/>
+      </Position10>
+      <Position11>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1245" Column="31" TopLine="1221"/>
+      </Position11>
+      <Position12>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1244" Column="31" TopLine="1220"/>
+      </Position12>
+      <Position13>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1243" Column="31" TopLine="1219"/>
+      </Position13>
+      <Position14>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1242" Column="31" TopLine="1218"/>
+      </Position14>
+      <Position15>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1241" Column="31" TopLine="1217"/>
+      </Position15>
+      <Position16>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1240" Column="31" TopLine="1216"/>
+      </Position16>
+      <Position17>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1239" Column="31" TopLine="1215"/>
+      </Position17>
+      <Position18>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1238" Column="31" TopLine="1214"/>
+      </Position18>
+      <Position19>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1237" Column="31" TopLine="1213"/>
+      </Position19>
+      <Position20>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1236" Column="31" TopLine="1212"/>
+      </Position20>
+      <Position21>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1235" Column="31" TopLine="1211"/>
+      </Position21>
+      <Position22>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1234" Column="31" TopLine="1210"/>
+      </Position22>
+      <Position23>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1267" Column="31" TopLine="1243"/>
+      </Position23>
+      <Position24>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="1244" Column="12" TopLine="1243"/>
+      </Position24>
+      <Position25>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="532" Column="16" TopLine="509"/>
+      </Position25>
+      <Position26>
+        <Filename Value="U_AstroDemo.pas"/>
+      </Position26>
+      <Position27>
+        <Filename Value="AstroDemo.dpr"/>
+        <Caret Line="24" TopLine="3"/>
+      </Position27>
+      <Position28>
+        <Filename Value="AstroDemo.dpr"/>
+        <Caret Line="25" TopLine="3"/>
+      </Position28>
+      <Position29>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="319" Column="4" TopLine="387"/>
+      </Position29>
+      <Position30>
+        <Filename Value="U_AstroDemo.pas"/>
+        <Caret Line="549" Column="3" TopLine="564"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

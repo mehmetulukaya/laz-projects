@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="Compass.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="U_Compass.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="U_Compass"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="164"/>
+        <CursorPos X="39" Y="66"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\lcl\extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="418"/>
+        <CursorPos X="14" Y="430"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="Compass.dpr"/>
+      </Position1>
+      <Position2>
+        <Filename Value="U_Compass.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="154" Column="34" TopLine="142"/>
+      </Position3>
+      <Position4>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="146" Column="21" TopLine="235"/>
+      </Position4>
+      <Position5>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="149" Column="25" TopLine="129"/>
+      </Position5>
+      <Position6>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="229" Column="24" TopLine="195"/>
+      </Position6>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

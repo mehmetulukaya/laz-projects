@@ -1,0 +1,42 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TfrmMain','FORMDATA',[
+  'TPF0'#8'TfrmMain'#7'frmMain'#4'Left'#3#5#1#6'Height'#3'#'#2#3'Top'#2'j'#5'Wi'
+  +'dth'#3'c'#2#11'BorderIcons'#11#12'biSystemMenu'#10'biMinimize'#0#11'BorderS'
+  +'tyle'#7#8'bsSingle'#7'Caption'#6#14'box2D PingPong'#12'ClientHeight'#3'#'#2
+  +#11'ClientWidth'#3'c'#2#5'Color'#7#9'clBtnFace'#10'Font.Color'#7#12'clWindow'
+  +'Text'#11'Font.Height'#2#245#9'Font.Name'#6#6'Tahoma'#10'KeyPreview'#9#8'OnC'
+  +'reate'#7#10'FormCreate'#9'OnDestroy'#7#11'FormDestroy'#9'OnKeyDown'#7#11'Fo'
+  +'rmKeyDown'#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'#6#7'1.4.0.4'#0#6
+  +'TImage'#10'imgDisplay'#4'Left'#2#6#6'Height'#3#244#1#3'Top'#2#6#5'Width'#3
+  +'X'#2#11'OnMouseDown'#7#19'imgDisplayMouseDown'#0#0#6'TBevel'#6'Bevel1'#4'Le'
+  +'ft'#2#252#6'Height'#2#2#3'Top'#3#0#2#5'Width'#3'k'#2#0#0#7'TButton'#10'btnN'
+  +'ewGame'#4'Left'#2#6#6'Height'#2#25#3'Top'#3#5#2#5'Width'#2'K'#7'Anchors'#11
+  +#6'akLeft'#8'akBottom'#0#7'Caption'#6#8'New Game'#7'OnClick'#7#15'btnNewGame'
+  +'Click'#8'TabOrder'#2#0#0#0#9'TColorBox'#13'clrBlockColor'#4'Left'#3'l'#1#6
+  +'Height'#2#22#3'Top'#3#7#2#5'Width'#2'I'#5'Style'#11#16'cbStandardColors'#16
+  +'cbExtendedColors'#13'cbPrettyNames'#14'cbCustomColors'#0#7'Anchors'#11#6'ak'
+  +'Left'#8'akBottom'#0#10'ItemHeight'#2#16#8'OnChange'#7#19'clrBlockColorChang'
+  +'e'#8'TabOrder'#2#1#0#0#9'TComboBox'#12'cboBlockType'#4'Left'#3#185#1#6'Heig'
+  +'ht'#2#21#3'Top'#3#7#2#5'Width'#2'X'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#12
+  +'AutoDropDown'#9#10'ItemHeight'#2#13#13'Items.Strings'#1#6#11'Unbreakable'#6
+  +#8'Hit Once'#6#9'Hit Twice'#6#10'Hit Thrice'#0#8'OnChange'#7#18'cboBlockType'
+  +'Change'#5'Style'#7#14'csDropDownList'#8'TabOrder'#2#2#0#0#7'TButton'#14'btn'
+  +'PauseResume'#4'Left'#2'S'#6'Height'#2#25#3'Top'#3#5#2#5'Width'#2'K'#7'Ancho'
+  +'rs'#11#6'akLeft'#8'akBottom'#0#7'Caption'#6#5'Pause'#7'OnClick'#7#19'btnPau'
+  +'seResumeClick'#8'TabOrder'#2#3#0#0#7'TButton'#10'btnLoadMap'#4'Left'#3#160#0
+  +#6'Height'#2#25#3'Top'#3#5#2#5'Width'#2'K'#7'Anchors'#11#6'akLeft'#8'akBotto'
+  +'m'#0#7'Caption'#6#8'Load Map'#7'OnClick'#7#15'btnLoadMapClick'#8'TabOrder'#2
+  +#4#0#0#7'TButton'#10'btnSaveMap'#4'Left'#3#20#2#6'Height'#2#25#3'Top'#3#5#2#5
+  +'Width'#2'K'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#7'Caption'#6#8'Save Map'#7
+  +'OnClick'#7#15'btnSaveMapClick'#8'TabOrder'#2#5#0#0#9'TCheckBox'#11'chkEditM'
+  +'ode'#4'Left'#3#24#1#6'Height'#2#19#3'Top'#3#8#2#5'Width'#2'Q'#7'Anchors'#11
+  +#6'akLeft'#8'akBottom'#0#7'Caption'#6#12'Editing Mode'#7'OnClick'#7#16'chkEd'
+  +'itModeClick'#8'TabOrder'#2#6#0#0#11'TOpenDialog'#10'OpenDialog'#10'DefaultE'
+  +'xt'#6#6'.*.map'#6'Filter'#6#21'Map File(*.map)|*.map'#7'Options'#11#14'ofHi'
+  +'deReadOnly'#13'ofNoChangeDir'#15'ofFileMustExist'#14'ofEnableSizing'#0#4'le'
+  +'ft'#3'h'#1#3'top'#3#0#1#0#0#11'TSaveDialog'#10'SaveDialog'#10'DefaultExt'#6
+  +#6'.*.map'#6'Filter'#6#21'Map File(*.map)|*.map'#7'Options'#11#14'ofHideRead'
+  +'Only'#13'ofNoChangeDir'#14'ofEnableSizing'#0#4'left'#3#160#1#3'top'#3#0#1#0
+  +#0#0
+]);
