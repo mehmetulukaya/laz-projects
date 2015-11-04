@@ -1,0 +1,83 @@
+6 texures
+wall walls.bmp
+floor stonefloor.bmp
+ceiling ceiling.bmp
+roomwall roomwall.bmp
+roomfloor roomfloor.bmp
+roomceiling roomceiling.bmp
+
+52 vertices
+-3.0 0.0 -3.0
+-1.5 0.0 -3.0
+ 0.0 0.0 -3.0
+ 1.5 0.0 -3.0
+ 3.0 0.0 -3.0
+-3.0 0.0 -1.5
+-1.5 0.0 -1.5
+ 0.0 0.0 -1.5
+ 1.5 0.0 -1.5
+ 3.0 0.0 -3.0
+-3.0 0.0 0.0
+-1.5 0.0 0.0
+ 0.0 0.0 0.0
+ 1.5 0.0 0.0
+ 3.0 0.0 0.0
+-3.0 0.0 1.5
+-1.5 0.0 1.5
+ 0.0 0.0 1.5
+ 1.5 0.0 1.5
+ 3.0 0.0 1.5
+-3.0 0.0 3.0
+-1.5 0.0 3.0
+ 0.0 0.0 3.0
+ 1.5 0.0 3.0
+ 3.0 0.0 3.0
+-3.0 1.0 -3.0
+-1.5 1.0 -3.0
+ 0.0 1.5 -3.0
+ 1.5 1.5 -3.0
+ 3.0 1.5 -3.0
+-3.0 1.0 -1.5
+-1.5 1.0 -1.5
+ 0.0 1.5 -1.5
+ 1.5 1.5 -1.5
+ 3.0 1.5 -1.5
+-3.0 1.0 0.0
+-1.5 1.0 0.0
+ 0.0 1.5 0.0
+ 1.5 1.5 0.0
+ 3.0 1.5 0.0
+-3.0 1.0 1.5
+-1.5 1.0 1.5
+ 0.0 1.0 1.5
+ 1.5 1.0 1.5
+ 3.0 1.0 1.5
+-3.0 1.0 3.0
+-1.5 1.0 3.0
+ 0.0 1.0 3.0
+ 1.5 1.0 3.0
+ 0.0 1.5 1.5
+ 1.5 1.5 1.5
+ 3.0 1.5 1.5
+
+17 faces
+1 2 27 26 1 1 wall            // starting wall
+21 1 26 46 4 1 wall           // left hand passage
+24 21 46 49 3 1 wall          // bottom wall
+19 24 49 44 1 1 wall          // bottom right wall 
+20 19 51 52 1 1.5 roomwall      // bottom room
+44 43 50 51 1 0.5 roomwall      // bottom room above door
+5 20 52 30 3 1.5 roomwall       // right room
+3 5 30 28 2 1.5 roomwall        // top room
+18 3 28 50 3 1.5 roomwall       // left room
+17 18 43 42 1 1 wall       
+2 17 42 27 3 1 wall           // right starting passage
+21 22 2 1 1 4 floor
+22 24 19 17 2 1 floor
+18 20 5 3 6 9 roomfloor
+47 46 26 27 1 4 ceiling
+49 47 42 44 2 1 ceiling
+52 50 28 30 2 3 roomceiling 
+ 
+
+

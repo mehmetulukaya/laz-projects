@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="OpenGLApp.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="73"/>
+        <CursorPos X="13" Y="92"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Textures.pas"/>
+        <UnitName Value="Textures"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="234"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\fpc\2.6.4\source\rtl\inc\resh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="44"/>
+        <CursorPos X="10" Y="56"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\lcl\include\lclintf.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="144"/>
+        <CursorPos X="32" Y="153"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\lcl\graphics.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="845"/>
+        <CursorPos X="15" Y="855"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\fpc\2.6.4\source\rtl\inc\systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="242"/>
+        <CursorPos X="3" Y="254"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\lcl\include\graphic.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="228"/>
+        <CursorPos Y="242"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\lcl\include\rasterimage.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="426"/>
+        <CursorPos Y="441"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="233" TopLine="222"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="234" TopLine="222"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="209" TopLine="197"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="210" TopLine="197"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="212" TopLine="197"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="233" TopLine="222"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="234" TopLine="222"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="209" TopLine="197"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="210" TopLine="197"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="212" TopLine="197"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="233" TopLine="222"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="234" TopLine="223"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="circles.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="16"/>
+        <CursorPos X="17" Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
+        <UnitName Value="agg_platform_support"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="5" Y="58"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="circles.dpr"/>
+        <Caret TopLine="176"/>
+      </Position1>
+      <Position2>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
+        <Caret Line="58" Column="2" TopLine="46"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

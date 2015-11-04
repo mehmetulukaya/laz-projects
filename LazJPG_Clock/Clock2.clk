@@ -1,0 +1,12 @@
+[Files]
+Face=Face1.jpg
+MHand=XingFuMinute02.bmp
+HHand=XingFuHour02.bmp
+[Offsets]
+HCenterx=32
+HCentery=241
+MCenterx=31
+MCentery=322
+[Scales]
+MScale=0.8
+HScale=0.6

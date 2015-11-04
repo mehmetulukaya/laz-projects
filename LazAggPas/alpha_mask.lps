@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="alpha_mask.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="323"/>
+        <CursorPos X="9" Y="337"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
+        <UnitName Value="agg_platform_support"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1796"/>
+        <CursorPos X="30" Y="1758"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="alpha_mask.dpr"/>
+        <Caret Line="337" Column="9" TopLine="323"/>
+      </Position1>
+      <Position2>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
+        <Caret Line="396" Column="14" TopLine="385"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Molecules.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="35" Y="17"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="U_Molecules.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="U_Molecules"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="279"/>
+        <CursorPos X="3" Y="291"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\fpc\2.6.4\source\rtl\win\wininc\redef.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="734"/>
+        <CursorPos X="10" Y="746"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="U_Molecules.dfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="25" HistoryIndex="24">
+      <Position1>
+        <Filename Value="Molecules.dpr"/>
+      </Position1>
+      <Position2>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="289" Column="14" TopLine="379"/>
+      </Position2>
+      <Position3>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="177" Column="7" TopLine="166"/>
+      </Position3>
+      <Position4>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="178" Column="7" TopLine="166"/>
+      </Position4>
+      <Position5>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="61" Column="3" TopLine="61"/>
+      </Position5>
+      <Position6>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="404" Column="3" TopLine="401"/>
+      </Position6>
+      <Position7>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="410" Column="3" TopLine="407"/>
+      </Position7>
+      <Position8>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="98" Column="98" TopLine="54"/>
+      </Position8>
+      <Position9>
+        <Filename Value="U_Molecules.pas"/>
+      </Position9>
+      <Position10>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="12" Column="71"/>
+      </Position10>
+      <Position11>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="46" Column="20" TopLine="26"/>
+      </Position11>
+      <Position12>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="68" Column="10" TopLine="48"/>
+      </Position12>
+      <Position13>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="75" Column="21" TopLine="55"/>
+      </Position13>
+      <Position14>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="171" Column="12" TopLine="151"/>
+      </Position14>
+      <Position15>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="172" Column="12" TopLine="152"/>
+      </Position15>
+      <Position16>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="190" Column="14" TopLine="169"/>
+      </Position16>
+      <Position17>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="372" Column="9" TopLine="352"/>
+      </Position17>
+      <Position18>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="373" Column="9" TopLine="353"/>
+      </Position18>
+      <Position19>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="374" Column="9" TopLine="354"/>
+      </Position19>
+      <Position20>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="431" Column="21" TopLine="411"/>
+      </Position20>
+      <Position21>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="432" Column="24" TopLine="412"/>
+      </Position21>
+      <Position22>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="38" Column="72" TopLine="21"/>
+      </Position22>
+      <Position23>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="46" Column="13" TopLine="26"/>
+      </Position23>
+      <Position24>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="68" Column="11" TopLine="48"/>
+      </Position24>
+      <Position25>
+        <Filename Value="U_Molecules.pas"/>
+        <Caret Line="75" Column="21" TopLine="55"/>
+      </Position25>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

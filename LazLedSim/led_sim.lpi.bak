@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <Icon Value="0"/>
+      <UseXPManifest Value="True"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="LedShapePacket"/>
+        <MinVersion Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="led_sim.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="led_sim"/>
+        <CursorPos X="8" Y="14"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <FoldState Value=" T54058"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="main"/>
+        <CursorPos X="27" Y="90"/>
+        <TopLine Value="77"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\components\ledshape\ledshape.pas"/>
+        <UnitName Value="LedShape"/>
+        <CursorPos X="5" Y="88"/>
+        <TopLine Value="81"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\fpc\2.2.4\source\rtl\inc\objpash.inc"/>
+        <CursorPos X="22" Y="153"/>
+        <TopLine Value="141"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\fpc\2.2.4\source\rtl\inc\objpas.inc"/>
+        <CursorPos X="9" Y="139"/>
+        <TopLine Value="139"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <CursorPos X="10" Y="1759"/>
+        <TopLine Value="1742"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\lcl\graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <CursorPos X="3" Y="39"/>
+        <TopLine Value="27"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
+      </Unit6>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="main.pas"/>
+        <Caret Line="68" Column="39" TopLine="55"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main.pas"/>
+        <Caret Line="69" Column="39" TopLine="55"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\components\ledshape\ledshape.pas"/>
+        <Caret Line="46" Column="73" TopLine="30"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\components\ledshape\ledshape.pas"/>
+        <Caret Line="55" Column="58" TopLine="35"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\components\ledshape\ledshape.pas"/>
+        <Caret Line="20" Column="11" TopLine="11"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\components\ledshape\ledshape.pas"/>
+        <Caret Line="52" Column="54" TopLine="33"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\components\ledshape\ledshape.pas"/>
+        <Caret Line="171" Column="19" TopLine="147"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\components\ledshape\ledshape.pas"/>
+        <Caret Line="180" Column="15" TopLine="155"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main.pas"/>
+        <Caret Line="96" Column="23" TopLine="74"/>
+      </Position9>
+      <Position10>
+        <Filename Value="main.pas"/>
+        <Caret Line="93" Column="45" TopLine="77"/>
+      </Position10>
+      <Position11>
+        <Filename Value="main.pas"/>
+        <Caret Line="95" Column="23" TopLine="77"/>
+      </Position11>
+      <Position12>
+        <Filename Value="main.pas"/>
+        <Caret Line="68" Column="75" TopLine="59"/>
+      </Position12>
+      <Position13>
+        <Filename Value="main.pas"/>
+        <Caret Line="78" Column="22" TopLine="58"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main.pas"/>
+        <Caret Line="79" Column="1" TopLine="60"/>
+      </Position14>
+      <Position15>
+        <Filename Value="main.pas"/>
+        <Caret Line="91" Column="1" TopLine="69"/>
+      </Position15>
+      <Position16>
+        <Filename Value="main.pas"/>
+        <Caret Line="99" Column="9" TopLine="96"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main.pas"/>
+        <Caret Line="88" Column="22" TopLine="73"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main.pas"/>
+        <Caret Line="104" Column="1" TopLine="92"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main.pas"/>
+        <Caret Line="93" Column="13" TopLine="69"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main.pas"/>
+        <Caret Line="67" Column="16" TopLine="55"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main.pas"/>
+        <Caret Line="109" Column="17" TopLine="87"/>
+      </Position22>
+      <Position23>
+        <Filename Value="main.pas"/>
+        <Caret Line="76" Column="45" TopLine="60"/>
+      </Position23>
+      <Position24>
+        <Filename Value="main.pas"/>
+        <Caret Line="132" Column="3" TopLine="130"/>
+      </Position24>
+      <Position25>
+        <Filename Value="main.pas"/>
+        <Caret Line="131" Column="3" TopLine="130"/>
+      </Position25>
+      <Position26>
+        <Filename Value="main.pas"/>
+        <Caret Line="130" Column="3" TopLine="130"/>
+      </Position26>
+      <Position27>
+        <Filename Value="main.pas"/>
+        <Caret Line="40" Column="1" TopLine="37"/>
+      </Position27>
+      <Position28>
+        <Filename Value="main.pas"/>
+        <Caret Line="123" Column="1" TopLine="106"/>
+      </Position28>
+      <Position29>
+        <Filename Value="main.pas"/>
+        <Caret Line="40" Column="1" TopLine="28"/>
+      </Position29>
+      <Position30>
+        <Filename Value="main.pas"/>
+        <Caret Line="64" Column="13" TopLine="40"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

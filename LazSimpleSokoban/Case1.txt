@@ -1,0 +1,37 @@
+; _ = blank (outside of walls) or floor {inside of walls}
+; # = Wall
+; @ = Man on Floor
+; + = Man on Target
+; $ = Box on Floor
+; * = Box on Target
+; . = Target
+
+
+;Board
+
+    ###
+    #.#
+    # #
+    # #
+#####$#####
+#.  $@$  .#
+#####$#####
+    # #
+    # #
+    #.#
+    ###
+
+;____WWW____
+;____WTW____
+;____WFW____
+;____WFW____
+;WWWWWBWWWWW
+;WTFFBMBFFTW
+;WWWWWBWWWWW
+;____WFW____
+;____WFW____
+;____WTW____
+;____WWW____
+
+
+

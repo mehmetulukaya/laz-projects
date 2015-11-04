@@ -1,0 +1,16 @@
+; _ = blank (outside of walls) or floor {inside of walls}
+; # = Wall
+; @ = Man on Floor
+; + = Man on Target
+; $ = Box on Floor
+; * = Box on Target
+; . = Target
+
+  ####
+  #..#
+_##. #
+_#.$ @#
+##  $ ##
+# $$#  #
+#      #
+########

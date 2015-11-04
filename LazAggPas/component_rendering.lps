@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="component_rendering.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="150"/>
+        <CursorPos X="11" Y="168"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
+        <UnitName Value="agg_platform_support"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1684"/>
+        <CursorPos X="31" Y="1686"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="component_rendering.dpr"/>
+        <Caret Line="168" Column="11" TopLine="150"/>
+      </Position1>
+      <Position2>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
+        <Caret Line="395" Column="14" TopLine="384"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

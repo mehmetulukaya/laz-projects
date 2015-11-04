@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Oscilloscope4.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="6"/>
+        <CursorPos X="36" Y="27"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="U_Spectrum4.pas"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="U_Spectrum4"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="69"/>
+        <CursorPos X="3" Y="81"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="U_Oscilloscope4.pas"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="U_Oscilloscope4"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1354"/>
+        <CursorPos X="3" Y="1131"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ufrmOscilloscope4.pas"/>
+        <ComponentName Value="frmOscilloscope"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="ufrmOscilloscope4"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="296"/>
+        <CursorPos X="52" Y="297"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="U_Spectrum4.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Oscilloscope4.dpr"/>
+      </Position2>
+      <Position3>
+        <Filename Value="U_Oscilloscope4.pas"/>
+      </Position3>
+      <Position4>
+        <Filename Value="U_Oscilloscope4.pas"/>
+        <Caret Line="1108" Column="3" TopLine="1105"/>
+      </Position4>
+      <Position5>
+        <Filename Value="U_Spectrum4.pas"/>
+        <Caret Line="251" Column="10" TopLine="245"/>
+      </Position5>
+      <Position6>
+        <Filename Value="U_Spectrum4.pas"/>
+        <Caret Line="71" Column="15" TopLine="60"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Oscilloscope4.dpr"/>
+        <Caret Line="27" Column="36" TopLine="6"/>
+      </Position7>
+      <Position8>
+        <Filename Value="U_Oscilloscope4.pas"/>
+        <Caret Line="1412" Column="30" TopLine="1310"/>
+      </Position8>
+      <Position9>
+        <Filename Value="U_Oscilloscope4.pas"/>
+        <Caret Line="382" Column="11" TopLine="372"/>
+      </Position9>
+      <Position10>
+        <Filename Value="U_Oscilloscope4.pas"/>
+        <Caret Line="183" Column="15" TopLine="404"/>
+      </Position10>
+      <Position11>
+        <Filename Value="U_Oscilloscope4.pas"/>
+        <Caret Line="1131" Column="3" TopLine="1354"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ufrmOscilloscope4.pas"/>
+        <Caret Line="61" Column="15" TopLine="44"/>
+      </Position12>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

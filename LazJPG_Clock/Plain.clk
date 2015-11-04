@@ -1,0 +1,12 @@
+[Files]
+Face=PlainFace.bmp
+MHand=PlianMinuteHand.bmp
+HHand=PlianHourHand.bmp
+[Offsets]
+HCenterx=34
+HCentery=272
+MCenterx=38
+MCentery=371
+[Scales]
+MScale=0.8
+HScale=0.6

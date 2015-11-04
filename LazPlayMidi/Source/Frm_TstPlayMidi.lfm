@@ -1,0 +1,94 @@
+object Form2: TForm2
+  Left = 270
+  Height = 160
+  Top = 125
+  Width = 408
+  Caption = 'Test: Play midi'
+  ClientHeight = 160
+  ClientWidth = 408
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  LCLVersion = '1.4.0.4'
+  object Label1: TLabel
+    Left = 96
+    Height = 13
+    Top = 88
+    Width = 31
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 96
+    Height = 13
+    Top = 104
+    Width = 31
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 16
+    Width = 81
+    Caption = 'Techno'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Top = 47
+    Width = 81
+    Caption = 'Root-Beer-Rag'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 8
+    Height = 25
+    Top = 78
+    Width = 82
+    Caption = 'Born to be alive'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 325
+    Height = 25
+    Top = 127
+    Width = 75
+    Caption = 'Close'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object TrackBar1: TTrackBar
+    Left = 89
+    Height = 39
+    Top = 47
+    Width = 311
+    Position = 0
+    Enabled = False
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 368
+    Height = 25
+    Top = 78
+    Width = 32
+    Caption = 'Stop'
+    OnMouseDown = Button5MouseDown
+    OnMouseUp = Button5MouseUp
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 152
+    Height = 25
+    Top = 127
+    Width = 75
+    Caption = 'Button6'
+    OnClick = Button6Click
+    TabOrder = 6
+  end
+end

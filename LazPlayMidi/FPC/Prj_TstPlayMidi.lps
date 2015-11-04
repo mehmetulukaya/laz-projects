@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Release1"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Prj_TstPlayMidi.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="23" Y="12"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\Source\Frm_TstPlayMidi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Frm_TstPlayMidi"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="16" Y="132"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Unt_PlayMidi"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="20" Y="71"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="491"/>
+        <CursorPos X="10" Y="505"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="18" HistoryIndex="17">
+      <Position1>
+        <Filename Value="Prj_TstPlayMidi.dpr"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Prj_TstPlayMidi.dpr"/>
+        <Caret Line="7" Column="5"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\Source\Frm_TstPlayMidi.pas"/>
+        <Caret Line="127" Column="27" TopLine="50"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\Source\Frm_TstPlayMidi.pas"/>
+        <Caret Line="120" Column="10" TopLine="112"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\Source\Frm_TstPlayMidi.pas"/>
+        <Caret Line="120" Column="3" TopLine="112"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Prj_TstPlayMidi.dpr"/>
+        <Caret Line="7" Column="5"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\Source\Frm_TstPlayMidi.pas"/>
+        <Caret Line="15" Column="3"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="22" Column="26"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Prj_TstPlayMidi.dpr"/>
+        <Caret Line="5" Column="3"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="26" Column="67" TopLine="19"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="71" Column="28" TopLine="49"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="28" Column="20" TopLine="13"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="26" Column="20" TopLine="13"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="28" Column="20" TopLine="13"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="26" Column="20" TopLine="13"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="71" Column="16" TopLine="59"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="13" TopLine="13"/>
+      </Position18>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
