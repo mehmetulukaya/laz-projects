@@ -12,13 +12,16 @@ uses
   uPSComponent_Forms,
   uPSComponent_Controls,
   uPSComponent_StdCtrls,
-  uPSRuntime,uPSCompiler,
+  uPSRuntime,uPSCompiler
 
-  Windows;
-
+  {$IFDEF MSWINDOWS}
+  ,Windows
+  {$ENDIF}
+  ;
+{$IFDEF MSWINDOWS}
 const
   WM_SET_CAPTION = WM_USER + $01;
-
+{$ENDIF}
 type
 
   { TForm1 }
@@ -37,8 +40,9 @@ type
   public
     { public declarations }
   protected
+    {$IFDEF MSWINDOWS}
      procedure WMSetCaption(var Message: TMessage); message WM_SET_CAPTION;
-
+    {$ENDIF}
   end;
 
 var
@@ -65,6 +69,7 @@ uses
 { TForm1 }
 
 
+{$IFDEF MSWINDOWS}
 procedure SetLabelCaption(const aName, aCaption:string);
 var
   C:TComponent;
@@ -76,6 +81,7 @@ begin
   Move(aCaption[1], buf^, len);
   SendMessage(Form1.Handle, WM_SET_CAPTION, Integer(Form1.FindComponent(aName)), Integer(buf));
 end;
+{$ENDIF}
 
 type
   TScriptThread = class (TThread)
@@ -146,8 +152,12 @@ procedure TScriptThread.PSScriptCompile(Sender: TPSScript);
 begin
   //Sender.AddRegisteredVariable('Application', 'TApplication');
   //Sender.AddRegisteredVariable('Form1', 'TForm');
+  {$IFDEF MSWINDOWS}
   Sender.AddFunction(@SetLabelCaption, 'procedure SetLabelCaption(const aName, aCaption:string)');
+  {$ENDIF}
+
 end;
+
 
 procedure TForm1.Button4Click(Sender: TObject);
 begin
@@ -156,6 +166,7 @@ begin
   TScriptThread.Create(Memo3.Text);
 end;
 
+{$IFDEF MSWINDOWS}
 procedure TForm1.WMSetCaption(var Message: TMessage);
 var
   buf: pChar;
@@ -166,6 +177,6 @@ begin
     FreeMem(buf);
   end;
 end;
-
+{$ENDIF}
 end.
 
