@@ -8,8 +8,8 @@ unit U_Sokoban3;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  shellAPI, StdCtrls, Grids, ExtCtrls, Types, ComCtrls, Inifiles;
+  LCLType, { Windows,} Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  LCLIntf, {shellAPI,} StdCtrls, Grids, ExtCtrls, Types, ComCtrls, Inifiles;
 
 type
   Tundo =record
@@ -67,7 +67,8 @@ var
 
 implementation
 
-{$R *.DFM}
+// {$R *.DFM}
+{$R *.dfm}
 
 type
        TCodes=   (Space,  Wall, Floor,  Target,   Box,    Man,    None);
@@ -578,8 +579,9 @@ end;
 
 procedure TForm1.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL) ;
+  {ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  nil, nil, SW_SHOWNORMAL) ;}
+  OpenURL('http://www.delphiforfun.org/');
 end;
 
 

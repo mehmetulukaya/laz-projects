@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 192
+  Left = 72
   Height = 640
-  Top = 52
+  Top = 21
   Width = 950
   Caption = 'Sokoban Version 3'
   ClientHeight = 640
@@ -13,7 +13,7 @@ object Form1: TForm1
   KeyPreview = True
   OnActivate = FormActivate
   OnKeyDown = FormKeyDown
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.4.2.0'
   object StaticText1: TStaticText
     Cursor = crHandPoint
     Left = 0
@@ -42,8 +42,8 @@ object Form1: TForm1
     TabOrder = 1
     object TabSheet1: TTabSheet
       Caption = 'Introduction'
-      ClientHeight = 0
-      ClientWidth = 0
+      ClientHeight = 591
+      ClientWidth = 940
       object Memo1: TMemo
         Left = 32
         Height = 513
@@ -83,7 +83,7 @@ object Form1: TForm1
     object TabSheet2: TTabSheet
       Caption = 'Puzzles'
       ClientHeight = 591
-      ClientWidth = 942
+      ClientWidth = 940
       ImageIndex = 1
       object Label1: TLabel
         Left = 528
@@ -100,7 +100,7 @@ object Form1: TForm1
       end
       object StepLbl: TLabel
         Left = 584
-        Height = 22
+        Height = 23
         Top = 237
         Width = 22
         Caption = '00'
@@ -126,7 +126,7 @@ object Form1: TForm1
       end
       object InPlaceLbl: TLabel
         Left = 880
-        Height = 22
+        Height = 23
         Top = 237
         Width = 22
         Caption = '00'
@@ -139,9 +139,9 @@ object Form1: TForm1
       end
       object Label3: TLabel
         Left = 536
-        Height = 18
+        Height = 19
         Top = 416
-        Width = 123
+        Width = 128
         Caption = 'No saved solution'
         Font.Color = clWindowText
         Font.Height = -16

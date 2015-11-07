@@ -1,87 +1,87 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TForm1','FORMDATA',[
-  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#192#0#6'Height'#3#128#2#3'Top'#2'4'#5'Wid'
-  +'th'#3#182#3#7'Caption'#6#17'Sokoban Version 3'#12'ClientHeight'#3#128#2#11
-  +'ClientWidth'#3#182#3#5'Color'#4#224#194#133#0#10'Font.Color'#7#12'clWindowT'
-  +'ext'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'KeyPreview'#9#10'OnAc'
-  +'tivate'#7#12'FormActivate'#9'OnKeyDown'#7#11'FormKeyDown'#10'LCLVersion'#6#7
-  +'1.4.0.4'#0#11'TStaticText'#11'StaticText1'#6'Cursor'#7#11'crHandPoint'#4'Le'
-  +'ft'#2#0#6'Height'#2#20#3'Top'#3'l'#2#5'Width'#3#182#3#5'Align'#7#8'alBottom'
-  +#9'Alignment'#7#8'taCenter'#7'Caption'#6'4Copyright '#194#169' 2009, Gary Da'
-  +'rby,  www.DelphiForFun.org'#10'Font.Color'#7#6'clBlue'#11'Font.Height'#2#243
-  +#9'Font.Name'#6#5'Arial'#10'Font.Style'#11#6'fsBold'#11'fsUnderline'#0#7'OnC'
-  +'lick'#7#16'StaticText1Click'#10'ParentFont'#8#8'TabOrder'#2#0#0#0#12'TPageC'
-  +'ontrol'#12'PageControl1'#4'Left'#2#0#6'Height'#3'l'#2#3'Top'#2#0#5'Width'#3
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#2'H'#6'Height'#3#128#2#3'Top'#2#21#5'Width'
+  +#3#182#3#7'Caption'#6#17'Sokoban Version 3'#12'ClientHeight'#3#128#2#11'Clie'
+  +'ntWidth'#3#182#3#5'Color'#4#224#194#133#0#10'Font.Color'#7#12'clWindowText'
+  +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'KeyPreview'#9#10'OnActivat'
+  +'e'#7#12'FormActivate'#9'OnKeyDown'#7#11'FormKeyDown'#10'LCLVersion'#6#7'1.4'
+  +'.2.0'#0#11'TStaticText'#11'StaticText1'#6'Cursor'#7#11'crHandPoint'#4'Left'
+  +#2#0#6'Height'#2#20#3'Top'#3'l'#2#5'Width'#3#182#3#5'Align'#7#8'alBottom'#9
+  +'Alignment'#7#8'taCenter'#7'Caption'#6'4Copyright '#194#169' 2009, Gary Darb'
+  +'y,  www.DelphiForFun.org'#10'Font.Color'#7#6'clBlue'#11'Font.Height'#2#243#9
+  +'Font.Name'#6#5'Arial'#10'Font.Style'#11#6'fsBold'#11'fsUnderline'#0#7'OnCli'
+  +'ck'#7#16'StaticText1Click'#10'ParentFont'#8#8'TabOrder'#2#0#0#0#12'TPageCon'
+  +'trol'#12'PageControl1'#4'Left'#2#0#6'Height'#3'l'#2#3'Top'#2#0#5'Width'#3
   +#182#3#10'ActivePage'#7#9'TabSheet2'#5'Align'#7#8'alClient'#8'TabIndex'#2#1#8
   +'TabOrder'#2#1#0#9'TTabSheet'#9'TabSheet1'#7'Caption'#6#12'Introduction'#12
-  +'ClientHeight'#2#0#11'ClientWidth'#2#0#0#5'TMemo'#5'Memo1'#4'Left'#2' '#6'He'
-  +'ight'#3#1#2#3'Top'#2#16#5'Width'#3'a'#3#5'Color'#4#255#255#221#0#10'Font.Co'
-  +'lor'#7#12'clWindowText'#11'Font.Height'#2#237#9'Font.Name'#6#5'Arial'#13'Li'
-  +'nes.Strings'#1#6#0#6'_Here''s a simple Delphi version of "Sokoban", a wareh'
-  +'ouse puzzle where you use the arrow keys to'#6'bcontrol the warehouseman, ('
-  +' the "Sokoban"), as he completes his task of pushing the yellow "Boxes"'#6
-  +'`onto the green "Targets".  There is much information  It was developed as '
-  +'possible test bed for '#6'/devloping a Delphi version of a Sokoban solver.'
-  +#6#0#6#12'Factors are:'#6'[*    Boxes may only be pushed, never pulled. This'
-  +' is the key factor that makes the puzzles '#6#17'     challenging.'#6'**   '
-  +' The gray squares are immovable walls.'#6'<*    You win when all of the tar'
-  +'gets are covered with boxes.'#6'`*    In addition to the 4 arrow keys, you '
-  +'can use "Z", "U", or Backspace keys to undo the latest'#6#20'     last move'
-  +' made.'#6'#*    The R key restarts the puzzle.'#6'b*    The Load button all'
-  +'ows you to load one of the supplied puzzles. The four sample puzzle files '
-  +#6'C      included range from simple to very hard (at least for me :>).'#6'I'
-  +'*    Solutions are automatically saved and may be retrieved and replayed.'#6
-  +'a*    View any of the included text  puzzle files to see how you can enter '
-  +'addiional puzzles.  On '#6'c     website  http://www.sourcecode.se/sokoban/'
-  +'levels.php you can view and copy the text version of'#6'b     thousands of '
-  +'additional puzzles and make new text files which this program can read.  We'
-  +'bsite'#6'f     http://www.joriswit.nl/sokoban/ also contains a downloadable'
-  +' program (Sokoban++) and level files.'#0#10'ParentFont'#8#8'TabOrder'#2#0#0
-  +#0#0#9'TTabSheet'#9'TabSheet2'#7'Caption'#6#7'Puzzles'#12'ClientHeight'#3'O'
-  +#2#11'ClientWidth'#3#174#3#10'ImageIndex'#2#1#0#6'TLabel'#6'Label1'#4'Left'#3
-  +#16#2#6'Height'#2#19#3'Top'#3#239#0#5'Width'#2','#7'Caption'#6#5'Steps'#10'F'
-  +'ont.Color'#7#12'clWindowText'#11'Font.Height'#2#240#9'Font.Name'#6#5'Arial'
-  +#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLab'
-  +'el'#7'StepLbl'#4'Left'#3'H'#2#6'Height'#2#22#3'Top'#3#237#0#5'Width'#2#22#7
-  +'Caption'#6#2'00'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#237#9
-  +'Font.Name'#6#5'Arial'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'Pa'
-  +'rentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#3#240#2#6'Height'#2#19#3'Top'#3
-  +#239#0#5'Width'#2'p'#7'Caption'#6#14'Boxes in place'#10'Font.Color'#7#12'clW'
-  +'indowText'#11'Font.Height'#2#240#9'Font.Name'#6#5'Arial'#10'Font.Style'#11#6
-  +'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#10'InPlaceLbl'#4
-  +'Left'#3'p'#3#6'Height'#2#22#3'Top'#3#237#0#5'Width'#2#22#7'Caption'#6#2'00'
-  +#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#237#9'Font.Name'#6#5'Ar'
-  +'ial'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6
-  +'TLabel'#6'Label3'#4'Left'#3#24#2#6'Height'#2#18#3'Top'#3#160#1#5'Width'#2'{'
-  +#7'Caption'#6#17'No saved solution'#10'Font.Color'#7#12'clWindowText'#11'Fon'
-  +'t.Height'#2#240#9'Font.Name'#6#5'Arial'#11'ParentColor'#8#10'ParentFont'#8#0
-  +#0#7'TButton'#7'LoadBtn'#4'Left'#2#24#6'Height'#2#25#3'Top'#2#16#5'Width'#3
-  +#145#0#7'Caption'#6#11'Load puzzle'#7'OnClick'#7#12'LoadBtnClick'#8'TabOrder'
-  +#2#0#0#0#11'TStringGrid'#9'BoardGrid'#4'Left'#2#13#6'Height'#3#234#1#3'Top'#2
-  +'7'#5'Width'#3#234#1#11'BorderStyle'#7#6'bsNone'#8'ColCount'#2#10#15'Default'
-  +'ColWidth'#2'/'#14'DefaultDrawing'#8#16'DefaultRowHeight'#2'/'#9'FixedCols'#2
-  +#0#9'FixedRows'#2#0#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#243#9
-  +'Font.Name'#6#5'Arial'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'RowC'
-  +'ount'#2#10#8'TabOrder'#2#1#15'TitleFont.Color'#7#12'clWindowText'#16'TitleF'
-  +'ont.Height'#2#243#14'TitleFont.Name'#6#5'Arial'#15'TitleFont.Style'#11#6'fs'
-  ,'Bold'#0#10'OnDrawCell'#7#17'BoardGridDrawCell'#0#0#7'TButton'#10'LoadSolBtn'
-  +#4'Left'#3#24#2#6'Height'#2#25#3'Top'#3#192#1#5'Width'#3#145#0#7'Caption'#6
-  +#16'Load saved moves'#7'OnClick'#7#15'LoadSolBtnClick'#8'TabOrder'#2#2#0#0#5
-  +'TMemo'#5'Memo2'#4'Left'#3#16#2#6'Height'#3#129#0#3'Top'#3#16#1#5'Width'#3
-  +#129#1#13'Lines.Strings'#1#6#19'Moves display here '#6#0#6'>l, r, u, or d fo'
-  +'r moves of the warehouseman (the Sokoban) one '#6'/square in a left, right,'
-  +' up, or down direction.'#6#0#6'?Moves are denoted  in capital letters (L, R'
-  +', U, D) if the move '#6#13'pushes a box.'#0#10'ScrollBars'#7#10'ssVertical'
-  +#8'TabOrder'#2#3#0#0#7'TButton'#9'ReplayBtn'#4'Left'#3#0#3#6'Height'#2#25#3
-  +'Top'#3#192#1#5'Width'#3#145#0#7'Caption'#6#12'Replay moves'#7'OnClick'#7#14
-  +'ReplayBtnClick'#8'TabOrder'#2#4#0#0#5'TMemo'#5'Memo3'#4'Left'#3#16#2#6'Heig'
-  +'ht'#3#169#0#3'Top'#2'8'#5'Width'#3'y'#1#13'Lines.Strings'#1#6#13'Shortcut k'
-  +'eys'#6';     Left, Right, Up, Down arrow keys : Move that direction'#6'-   '
-  +'  U, Z, Backspace keys: Undo previous move'#6#15'     R: Restart'#6#0#6#12
-  +'Colors codes'#6#15'    Gray = wall'#6#16'    Blue = Floor'#6#18'    Green ='
-  +' Target'#6#16'    Yellow = Box'#0#8'TabOrder'#2#5#0#0#0#0#11'TOpenDialog'#11
-  +'OpenDialog1'#5'Title'#6#13'Select a case'#10'DefaultExt'#6#4'.txt'#7'Option'
-  +'s'#11#14'ofHideReadOnly'#15'ofPathMustExist'#15'ofFileMustExist'#14'ofEnabl'
-  +'eSizing'#0#4'left'#3'x'#3#3'top'#3#24#2#0#0#0
+  +'ClientHeight'#3'O'#2#11'ClientWidth'#3#172#3#0#5'TMemo'#5'Memo1'#4'Left'#2
+  +' '#6'Height'#3#1#2#3'Top'#2#16#5'Width'#3'a'#3#5'Color'#4#255#255#221#0#10
+  +'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#237#9'Font.Name'#6#5'Arial'
+  +#13'Lines.Strings'#1#6#0#6'_Here''s a simple Delphi version of "Sokoban", a '
+  +'warehouse puzzle where you use the arrow keys to'#6'bcontrol the warehousem'
+  +'an, ( the "Sokoban"), as he completes his task of pushing the yellow "Boxes'
+  +'"'#6'`onto the green "Targets".  There is much information  It was develope'
+  +'d as possible test bed for '#6'/devloping a Delphi version of a Sokoban sol'
+  +'ver.'#6#0#6#12'Factors are:'#6'[*    Boxes may only be pushed, never pulled'
+  +'. This is the key factor that makes the puzzles '#6#17'     challenging.'#6
+  +'**    The gray squares are immovable walls.'#6'<*    You win when all of th'
+  +'e targets are covered with boxes.'#6'`*    In addition to the 4 arrow keys,'
+  +' you can use "Z", "U", or Backspace keys to undo the latest'#6#20'     last'
+  +' move made.'#6'#*    The R key restarts the puzzle.'#6'b*    The Load butto'
+  +'n allows you to load one of the supplied puzzles. The four sample puzzle fi'
+  +'les '#6'C      included range from simple to very hard (at least for me :>)'
+  +'.'#6'I*    Solutions are automatically saved and may be retrieved and repla'
+  +'yed.'#6'a*    View any of the included text  puzzle files to see how you ca'
+  +'n enter addiional puzzles.  On '#6'c     website  http://www.sourcecode.se/'
+  +'sokoban/levels.php you can view and copy the text version of'#6'b     thous'
+  +'ands of additional puzzles and make new text files which this program can r'
+  +'ead.  Website'#6'f     http://www.joriswit.nl/sokoban/ also contains a down'
+  +'loadable program (Sokoban++) and level files.'#0#10'ParentFont'#8#8'TabOrde'
+  +'r'#2#0#0#0#0#9'TTabSheet'#9'TabSheet2'#7'Caption'#6#7'Puzzles'#12'ClientHei'
+  +'ght'#3'O'#2#11'ClientWidth'#3#172#3#10'ImageIndex'#2#1#0#6'TLabel'#6'Label1'
+  +#4'Left'#3#16#2#6'Height'#2#19#3'Top'#3#239#0#5'Width'#2','#7'Caption'#6#5'S'
+  +'teps'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#240#9'Font.Name'#6
+  +#5'Arial'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0
+  +#0#6'TLabel'#7'StepLbl'#4'Left'#3'H'#2#6'Height'#2#23#3'Top'#3#237#0#5'Width'
+  +#2#22#7'Caption'#6#2'00'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2
+  +#237#9'Font.Name'#6#5'Arial'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8
+  +#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#3#240#2#6'Height'#2#19#3'T'
+  +'op'#3#239#0#5'Width'#2'p'#7'Caption'#6#14'Boxes in place'#10'Font.Color'#7
+  +#12'clWindowText'#11'Font.Height'#2#240#9'Font.Name'#6#5'Arial'#10'Font.Styl'
+  +'e'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#10'InPla'
+  +'ceLbl'#4'Left'#3'p'#3#6'Height'#2#23#3'Top'#3#237#0#5'Width'#2#22#7'Caption'
+  +#6#2'00'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#237#9'Font.Name'
+  +#6#5'Arial'#10'Font.Style'#11#6'fsBold'#0#11'ParentColor'#8#10'ParentFont'#8
+  +#0#0#6'TLabel'#6'Label3'#4'Left'#3#24#2#6'Height'#2#19#3'Top'#3#160#1#5'Widt'
+  +'h'#3#128#0#7'Caption'#6#17'No saved solution'#10'Font.Color'#7#12'clWindowT'
+  +'ext'#11'Font.Height'#2#240#9'Font.Name'#6#5'Arial'#11'ParentColor'#8#10'Par'
+  +'entFont'#8#0#0#7'TButton'#7'LoadBtn'#4'Left'#2#24#6'Height'#2#25#3'Top'#2#16
+  +#5'Width'#3#145#0#7'Caption'#6#11'Load puzzle'#7'OnClick'#7#12'LoadBtnClick'
+  +#8'TabOrder'#2#0#0#0#11'TStringGrid'#9'BoardGrid'#4'Left'#2#13#6'Height'#3
+  +#234#1#3'Top'#2'7'#5'Width'#3#234#1#11'BorderStyle'#7#6'bsNone'#8'ColCount'#2
+  +#10#15'DefaultColWidth'#2'/'#14'DefaultDrawing'#8#16'DefaultRowHeight'#2'/'#9
+  +'FixedCols'#2#0#9'FixedRows'#2#0#10'Font.Color'#7#12'clWindowText'#11'Font.H'
+  +'eight'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Style'#11#6'fsBold'#0#10'Paren'
+  +'tFont'#8#8'RowCount'#2#10#8'TabOrder'#2#1#15'TitleFont.Color'#7#12'clWindow'
+  +'Text'#16'TitleFont.Height'#2#243#14'TitleFont.Name'#6#5'Arial'#15'TitleFont'
+  ,'.Style'#11#6'fsBold'#0#10'OnDrawCell'#7#17'BoardGridDrawCell'#0#0#7'TButton'
+  +#10'LoadSolBtn'#4'Left'#3#24#2#6'Height'#2#25#3'Top'#3#192#1#5'Width'#3#145#0
+  +#7'Caption'#6#16'Load saved moves'#7'OnClick'#7#15'LoadSolBtnClick'#8'TabOrd'
+  +'er'#2#2#0#0#5'TMemo'#5'Memo2'#4'Left'#3#16#2#6'Height'#3#129#0#3'Top'#3#16#1
+  +#5'Width'#3#129#1#13'Lines.Strings'#1#6#19'Moves display here '#6#0#6'>l, r,'
+  +' u, or d for moves of the warehouseman (the Sokoban) one '#6'/square in a l'
+  +'eft, right, up, or down direction.'#6#0#6'?Moves are denoted  in capital le'
+  +'tters (L, R, U, D) if the move '#6#13'pushes a box.'#0#10'ScrollBars'#7#10
+  +'ssVertical'#8'TabOrder'#2#3#0#0#7'TButton'#9'ReplayBtn'#4'Left'#3#0#3#6'Hei'
+  +'ght'#2#25#3'Top'#3#192#1#5'Width'#3#145#0#7'Caption'#6#12'Replay moves'#7'O'
+  +'nClick'#7#14'ReplayBtnClick'#8'TabOrder'#2#4#0#0#5'TMemo'#5'Memo3'#4'Left'#3
+  +#16#2#6'Height'#3#169#0#3'Top'#2'8'#5'Width'#3'y'#1#13'Lines.Strings'#1#6#13
+  +'Shortcut keys'#6';     Left, Right, Up, Down arrow keys : Move that directi'
+  +'on'#6'-     U, Z, Backspace keys: Undo previous move'#6#15'     R: Restart'
+  +#6#0#6#12'Colors codes'#6#15'    Gray = wall'#6#16'    Blue = Floor'#6#18'  '
+  +'  Green = Target'#6#16'    Yellow = Box'#0#8'TabOrder'#2#5#0#0#0#0#11'TOpen'
+  +'Dialog'#11'OpenDialog1'#5'Title'#6#13'Select a case'#10'DefaultExt'#6#4'.tx'
+  +'t'#7'Options'#11#14'ofHideReadOnly'#15'ofPathMustExist'#15'ofFileMustExist'
+  +#14'ofEnableSizing'#0#4'left'#3'x'#3#3'top'#3#24#2#0#0#0
 ]);
