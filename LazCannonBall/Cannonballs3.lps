@@ -8,7 +8,8 @@
       <Unit0>
         <Filename Value="Cannonballs3.dpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="18" Y="10"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="10" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -18,11 +19,9 @@
         <ComponentName Value="MainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="U_Cannonballs3"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="491"/>
-        <CursorPos X="32" Y="66"/>
+        <TopLine Value="590"/>
+        <CursorPos X="10" Y="600"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -33,16 +32,16 @@
         <ComponentName Value="Stats"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="U_Stats"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="3" Y="18"/>
+        <TopLine Value="4"/>
+        <CursorPos X="10" Y="22"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit2>
     </Units>
-    <JumpHistory Count="4" HistoryIndex="3">
+    <JumpHistory Count="8" HistoryIndex="7">
       <Position1>
         <Filename Value="Cannonballs3.dpr"/>
       </Position1>
@@ -56,6 +55,22 @@
         <Filename Value="Cannonballs3.dpr"/>
         <Caret Line="10" Column="18"/>
       </Position4>
+      <Position5>
+        <Filename Value="U_Stats.pas"/>
+        <Caret Line="18" Column="3"/>
+      </Position5>
+      <Position6>
+        <Filename Value="U_Cannonballs3.pas"/>
+        <Caret Line="11" Column="13"/>
+      </Position6>
+      <Position7>
+        <Filename Value="U_Cannonballs3.pas"/>
+        <Caret Line="77" Column="10" TopLine="68"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Cannonballs3.dpr"/>
+        <Caret Line="10" Column="18"/>
+      </Position8>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

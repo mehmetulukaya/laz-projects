@@ -8,8 +8,8 @@ unit U_Cannonballs3;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  ComCtrls, StdCtrls, Spin, ExtCtrls, shellAPI, Grids , U_Stats;
+  LCLType,  Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  ComCtrls, StdCtrls, Spin, ExtCtrls, LCLIntf, Grids , U_Stats;
 
 type
   float=extended;
@@ -74,7 +74,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 Uses math;
 
 function distance(p1,p2:TPoint):float;
@@ -597,8 +597,7 @@ end;
 
 procedure TMainForm.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL) ;
+  OpenURL('http://www.delphiforfun.org/');
 end;
 
 

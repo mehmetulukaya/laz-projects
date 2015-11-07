@@ -1,7 +1,7 @@
 object Stats: TStats
-  Left = 154
+  Left = 153
   Height = 566
-  Top = 102
+  Top = 71
   Width = 792
   BorderStyle = bsDialog
   Caption = 'Cannon firing statistics'
@@ -12,12 +12,12 @@ object Stats: TStats
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Position = poScreenCenter
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.4.2.0'
   object Label1: TLabel
     Left = 168
-    Height = 16
+    Height = 17
     Top = 360
-    Width = 136
+    Width = 141
     Caption = 'Theoretical Results'
     Font.Color = clWindowText
     Font.Height = -13

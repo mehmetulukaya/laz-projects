@@ -9,7 +9,7 @@ uses
   U_Cannonballs3 in 'U_Cannonballs3.pas' {MainForm},
   U_Stats in 'U_Stats.pas' {Stats};
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

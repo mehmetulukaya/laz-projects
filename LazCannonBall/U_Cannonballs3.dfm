@@ -1,238 +1,229 @@
 object MainForm: TMainForm
-  Left = 31
-  Top = 58
-  Width = 824
+  Left = 29
   Height = 628
-  Caption = 
-    'Cannon  V3 - Cannonball flight constrained by barrel.  What angl' +
-    'e which produces maximum range?  '
+  Top = 0
+  Width = 824
+  Caption = 'Cannon  V3 - Cannonball flight constrained by barrel.  What angle which produces maximum range?  '
+  ClientHeight = 628
+  ClientWidth = 824
   Color = clBtnFace
-  Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
-  Font.Style = []
-  OldCreateOrder = False
-  Position = poScreenCenter
   OnActivate = FormActivate
-  PixelsPerInch = 96
-  TextHeight = 13
+  Position = poScreenCenter
+  LCLVersion = '1.4.2.0'
   object Label1: TLabel
     Left = 64
+    Height = 14
     Top = 408
-    Width = 91
-    Height = 13
+    Width = 110
     Caption = 'Elevation (degrees)'
+    ParentColor = False
   end
   object Label2: TLabel
     Left = 83
+    Height = 14
     Top = 448
-    Width = 72
-    Height = 13
+    Width = 85
     Caption = 'Powder charge'
+    ParentColor = False
   end
   object Image1: TImage
     Left = 24
+    Height = 337
     Top = 16
     Width = 753
-    Height = 337
   end
   object Label3: TLabel
     Left = 160
+    Height = 14
     Top = 368
-    Width = 72
-    Height = 13
+    Width = 89
     Caption = 'Move target -->'
+    ParentColor = False
   end
   object Label4: TLabel
     Left = 74
+    Height = 14
     Top = 488
-    Width = 81
-    Height = 13
+    Width = 101
     Caption = 'Gravity (0 to 200)'
+    ParentColor = False
   end
   object Label6: TLabel
     Left = 97
+    Height = 14
     Top = 528
-    Width = 60
-    Height = 13
+    Width = 73
     Caption = 'BarrelLength'
+    ParentColor = False
   end
   object PowderLbl: TLabel
     Left = 408
+    Height = 14
     Top = 449
-    Width = 6
-    Height = 13
+    Width = 7
     Caption = '0'
+    ParentColor = False
   end
   object Distlbl: TLabel
     Left = 288
+    Height = 14
     Top = 416
-    Width = 45
-    Height = 13
+    Width = 52
     Caption = 'Distance '
+    ParentColor = False
   end
   object GLbl: TLabel
     Left = 408
+    Height = 14
     Top = 488
-    Width = 6
-    Height = 13
+    Width = 7
     Caption = '0'
+    ParentColor = False
   end
   object BarLenLbl: TLabel
     Left = 408
+    Height = 14
     Top = 528
-    Width = 6
-    Height = 13
+    Width = 7
     Caption = '0'
+    ParentColor = False
   end
   object ElevationEdt: TSpinEdit
     Left = 176
+    Height = 26
     Top = 408
     Width = 41
-    Height = 22
     MaxValue = 90
-    MinValue = 0
+    OnChange = ElevationEdtChange
     TabOrder = 0
     Value = 45
-    OnChange = ElevationEdtChange
   end
   object PowerBar: TTrackBar
     Left = 162
+    Height = 38
     Top = 440
     Width = 239
-    Height = 33
     Max = 50
     Min = 1
-    Orientation = trHorizontal
-    PageSize = 1
-    Frequency = 1
-    Position = 10
-    SelEnd = 0
-    SelStart = 0
-    TabOrder = 1
-    TickMarks = tmBottomRight
-    TickStyle = tsAuto
     OnChange = PowerBarChange
+    PageSize = 1
+    Position = 10
+    TabOrder = 1
   end
   object Button1: TButton
     Left = 463
+    Height = 26
     Top = 527
     Width = 61
-    Height = 26
     Caption = 'Fire!'
-    TabOrder = 2
     OnClick = FirebtnClick
+    TabOrder = 2
   end
   object ReloadBtn: TButton
     Left = 463
+    Height = 26
     Top = 495
     Width = 60
-    Height = 26
     Caption = 'Reload'
-    TabOrder = 3
     OnClick = ReloadBtnClick
+    TabOrder = 3
   end
   object TrackBar1: TTrackBar
     Left = 232
+    Height = 38
     Top = 360
     Width = 550
-    Height = 25
     Max = 753
     Min = 225
-    Orientation = trHorizontal
-    Frequency = 1
-    Position = 637
-    SelEnd = 0
-    SelStart = 0
-    TabOrder = 4
-    TickMarks = tmBottomRight
-    TickStyle = tsAuto
     OnChange = TrackBar1Change
+    Position = 637
+    TabOrder = 4
   end
   object ViewStatsBtn: TButton
     Left = 623
+    Height = 25
     Top = 536
     Width = 97
-    Height = 25
     Caption = 'View statistics'
     Enabled = False
-    TabOrder = 5
     OnClick = ViewStatsBtnClick
+    TabOrder = 5
   end
   object StaticText1: TStaticText
-    Left = 0
-    Top = 577
-    Width = 816
-    Height = 17
     Cursor = crHandPoint
+    Left = 0
+    Height = 17
+    Top = 611
+    Width = 824
     Align = alBottom
     Alignment = taCenter
     Caption = 'Copyright © 2006, 2007  Gary Darby,  www.DelphiForFun.org'
-    Font.Charset = DEFAULT_CHARSET
     Font.Color = clBlue
     Font.Height = -11
     Font.Name = 'MS Sans Serif'
     Font.Style = [fsBold, fsUnderline]
+    OnClick = StaticText1Click
     ParentFont = False
     TabOrder = 6
-    OnClick = StaticText1Click
   end
   object Gravitybar: TTrackBar
     Left = 170
+    Height = 38
     Top = 480
     Width = 239
-    Height = 33
-    Max = 200
-    Orientation = trHorizontal
-    PageSize = 1
     Frequency = 5
-    Position = 100
-    SelEnd = 0
-    SelStart = 0
-    TabOrder = 7
-    TickMarks = tmBottomRight
-    TickStyle = tsAuto
+    Max = 200
     OnChange = GravitybarChange
+    PageSize = 1
+    Position = 100
+    TabOrder = 7
   end
   object BLengthBar: TTrackBar
     Left = 162
+    Height = 38
     Top = 520
     Width = 239
-    Height = 33
     Max = 100
-    Orientation = trHorizontal
-    PageSize = 1
-    Frequency = 1
-    Position = 87
-    SelEnd = 0
-    SelStart = 0
-    TabOrder = 8
-    TickMarks = tmBottomRight
-    TickStyle = tsAuto
     OnChange = BLengthBarChange
+    PageSize = 1
+    Position = 87
+    TabOrder = 8
   end
   object SymBox: TCheckBox
     Left = 456
+    Height = 23
     Top = 448
-    Width = 201
-    Height = 17
+    Width = 241
     Caption = 'Adjust ground level to barrel height'
-    TabOrder = 9
     OnClick = SymBoxClick
+    TabOrder = 9
   end
   object StatsType: TRadioGroup
     Left = 624
+    Height = 49
     Top = 472
     Width = 177
-    Height = 49
+    AutoFill = True
     Caption = 'Statistics'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 2
+    ClientHeight = 34
+    ClientWidth = 175
     Columns = 2
     ItemIndex = 0
     Items.Strings = (
       'Summary'
-      'Detailed')
-    TabOrder = 10
+      'Detailed'
+    )
     OnClick = StatsTypeClick
+    TabOrder = 10
   end
 end

@@ -3,7 +3,7 @@ unit U_Stats;
 interface
 
 uses
-  SysUtils, Windows, Messages, Classes, Graphics, Controls,
+  SysUtils, LCLType,   Classes, Graphics, Controls,
   StdCtrls, ExtCtrls, Forms, Grids;
 
 type
@@ -19,6 +19,6 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 
 end.
