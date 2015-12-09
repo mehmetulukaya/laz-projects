@@ -1,0 +1,3 @@
+Julia is two-thirds Wayne's age.  Three years ago, Julia was half Wayne's age.  In three more years, she'll be three-fourths Wayne's age.  Neither one is a teenager.
+
+How old are Julia and Wayne now?
