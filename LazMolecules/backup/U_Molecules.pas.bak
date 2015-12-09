@@ -35,7 +35,7 @@ unit U_Molecules;
 interface
 
 uses
-  LCLType, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  LCLType,Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   Menus, ExtCtrls, ComCtrls;
 
 type
