@@ -8,8 +8,7 @@
       <Unit0>
         <Filename Value="AgeProblemSolver4.dpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <CursorPos X="30" Y="5"/>
+        <CursorPos X="25" Y="13"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -19,8 +18,9 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="281"/>
+        <TopLine Value="471"/>
         <CursorPos X="3" Y="285"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
