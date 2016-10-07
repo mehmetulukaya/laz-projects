@@ -1,0 +1,35 @@
+Hint: * Converting file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/TrafficJams1A.dpr *
+Hint: Added defines -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL in custom options
+Hint: Found all unit files
+Hint: * Fixing used units for file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/TrafficJams1A.dpr *
+Hint: 
+Hint: *** Converting unit files belonging to project/package ***
+Hint: * Converting file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/U_TrafficJams1A.pas *
+Hint: Repairing include files : MakeWinningMovelist1A.Inc
+Hint: * Converting file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/UAbout.pas *
+Hint: * Converting file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/ULogon.pas *
+Hint: * Converting file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/UWinnerDlg1A.pas *
+Hint: 
+Hint: *** Fixing used units and Repairing form files ***
+Hint: * Repairing form file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/U_TrafficJams1A.lfm *
+Hint: Added missing object "Timer2:TTimer" to pascal source.
+Hint: Changed Top coord of TButton from "248" to "246" inside TPanel.
+Hint: Changed Left coord of TButton from "68" to "66" inside TPanel.
+Hint: * Fixing used units for file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/U_TrafficJams1A.pas *
+Hint: * Repairing form file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/UAbout.lfm *
+Hint: Changed Top coord of TLabel from "102" to "100" inside TPanel.
+Hint: Changed Left coord of TLabel from "6" to "4" inside TPanel.
+Hint: Changed Top coord of TLabel from "78" to "76" inside TPanel.
+Hint: Changed Left coord of TLabel from "6" to "4" inside TPanel.
+Hint: Changed Top coord of TLabel from "38" to "36" inside TPanel.
+Hint: Changed Left coord of TLabel from "86" to "84" inside TPanel.
+Hint: Changed Top coord of TLabel from "14" to "12" inside TPanel.
+Hint: Changed Left coord of TLabel from "86" to "84" inside TPanel.
+Hint: Changed Top coord of TImage from "6" to "4" inside TPanel.
+Hint: Changed Left coord of TImage from "6" to "4" inside TPanel.
+Hint: * Fixing used units for file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/UAbout.pas *
+Hint: * Repairing form file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/ULogon.lfm *
+Hint: * Fixing used units for file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/ULogon.pas *
+Hint: * Repairing form file /home/mehmet/Belgeler/GitProjects/laz-projects/LazTrafficJam/UWinnerDlg1A.lfm *
+Hint: Conversion took: 00:00:07
+Hint: Conversion Ready.

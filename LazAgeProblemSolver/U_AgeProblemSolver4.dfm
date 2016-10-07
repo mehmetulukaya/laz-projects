@@ -12,20 +12,21 @@ object Form1: TForm1
   Font.Name = 'Arial'
   OnCreate = FormCreate
   Position = poScreenCenter
-  LCLVersion = '1.4.4.0'
+  LCLVersion = '1.6.0.4'
+  Visible = False
   object Label1: TLabel
     Left = 28
-    Height = 18
+    Height = 19
     Top = 234
-    Width = 50
+    Width = 51
     Caption = 'Names'
     ParentColor = False
   end
   object ProblemLbl: TLabel
     Left = 223
-    Height = 16
+    Height = 18
     Top = 33
-    Width = 214
+    Width = 261
     Caption = 'Current Problem:  None loaded'
     Font.Color = clWindowText
     Font.Height = -15
@@ -116,13 +117,13 @@ object Form1: TForm1
     TabOrder = 5
     object IntroSheet: TTabSheet
       Caption = 'Introduction'
-      ClientHeight = 542
-      ClientWidth = 763
+      ClientHeight = 536
+      ClientWidth = 765
       object Memo1: TMemo
         Left = 0
-        Height = 542
+        Height = 536
         Top = 0
-        Width = 763
+        Width = 765
         Align = alClient
         Color = 14548991
         Font.Color = clWindowText
@@ -175,8 +176,8 @@ object Form1: TForm1
     end
     object ProblemSheet: TTabSheet
       Caption = 'Problem'
-      ClientHeight = 0
-      ClientWidth = 0
+      ClientHeight = 536
+      ClientWidth = 765
       ImageIndex = 1
       object problem: TMemo
         Left = 69
@@ -188,8 +189,8 @@ object Form1: TForm1
     end
     object ParseSheet: TTabSheet
       Caption = 'Parsed results'
-      ClientHeight = 0
-      ClientWidth = 0
+      ClientHeight = 536
+      ClientWidth = 765
       ImageIndex = 2
       object SentenceDisplayMemo: TMemo
         Left = 20

@@ -10,8 +10,8 @@ unit U_Compass;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  shellAPI, StdCtrls, ExtCtrls, Spin;
+  {Windows,} Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  {shellAPI,} StdCtrls, ExtCtrls, Spin;
 
 type
   Float=double;

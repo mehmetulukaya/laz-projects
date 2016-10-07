@@ -3,6 +3,7 @@ object Form1: TForm1
   Height = 484
   Top = 80
   Width = 525
+  ActiveControl = Memo1
   AutoSize = True
   Caption = 'Compass Drawing Demo'
   ClientHeight = 484
@@ -13,7 +14,8 @@ object Form1: TForm1
   Font.Name = 'Arial'
   OnActivate = FormActivate
   Position = poScreenCenter
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.6.0.4'
+  Visible = False
   object StaticText1: TStaticText
     Cursor = crHandPoint
     Left = 0
@@ -51,7 +53,7 @@ object Form1: TForm1
       Left = 334
       Height = 16
       Top = 7
-      Width = 162
+      Width = 163
       Caption = 'Heading angle in degrees'
       ParentColor = False
     end
@@ -109,7 +111,7 @@ object Form1: TForm1
     end
     object Heading: TSpinEdit
       Left = 431
-      Height = 31
+      Height = 34
       Top = 30
       Width = 65
       Font.Color = clWindowText
@@ -136,8 +138,8 @@ object Form1: TForm1
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 44
-      ClientWidth = 157
+      ClientHeight = 48
+      ClientWidth = 159
       ItemIndex = 0
       Items.Strings = (
         'Rotate dial'
