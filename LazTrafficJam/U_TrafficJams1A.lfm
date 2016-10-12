@@ -1,12 +1,12 @@
 object Form1: TForm1
-  Left = 0
+  Left = 95
   Height = 542
-  Top = 21
+  Top = 17
   Width = 1018
   ActiveControl = ListBox1
   BorderStyle = bsSingle
   Caption = 'TRAFFIC-JAMS  Version 1.1.0'
-  ClientHeight = 521
+  ClientHeight = 522
   ClientWidth = 1018
   Color = clBtnFace
   Font.Color = clWindowText
@@ -35,7 +35,7 @@ object Form1: TForm1
   end
   object Escapelbl: TLabel
     Left = 0
-    Height = 26
+    Height = 27
     Top = 0
     Width = 1018
     Align = alTop
@@ -71,9 +71,9 @@ object Form1: TForm1
   end
   object Label4: TLabel
     Left = 464
-    Height = 17
+    Height = 16
     Top = 184
-    Width = 90
+    Width = 85
     Caption = 'Select a  case'
     Font.Color = clWindowText
     Font.Height = -13
@@ -83,9 +83,9 @@ object Form1: TForm1
   end
   object MoveCountLbl: TLabel
     Left = 12
-    Height = 23
+    Height = 22
     Top = 368
-    Width = 450
+    Width = 399
     Caption = '  Vehicles moves:  100   Blocks traveled: 100    '
     Color = clTeal
     Font.CharSet = ANSI_CHARSET
@@ -100,9 +100,9 @@ object Form1: TForm1
   end
   object Label1: TLabel
     Left = 464
-    Height = 17
+    Height = 16
     Top = 32
-    Width = 88
+    Width = 81
     Caption = 'Select a level'
     Font.Color = clWindowText
     Font.Height = -13
@@ -112,9 +112,9 @@ object Form1: TForm1
   end
   object SpeedLbl: TLabel
     Left = 351
-    Height = 17
+    Height = 16
     Top = 314
-    Width = 40
+    Width = 41
     Caption = 'Speed'
     Font.Color = clWindowText
     Font.Height = -13
@@ -192,7 +192,6 @@ object Form1: TForm1
     ParentFont = False
     ScrollWidth = 167
     TabOrder = 0
-    TopIndex = -1
   end
   object HintBtn: TButton
     Left = 487
@@ -232,7 +231,7 @@ object Form1: TForm1
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
-    ItemHeight = 0
+    ItemHeight = 16
     OnChange = LevelBoxChange
     ParentFont = False
     Style = csSimple
@@ -251,7 +250,7 @@ object Form1: TForm1
       'Best computer score: 100 vehicles, 100 blocks'
       'Best human score: 100 vehicles, 100 blocks '
     )
-    ItemHeight = 30
+    ItemHeight = 23
     ParentFont = False
     ScrollWidth = 401
     TabOrder = 7
@@ -276,7 +275,7 @@ object Form1: TForm1
     Cursor = crHandPoint
     Left = 0
     Height = 20
-    Top = 501
+    Top = 502
     Width = 1018
     Align = alBottom
     Alignment = taCenter

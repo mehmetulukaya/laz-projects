@@ -13,6 +13,7 @@
       <Title Value="TrafficJams1A"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
+      <Icon Value="0"/>
     </General>
     <i18n>
       <EnableI18N LFM="False"/>
@@ -75,6 +76,7 @@
     <Version Value="11"/>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="bin"/>
     </SearchPaths>
     <Parsing>
       <SyntaxOptions>
