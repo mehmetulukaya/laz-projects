@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="TrafficJams1A.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="16"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="2136"/>
+        <CursorPos Y="2126"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="UAbout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutBox"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="18"/>
+        <CursorPos Y="38"/>
+        <UsageCount Value="21"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ULogon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="LoginForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="21"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="UWinnerDlg1A.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="WinnerDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="62"/>
+        <CursorPos X="21" Y="62"/>
+        <UsageCount Value="21"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/usr/share/lazarus/1.6/lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3657"/>
+        <CursorPos Y="3668"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="/usr/share/lazarus/1.6/lcl/lclproc.pas"/>
+        <UnitName Value="LCLProc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="891"/>
+        <CursorPos Y="902"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Trafficjams.txt"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="MakeWinningMovelist1A.Inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="14" HistoryIndex="13">
+      <Position1>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="1750" Column="26" TopLine="1736"/>
+      </Position1>
+      <Position2>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="1764" Column="7" TopLine="1754"/>
+      </Position2>
+      <Position3>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="30" Column="5" TopLine="20"/>
+      </Position3>
+      <Position4>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="678" Column="6" TopLine="356"/>
+      </Position4>
+      <Position5>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="31" Column="14" TopLine="16"/>
+      </Position5>
+      <Position6>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="676" Column="23" TopLine="669"/>
+      </Position6>
+      <Position7>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="235" TopLine="224"/>
+      </Position7>
+      <Position8>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="37" Column="38" TopLine="24"/>
+      </Position8>
+      <Position9>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="2302" Column="15" TopLine="2234"/>
+      </Position9>
+      <Position10>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="2126" TopLine="2122"/>
+      </Position10>
+      <Position11>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="2127" TopLine="2122"/>
+      </Position11>
+      <Position12>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="2128" TopLine="2122"/>
+      </Position12>
+      <Position13>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="2129" TopLine="2122"/>
+      </Position13>
+      <Position14>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="2127" Column="79" TopLine="2127"/>
+      </Position14>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

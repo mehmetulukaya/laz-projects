@@ -1,0 +1,89 @@
+object WinnerDlg: TWinnerDlg
+  Left = 139
+  Height = 363
+  Top = 0
+  Width = 631
+  BorderStyle = bsDialog
+  Caption = 'Winner!'
+  ClientHeight = 363
+  ClientWidth = 631
+  Color = clMaroon
+  Font.Color = clWhite
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  OnActivate = FormActivate
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.4'
+  object Label2: TLabel
+    Left = 48
+    Height = 241
+    Top = 24
+    Width = 257
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '   WINNER!!!         YEAH! YEAH!      HOORAY!       WOW! SUPER!     HOT STUFF!!!'
+    Color = clTeal
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clYellow
+    Font.Height = -35
+    Font.Name = 'PT Broad Tip'
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+    WordWrap = True
+  end
+  object Label1: TLabel
+    Left = 424
+    Height = 17
+    Top = 8
+    Width = 101
+    Caption = 'Winning moves'
+    Color = clMaroon
+    ParentColor = False
+    Transparent = False
+  end
+  object OKBtn: TButton
+    Left = 15
+    Height = 25
+    Top = 292
+    Width = 114
+    Caption = 'Reshow this jam'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object NextBtn: TButton
+    Left = 144
+    Height = 25
+    Top = 292
+    Width = 113
+    Caption = 'Load next jam'
+    ModalResult = 1
+    OnClick = NextBtnClick
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 424
+    Height = 289
+    Top = 32
+    Width = 145
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ItemHeight = 0
+    ParentFont = False
+    ScrollWidth = 143
+    TabOrder = 2
+    TopIndex = -1
+  end
+  object PrintBtn: TButton
+    Left = 280
+    Height = 25
+    Top = 292
+    Width = 129
+    Caption = 'Print jam && solution'
+    OnClick = PrintBtnClick
+    TabOrder = 3
+  end
+end

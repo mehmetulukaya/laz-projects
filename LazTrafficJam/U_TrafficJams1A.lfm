@@ -1,0 +1,352 @@
+object Form1: TForm1
+  Left = 0
+  Height = 542
+  Top = 21
+  Width = 1018
+  ActiveControl = ListBox1
+  BorderStyle = bsSingle
+  Caption = 'TRAFFIC-JAMS  Version 1.1.0'
+  ClientHeight = 521
+  ClientWidth = 1018
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Arial'
+  Menu = MainMenu1
+  OnActivate = Formactivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnPaint = FormPaint
+  OnResize = FormResize
+  ShowHint = True
+  LCLVersion = '1.6.0.4'
+  Visible = True
+  object BoardBox: TPaintBox
+    Left = 40
+    Height = 265
+    Hint = 'Right click to add a vehicle'
+    Top = 64
+    Width = 265
+    ParentShowHint = False
+    OnMouseDown = BoardBoxMouseDown
+    OnMouseMove = BoardBoxMouseMove
+    OnMouseUp = BoardBoxMouseUp
+    OnPaint = ImagePaint
+  end
+  object Escapelbl: TLabel
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 1018
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Help the red car escape the traffic jam!'
+    Font.Color = clRed
+    Font.Height = -23
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+  end
+  object ExitLabel: TLabel
+    Left = 372
+    Height = 36
+    Top = 43
+    Width = 40
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'EXIT'
+    Color = clGray
+    Font.Color = clRed
+    Font.Height = -15
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+    ParentShowHint = False
+    Transparent = False
+    WordWrap = True
+  end
+  object Label4: TLabel
+    Left = 464
+    Height = 17
+    Top = 184
+    Width = 90
+    Caption = 'Select a  case'
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object MoveCountLbl: TLabel
+    Left = 12
+    Height = 23
+    Top = 368
+    Width = 450
+    Caption = '  Vehicles moves:  100   Blocks traveled: 100    '
+    Color = clTeal
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clYellow
+    Font.Height = -19
+    Font.Name = 'PT Broad Tip'
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+    ShowAccelChar = False
+    Transparent = False
+  end
+  object Label1: TLabel
+    Left = 464
+    Height = 17
+    Top = 32
+    Width = 88
+    Caption = 'Select a level'
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object SpeedLbl: TLabel
+    Left = 351
+    Height = 17
+    Top = 314
+    Width = 40
+    Caption = 'Speed'
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object SoundBtn: TButton
+    Left = 487
+    Height = 25
+    Top = 448
+    Width = 186
+    Caption = 'Sound effects are bugging me!'
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'MS Sans Serif'
+    OnClick = SoundBtnClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object msgpanel: TPanel
+    Left = 368
+    Height = 52
+    Top = 150
+    Width = 39
+    ClientHeight = 52
+    ClientWidth = 39
+    Color = clTeal
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clYellow
+    Font.Height = -15
+    Font.Name = 'PT Carlisle'
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 4
+    Visible = False
+    object NextJamBtn: TButton
+      Left = 66
+      Height = 28
+      Top = 246
+      Width = 150
+      Cancel = True
+      Caption = 'Load the next jam'
+      OnClick = NextJamBtnClick
+      TabOrder = 0
+    end
+  end
+  object SolveBtn: TButton
+    Left = 487
+    Height = 21
+    Top = 412
+    Width = 186
+    Caption = 'Solve it for me'
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'MS Sans Serif'
+    OnClick = SolveItClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object ListBox1: TListBox
+    Left = 488
+    Height = 114
+    Top = 208
+    Width = 169
+    Color = clMenu
+    ExtendedSelect = False
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    IntegralHeight = True
+    ItemHeight = 0
+    OnClick = ListBox1Click
+    ParentFont = False
+    ScrollWidth = 167
+    TabOrder = 0
+    TopIndex = -1
+  end
+  object HintBtn: TButton
+    Left = 487
+    Height = 21
+    Top = 374
+    Width = 186
+    Caption = 'Suggest a move '
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'MS Sans Serif'
+    OnClick = HintBtnClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object UndoBtn: TButton
+    Left = 488
+    Height = 21
+    Top = 336
+    Width = 185
+    Caption = 'Undo last move'
+    Enabled = False
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    OnClick = UndoBtnClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object LevelBox: TComboBox
+    Left = 488
+    Height = 27
+    Top = 49
+    Width = 177
+    Color = clMenu
+    Constraints.MaxHeight = 100
+    DropDownCount = 12
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    ItemHeight = 0
+    OnChange = LevelBoxChange
+    ParentFont = False
+    Style = csSimple
+    TabOrder = 6
+  end
+  object BestScoreBox: TListBox
+    Left = 16
+    Height = 65
+    Top = 416
+    Width = 409
+    Color = clTeal
+    Font.Color = clYellow
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Items.Strings = (
+      'Best computer score: 100 vehicles, 100 blocks'
+      'Best human score: 100 vehicles, 100 blocks '
+    )
+    ItemHeight = 30
+    ParentFont = False
+    ScrollWidth = 401
+    TabOrder = 7
+  end
+  object SpeedBar: TTrackBar
+    Left = 341
+    Height = 35
+    Hint = 'Change vehicle speed'
+    Top = 328
+    Width = 108
+    Max = 40
+    Min = 10
+    OnChange = SpeedBarChange
+    Position = 20
+    TickStyle = tsNone
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 9
+    Visible = False
+  end
+  object StaticText1: TStaticText
+    Cursor = crHandPoint
+    Left = 0
+    Height = 20
+    Top = 501
+    Width = 1018
+    Align = alBottom
+    Alignment = taCenter
+    Caption = 'Copyright © 2008, Gary Darby,  www.DelphiForFun.org'
+    Font.Color = clBlue
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Style = [fsBold, fsUnderline]
+    OnClick = StaticText1Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = Timer1Timer
+    left = 1080
+    top = 56
+  end
+  object Timer2: TTimer
+    Enabled = False
+    left = 1090
+    top = 96
+  end
+  object MainMenu1: TMainMenu
+    left = 24
+    top = 8
+    object Application1: TMenuItem
+      Caption = 'Application'
+      object Reset1: TMenuItem
+        Caption = 'Reset'
+        OnClick = RestartthisjamClick
+      end
+      object Hint1: TMenuItem
+        Caption = 'Hint'
+        OnClick = HintBtnClick
+      end
+      object Solve1: TMenuItem
+        Caption = 'Solve'
+        OnClick = SoundBtnClick
+      end
+      object N1: TMenuItem
+        Caption = 'Print'
+      end
+      object N3: TMenuItem
+        Caption = '-'
+      end
+      object Exit1: TMenuItem
+        Caption = 'E&xit'
+      end
+    end
+    object Options1: TMenuItem
+      Caption = 'Options'
+      object HintsOn: TMenuItem
+        Caption = 'Hints Enabled'
+        Checked = True
+        OnClick = HintsOnClick
+      end
+      object SoundOn: TMenuItem
+        Caption = 'Sound On'
+        OnClick = SoundOnClick
+      end
+      object Shownumbers: TMenuItem
+        Caption = 'Show vehicle numbers'
+        OnClick = ShownumbersClick
+      end
+    end
+    object About1: TMenuItem
+      Caption = 'About'
+      OnClick = About1Click
+    end
+  end
+end
