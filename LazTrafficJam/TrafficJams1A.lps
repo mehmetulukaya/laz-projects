@@ -7,8 +7,7 @@
       <Unit0>
         <Filename Value="TrafficJams1A.dpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="2"/>
+        <TopLine Value="9"/>
         <CursorPos X="43" Y="15"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
@@ -20,8 +19,9 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="2135"/>
+        <TopLine Value="2126"/>
         <CursorPos Y="2126"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
