@@ -1,87 +1,87 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TForm1','FORMDATA',[
-  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#203#0#6'Height'#3#138#2#3'Top'#2''''#5'Wi'
-  +'dth'#3#17#4#7'Caption'#6#28'Age Problem Solver Version 4'#12'ClientHeight'#3
-  +#138#2#11'ClientWidth'#3#17#4#5'Color'#7#9'clBtnFace'#10'Font.Color'#7#12'cl'
-  +'WindowText'#11'Font.Height'#2#240#9'Font.Name'#6#5'Arial'#8'OnCreate'#7#10
-  +'FormCreate'#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#7'1.6.0.4'#7
-  +'Visible'#8#0#6'TLabel'#6'Label1'#4'Left'#2#28#6'Height'#2#19#3'Top'#3#234#0
-  +#5'Width'#2'3'#7'Caption'#6#5'Names'#11'ParentColor'#8#0#0#6'TLabel'#10'Prob'
-  +'lemLbl'#4'Left'#3#223#0#6'Height'#2#18#3'Top'#2'!'#5'Width'#3#5#1#7'Caption'
-  +#6#29'Current Problem:  None loaded'#10'Font.Color'#7#12'clWindowText'#11'Fo'
-  +'nt.Height'#2#241#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsBol'
-  +'d'#0#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2#28
-  +#6'Height'#2'i'#3'Top'#3#176#1#5'Width'#3#180#0#8'AutoSize'#8#7'Caption'#6'{'
-  +'For debugging: Enable loading and back-testing  a trialt  version of the pa'
-  +'rsing tables  used to convert text to equations.'#11'ParentColor'#8#8'WordW'
-  +'rap'#9#0#0#7'TButton'#8'Solvebtn'#4'Left'#2#28#6'Height'#2#28#3'Top'#2'Z'#5
-  +'Width'#3#141#0#7'Caption'#6#8'Solve it'#7'OnClick'#7#13'SolvebtnClick'#8'Ta'
-  +'bOrder'#2#0#0#0#5'TMemo'#11'NameDisplay'#4'Left'#2#28#6'Height'#2'd'#3'Top'
-  +#3#252#0#5'Width'#3#143#0#13'Lines.Strings'#1#6#0#0#8'TabOrder'#2#1#0#0#11'T'
-  +'StaticText'#11'StaticText1'#6'Cursor'#7#11'crHandPoint'#4'Left'#2#0#6'Heigh'
-  +'t'#2#20#3'Top'#3'v'#2#5'Width'#3#17#4#5'Align'#7#8'alBottom'#9'Alignment'#7
-  +#8'taCenter'#7'Caption'#6'4Copyright '#194#169' 2007, Gary Darby,  www.Delph'
-  +'iForFun.org'#10'Font.Color'#7#6'clBlue'#11'Font.Height'#2#241#9'Font.Name'#6
-  +#13'MS Sans Serif'#10'Font.Style'#11#6'fsBold'#11'fsUnderline'#0#7'OnClick'#7
-  +#16'StaticText1Click'#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7'TButton'#10'Loa'
-  +'dIniBtn'#4'Left'#2#28#6'Height'#2#28#3'Top'#3'$'#2#5'Width'#3#181#0#7'Capti'
-  +'on'#6#18'Load a tables file'#10'Font.Color'#7#12'clWindowText'#11'Font.Heig'
-  +'ht'#2#241#9'Font.Name'#6#5'Arial'#7'OnClick'#7#15'LoadIniBtnClick'#10'Paren'
-  +'tFont'#8#8'TabOrder'#2#3#0#0#7'TButton'#11'BacktestBtn'#4'Left'#2#28#6'Heig'
-  +'ht'#2#28#3'Top'#3'I'#2#5'Width'#3#181#0#7'Caption'#6#18'Backtest all cases'
-  +#7'OnClick'#7#16'BacktestBtnClick'#8'TabOrder'#2#4#0#0#12'TPageControl'#12'P'
-  +'ageControl1'#4'Left'#3#223#0#6'Height'#3'>'#2#3'Top'#2'9'#5'Width'#3#3#3#10
-  +'ActivePage'#7#10'IntroSheet'#10'Font.Color'#7#12'clWindowText'#11'Font.Heig'
-  +'ht'#2#239#9'Font.Name'#6#5'Arial'#10'ParentFont'#8#8'TabIndex'#2#0#8'TabOrd'
-  +'er'#2#5#0#9'TTabSheet'#10'IntroSheet'#7'Caption'#6#12'Introduction'#12'Clie'
-  +'ntHeight'#3#24#2#11'ClientWidth'#3#253#2#0#5'TMemo'#5'Memo1'#4'Left'#2#0#6
-  +'Height'#3#24#2#3'Top'#2#0#5'Width'#3#253#2#5'Align'#7#8'alClient'#5'Color'#4
-  +#255#255#221#0#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#241#9'Fon'
-  +'t.Name'#6#5'Arial'#13'Lines.Strings'#1#6's This is an experiment in writing'
-  +' a program to solve "age" type story problems by oaprsing the text into alg'
-  +'ebraic '#6'qequations and then solving them. The "age" problem stories  def'
-  +'ine relationships between the ages of two people. '#6'h The sample used her'
-  +'e appeared in recent editions of our 2007 "Mensa Puzzle-A-Day" calendar.  H'
-  +'ere''s an '#6#8'example:'#6#0#6's"A year ago, Gary was twice as old as Ron '
-  +'is now.  In four more years, Ron will be as old as Gary is now.  Neither '#6
-  +'5one is yet a teenager. How old are Gary and Ron now?"'#6#0#6'lThe syntax a'
-  +'nalysis is not comprehensove but it is adequate to handle the 10 age probem'
-  +'s in the 2007 year''s '#6'tcalendar.  The text were entered verbatim as "Ag'
-  +'eTest1.txt" through "Agetest10.txt" files which are included here.  '#6#4'T'
-  +'he '#6'tproblems are converted in several stages and using a initialization'
-  +' file, "AgeProblemTables.ini, containing several '#6#5'word '#6'.conversion'
-  +' sections.  Briefly, the process is:'#6#0#6'O1. Un-needed words and delimit'
-  +'ers are removed based on "UnNeededWords" section.'#6#0#6'e2. Names of the p'
-  +'eople are identified.  Common initial captialized words to ignore are in "F'
-  +'irstWord"'#6'qsection.  Certain other words (e.g. grandfather), which are n'
-  +'ot capitalized, but should be treated as names, are '#6'4treated as names b'
-  +'ased on the "Capitalized" section.'#6#0#6'q3. Numbers are converted to a st'
-  +'andard text form using the "Numbers" section; "one" to "1", "twice" to "2*"'
-  +', etc.'#6'aSimilarly fraction denominator words ("half", "third", "thirds",'
-  +' etc.) are idenified based on the'#6#23'"Denominators" section.'#6#0#6'e4.S'
-  +'entences are converted to a "canonical" form replacing names with "&V", who'
-  +'le numbers and fraction'#6'gnumerators with "&N", denominators with "&D".  '
-  +'Patterns in the "OpWords" section are tested against the'#6'Tcanonical  for'
-  +'m and matches are replaced with a corresponding text in equation form.'#6#0
-  +#6'c5.Numeric and name identifers and then replaced with the original values'
-  ,' and the results displayed.'#6#0#6'eFor the restricted text forms represent'
-  +'ed by the included sample files, the program works quite well.'#6'fThe resu'
-  +'lting 2 equations in 2 unknowns are easily solved algebraically.  Version 3'
-  +' adds a search for '#6';numeric  solutions to the equations for each equati'
-  +'on pair.'#6#0#6#0#6#0#6#0#6#1' '#0#10'ParentFont'#8#8'TabOrder'#2#0#0#0#0#9
-  +'TTabSheet'#12'ProblemSheet'#7'Caption'#6#7'Problem'#12'ClientHeight'#3#24#2
-  +#11'ClientWidth'#3#253#2#10'ImageIndex'#2#1#0#5'TMemo'#7'problem'#4'Left'#2
-  +'E'#6'Height'#3'P'#1#3'Top'#2';'#5'Width'#3'F'#2#8'TabOrder'#2#0#0#0#0#9'TTa'
-  +'bSheet'#10'ParseSheet'#7'Caption'#6#14'Parsed results'#12'ClientHeight'#3#24
-  +#2#11'ClientWidth'#3#253#2#10'ImageIndex'#2#2#0#5'TMemo'#19'SentenceDisplayM'
-  +'emo'#4'Left'#2#20#6'Height'#3#198#1#3'Top'#2#20#5'Width'#3#149#2#10'ScrollB'
-  +'ars'#7#10'ssVertical'#8'TabOrder'#2#0#0#0#0#0#7'TButton'#7'OpenBtn'#4'Left'
-  +#2#28#6'Height'#2#30#3'Top'#2'!'#5'Width'#3#144#0#7'Caption'#6#14'Load a pro'
-  +'blem'#7'OnClick'#7#12'OpenBtnClick'#8'TabOrder'#2#6#0#0#11'TOpenDialog'#11
-  +'OpenDialog1'#5'Title'#6#16'Select a problem'#6'Filter'#6'*Problems (*.txt)|'
-  +'*.txt|All files (*.*)|*.*'#4'left'#3#168#2#3'top'#2#16#0#0#11'TOpenDialog'
-  +#11'OpenDialog2'#5'Title'#6#30'Select a "Tables" file to load'#10'DefaultExt'
-  +#6#4'.ini'#6'Filter'#6'.Tables files (*.ini*|*.ini|All files (*.*)|*.*'#4'le'
-  +'ft'#3#208#2#3'top'#2#16#0#0#0
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#2#0#6'Height'#3#138#2#3'Top'#2','#5'Width'#3
+  +#254#3#7'Caption'#6#28'Age Problem Solver Version 4'#12'ClientHeight'#3#138#2
+  +#11'ClientWidth'#3#254#3#5'Color'#7#9'clBtnFace'#10'Font.Color'#7#12'clWindo'
+  +'wText'#11'Font.Height'#2#240#9'Font.Name'#6#5'Arial'#8'OnCreate'#7#10'FormC'
+  +'reate'#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#7'1.6.0.4'#0#6'TLa'
+  +'bel'#6'Label1'#4'Left'#2#28#6'Height'#2#19#3'Top'#3#234#0#5'Width'#2'3'#7'C'
+  +'aption'#6#5'Names'#11'ParentColor'#8#0#0#6'TLabel'#10'ProblemLbl'#4'Left'#3
+  +#223#0#6'Height'#2#18#3'Top'#2'!'#5'Width'#3#5#1#7'Caption'#6#29'Current Pro'
+  +'blem:  None loaded'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#241
+  +#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsBold'#0#11'ParentCol'
+  +'or'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#2#28#6'Height'#2'i'#3
+  +'Top'#3#176#1#5'Width'#3#180#0#8'AutoSize'#8#7'Caption'#6'{For debugging: En'
+  +'able loading and back-testing  a trialt  version of the parsing tables  use'
+  +'d to convert text to equations.'#11'ParentColor'#8#8'WordWrap'#9#0#0#7'TBut'
+  +'ton'#8'Solvebtn'#4'Left'#2#28#6'Height'#2#28#3'Top'#2'Z'#5'Width'#3#141#0#7
+  +'Caption'#6#8'Solve it'#7'OnClick'#7#13'SolvebtnClick'#8'TabOrder'#2#0#0#0#5
+  +'TMemo'#11'NameDisplay'#4'Left'#2#28#6'Height'#2'd'#3'Top'#3#252#0#5'Width'#3
+  +#143#0#13'Lines.Strings'#1#6#0#0#8'TabOrder'#2#1#0#0#11'TStaticText'#11'Stat'
+  +'icText1'#6'Cursor'#7#11'crHandPoint'#4'Left'#2#0#6'Height'#2#20#3'Top'#3'v'
+  +#2#5'Width'#3#254#3#5'Align'#7#8'alBottom'#9'Alignment'#7#8'taCenter'#7'Capt'
+  +'ion'#6'4Copyright '#194#169' 2007, Gary Darby,  www.DelphiForFun.org'#10'Fo'
+  +'nt.Color'#7#6'clBlue'#11'Font.Height'#2#241#9'Font.Name'#6#13'MS Sans Serif'
+  +#10'Font.Style'#11#6'fsBold'#11'fsUnderline'#0#7'OnClick'#7#16'StaticText1Cl'
+  +'ick'#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7'TButton'#10'LoadIniBtn'#4'Left'
+  +#2#28#6'Height'#2#28#3'Top'#3'$'#2#5'Width'#3#181#0#7'Caption'#6#18'Load a t'
+  +'ables file'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#241#9'Font.'
+  +'Name'#6#5'Arial'#7'OnClick'#7#15'LoadIniBtnClick'#10'ParentFont'#8#8'TabOrd'
+  +'er'#2#3#0#0#7'TButton'#11'BacktestBtn'#4'Left'#2#28#6'Height'#2#28#3'Top'#3
+  +'I'#2#5'Width'#3#181#0#7'Caption'#6#18'Backtest all cases'#7'OnClick'#7#16'B'
+  +'acktestBtnClick'#8'TabOrder'#2#4#0#0#12'TPageControl'#12'PageControl1'#4'Le'
+  +'ft'#3#223#0#6'Height'#3'>'#2#3'Top'#2'9'#5'Width'#3#3#3#10'ActivePage'#7#10
+  +'IntroSheet'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#239#9'Font.'
+  +'Name'#6#5'Arial'#10'ParentFont'#8#8'TabIndex'#2#0#8'TabOrder'#2#5#0#9'TTabS'
+  +'heet'#10'IntroSheet'#7'Caption'#6#12'Introduction'#12'ClientHeight'#3#24#2
+  +#11'ClientWidth'#3#253#2#0#5'TMemo'#5'Memo1'#4'Left'#2#0#6'Height'#3#24#2#3
+  +'Top'#2#0#5'Width'#3#253#2#5'Align'#7#8'alClient'#5'Color'#4#255#255#221#0#10
+  +'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#241#9'Font.Name'#6#5'Arial'
+  +#13'Lines.Strings'#1#6's This is an experiment in writing a program to solve'
+  +' "age" type story problems by oaprsing the text into algebraic '#6'qequatio'
+  +'ns and then solving them. The "age" problem stories  define relationships b'
+  +'etween the ages of two people. '#6'h The sample used here appeared in recen'
+  +'t editions of our 2007 "Mensa Puzzle-A-Day" calendar.  Here''s an '#6#8'exa'
+  +'mple:'#6#0#6's"A year ago, Gary was twice as old as Ron is now.  In four mo'
+  +'re years, Ron will be as old as Gary is now.  Neither '#6'5one is yet a tee'
+  +'nager. How old are Gary and Ron now?"'#6#0#6'lThe syntax analysis is not co'
+  +'mprehensove but it is adequate to handle the 10 age probems in the 2007 yea'
+  +'r''s '#6'tcalendar.  The text were entered verbatim as "AgeTest1.txt" throu'
+  +'gh "Agetest10.txt" files which are included here.  '#6#4'The '#6'tproblems '
+  +'are converted in several stages and using a initialization file, "AgeProble'
+  +'mTables.ini, containing several '#6#5'word '#6'.conversion sections.  Brief'
+  +'ly, the process is:'#6#0#6'O1. Un-needed words and delimiters are removed b'
+  +'ased on "UnNeededWords" section.'#6#0#6'e2. Names of the people are identif'
+  +'ied.  Common initial captialized words to ignore are in "FirstWord"'#6'qsec'
+  +'tion.  Certain other words (e.g. grandfather), which are not capitalized, b'
+  +'ut should be treated as names, are '#6'4treated as names based on the "Capi'
+  +'talized" section.'#6#0#6'q3. Numbers are converted to a standard text form '
+  +'using the "Numbers" section; "one" to "1", "twice" to "2*", etc.'#6'aSimila'
+  +'rly fraction denominator words ("half", "third", "thirds", etc.) are idenif'
+  +'ied based on the'#6#23'"Denominators" section.'#6#0#6'e4.Sentences are conv'
+  +'erted to a "canonical" form replacing names with "&V", whole numbers and fr'
+  +'action'#6'gnumerators with "&N", denominators with "&D".  Patterns in the "'
+  +'OpWords" section are tested against the'#6'Tcanonical  form and matches are'
+  +' replaced with a corresponding text in equation form.'#6#0#6'c5.Numeric and'
+  +' name identifers and then replaced with the original values and the results'
+  ,' displayed.'#6#0#6'eFor the restricted text forms represented by the includ'
+  +'ed sample files, the program works quite well.'#6'fThe resulting 2 equation'
+  +'s in 2 unknowns are easily solved algebraically.  Version 3 adds a search f'
+  +'or '#6';numeric  solutions to the equations for each equation pair.'#6#0#6#0
+  +#6#0#6#0#6#1' '#0#10'ParentFont'#8#8'TabOrder'#2#0#0#0#0#9'TTabSheet'#12'Pro'
+  +'blemSheet'#7'Caption'#6#7'Problem'#12'ClientHeight'#3#24#2#11'ClientWidth'#3
+  +#253#2#10'ImageIndex'#2#1#0#5'TMemo'#7'problem'#4'Left'#2'E'#6'Height'#3'P'#1
+  +#3'Top'#2';'#5'Width'#3'F'#2#8'TabOrder'#2#0#0#0#0#9'TTabSheet'#10'ParseShee'
+  +'t'#7'Caption'#6#14'Parsed results'#12'ClientHeight'#3#24#2#11'ClientWidth'#3
+  +#253#2#10'ImageIndex'#2#2#0#5'TMemo'#19'SentenceDisplayMemo'#4'Left'#2#20#6
+  +'Height'#3#198#1#3'Top'#2#20#5'Width'#3#149#2#10'ScrollBars'#7#10'ssVertical'
+  +#8'TabOrder'#2#0#0#0#0#0#7'TButton'#7'OpenBtn'#4'Left'#2#28#6'Height'#2#30#3
+  +'Top'#2'!'#5'Width'#3#144#0#7'Caption'#6#14'Load a problem'#7'OnClick'#7#12
+  +'OpenBtnClick'#8'TabOrder'#2#6#0#0#11'TOpenDialog'#11'OpenDialog1'#5'Title'#6
+  +#16'Select a problem'#6'Filter'#6'*Problems (*.txt)|*.txt|All files (*.*)|*.'
+  +'*'#4'left'#3#168#2#3'top'#2#16#0#0#11'TOpenDialog'#11'OpenDialog2'#5'Title'
+  +#6#30'Select a "Tables" file to load'#10'DefaultExt'#6#4'.ini'#6'Filter'#6'.'
+  +'Tables files (*.ini*|*.ini|All files (*.*)|*.*'#4'left'#3#208#2#3'top'#2#16
+  +#0#0#0
 ]);

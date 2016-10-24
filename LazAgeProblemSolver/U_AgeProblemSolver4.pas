@@ -14,7 +14,10 @@ interface
 
 uses
   {Windows,} Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ComCtrls, shellapi, UTEVal, inifiles;
+  StdCtrls, ComCtrls,
+  lclintf,
+  {shellapi,}
+  UTEval, inifiles;
 
 type
   TSentenceRec = record
@@ -82,7 +85,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 
 type
   charset=set of char;
@@ -809,8 +812,10 @@ end;
 
 procedure TForm1.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL) ;
+  OpenURL('http://www.delphiforfun.org/');
+  {ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  nil, nil, SW_SHOWNORMAL) ;}
+
 end;
 
 procedure TForm1.LoadIniBtnClick(Sender: TObject);

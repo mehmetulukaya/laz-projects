@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 222
+  Left = 212
   Height = 562
-  Top = 107
+  Top = 0
   Width = 784
   Caption = 'Scrolling LEDs '
   ClientHeight = 562
@@ -12,7 +12,7 @@ object Form1: TForm1
   Font.Name = 'Arial'
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.6.0.4'
   object Image1: TImage
     Left = 16
     Height = 209
@@ -21,7 +21,7 @@ object Form1: TForm1
   end
   object Label2: TLabel
     Left = 224
-    Height = 16
+    Height = 15
     Top = 256
     Width = 78
     Caption = 'Scroll Speed '
@@ -29,7 +29,7 @@ object Form1: TForm1
   end
   object FontLbl: TLabel
     Left = 400
-    Height = 16
+    Height = 15
     Top = 296
     Width = 110
     Caption = 'Current Font: None'
@@ -66,11 +66,11 @@ object Form1: TForm1
     object Textpage: TTabSheet
       Hint = 'Stop message before changing text'
       Caption = 'Message'
-      ClientHeight = 212
-      ClientWidth = 497
+      ClientHeight = 208
+      ClientWidth = 499
       object Label1: TLabel
         Left = 16
-        Height = 16
+        Height = 15
         Top = 168
         Width = 79
         Caption = 'Message text'
@@ -78,7 +78,7 @@ object Form1: TForm1
       end
       object TextEdt: TEdit
         Left = 112
-        Height = 24
+        Height = 25
         Top = 168
         Width = 345
         TabOrder = 0
@@ -102,8 +102,8 @@ object Form1: TForm1
     end
     object DateTimePage: TTabSheet
       Caption = 'Date/Time'
-      ClientHeight = 212
-      ClientWidth = 497
+      ClientHeight = 208
+      ClientWidth = 499
       ImageIndex = 1
       object DTFormatGrp: TRadioGroup
         Left = 8
@@ -119,8 +119,8 @@ object Form1: TForm1
         ChildSizing.ShrinkVertical = crsScaleChilds
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 1
-        ClientHeight = 140
-        ClientWidth = 469
+        ClientHeight = 145
+        ClientWidth = 471
         ItemIndex = 0
         Items.Strings = (
           'Jan 03  11:24'
@@ -133,14 +133,14 @@ object Form1: TForm1
     end
     object TabSheet1: TTabSheet
       Caption = 'Count Up/Down'
-      ClientHeight = 212
-      ClientWidth = 497
+      ClientHeight = 208
+      ClientWidth = 499
       ImageIndex = 2
       object Label4: TLabel
         Left = 16
-        Height = 16
+        Height = 15
         Top = 16
-        Width = 98
+        Width = 100
         Caption = 'Target Date/Time'
         ParentColor = False
       end
@@ -150,12 +150,12 @@ object Form1: TForm1
         Top = 72
         Width = 449
         Caption = 'Display count time units'
-        ClientHeight = 36
-        ClientWidth = 445
+        ClientHeight = 41
+        ClientWidth = 447
         TabOrder = 0
         object Yearbox: TCheckBox
           Left = 16
-          Height = 20
+          Height = 22
           Top = 6
           Width = 54
           Caption = 'Years'
@@ -163,17 +163,17 @@ object Form1: TForm1
         end
         object DayBox: TCheckBox
           Left = 88
-          Height = 20
+          Height = 22
           Top = 6
-          Width = 50
+          Width = 53
           Caption = 'Days'
           TabOrder = 1
         end
         object HourBox: TCheckBox
           Left = 160
-          Height = 20
+          Height = 22
           Top = 6
-          Width = 54
+          Width = 59
           Caption = 'Hours'
           Checked = True
           State = cbChecked
@@ -181,9 +181,9 @@ object Form1: TForm1
         end
         object MinuteBox: TCheckBox
           Left = 240
-          Height = 20
+          Height = 22
           Top = 6
-          Width = 66
+          Width = 71
           Caption = 'Minutes'
           Checked = True
           State = cbChecked
@@ -191,9 +191,9 @@ object Form1: TForm1
         end
         object SecondBox: TCheckBox
           Left = 336
-          Height = 20
+          Height = 22
           Top = 6
-          Width = 71
+          Width = 75
           Caption = 'Seconds'
           Checked = True
           State = cbChecked
@@ -214,8 +214,8 @@ object Form1: TForm1
         ChildSizing.ShrinkVertical = crsScaleChilds
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 1
-        ClientHeight = 43
-        ClientWidth = 445
+        ClientHeight = 48
+        ClientWidth = 447
         ItemIndex = 0
         Items.Strings = (
           'yy:dd:hh:mm:ss'
@@ -225,9 +225,9 @@ object Form1: TForm1
       end
       object CountTime: TDateTimePicker
         Left = 280
-        Height = 24
+        Height = 21
         Top = 40
-        Width = 73
+        Width = 71
         CenturyFrom = 1941
         MaxDate = 2958465
         MinDate = -53780
@@ -247,9 +247,9 @@ object Form1: TForm1
       end
       object CountDate: TDateTimePicker
         Left = 24
-        Height = 24
+        Height = 21
         Top = 40
-        Width = 89
+        Width = 87
         CenturyFrom = 1941
         MaxDate = 2958465
         MinDate = -53780
@@ -275,12 +275,12 @@ object Form1: TForm1
     Top = 8
     Width = 233
     Caption = 'LED'
-    ClientHeight = 172
-    ClientWidth = 229
+    ClientHeight = 177
+    ClientWidth = 231
     TabOrder = 0
     object Label3: TLabel
       Left = 24
-      Height = 16
+      Height = 15
       Top = 28
       Width = 72
       Caption = 'Size (pixels)'
@@ -288,7 +288,7 @@ object Form1: TForm1
     end
     object LEDPixelsUD: TUpDown
       Left = 145
-      Height = 24
+      Height = 25
       Top = 28
       Width = 12
       Associate = LEDSizeEdt
@@ -300,7 +300,7 @@ object Form1: TForm1
     end
     object LEDSizeEdt: TEdit
       Left = 120
-      Height = 24
+      Height = 25
       Top = 28
       Width = 25
       OnChange = gth
@@ -339,8 +339,8 @@ object Form1: TForm1
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 44
-      ClientWidth = 85
+      ClientHeight = 49
+      ClientWidth = 87
       ItemIndex = 0
       Items.Strings = (
         'Round'
@@ -395,9 +395,9 @@ object Form1: TForm1
   end
   object NewScreenBox: TCheckBox
     Left = 528
-    Height = 20
+    Height = 22
     Top = 264
-    Width = 234
+    Width = 245
     Caption = 'Display message in separate window'
     OnClick = NewScreenBoxClick
     TabOrder = 5
@@ -421,8 +421,8 @@ object Form1: TForm1
   end
   object OpenDialog1: TOpenDialog
     Title = 'Select a Font'
-    DefaultExt = '.LED'
-    Filter = 'LED Font (*.LED, *.Font)|*.LED;*.Font|All files (*.*)|*.*'
+    DefaultExt = '.led'
+    Filter = 'LED Font (*.LED, *.Font)|*.led;*.font|All files (*.*)|*.*'
     left = 688
     top = 24
   end

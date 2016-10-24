@@ -1,15 +1,15 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TForm1','FORMDATA',[
-  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#222#0#6'Height'#3'2'#2#3'Top'#2'k'#5'Widt'
-  +'h'#3#16#3#7'Caption'#6#15'Scrolling LEDs '#12'ClientHeight'#3'2'#2#11'Clien'
-  +'tWidth'#3#16#3#5'Color'#7#9'clBtnFace'#10'Font.Color'#7#12'clWindowText'#11
-  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#12'OnCloseQuery'#7#14'FormCloseQ'
-  +'uery'#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6#7'1.4.0.4'#0#6'TImage'#6
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#212#0#6'Height'#3'2'#2#3'Top'#2#0#5'Width'
+  +#3#16#3#7'Caption'#6#15'Scrolling LEDs '#12'ClientHeight'#3'2'#2#11'ClientWi'
+  +'dth'#3#16#3#5'Color'#7#9'clBtnFace'#10'Font.Color'#7#12'clWindowText'#11'Fo'
+  +'nt.Height'#2#243#9'Font.Name'#6#5'Arial'#12'OnCloseQuery'#7#14'FormCloseQue'
+  +'ry'#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6#7'1.6.0.4'#0#6'TImage'#6
   +'Image1'#4'Left'#2#16#6'Height'#3#209#0#3'Top'#3'H'#1#5'Width'#3#241#2#0#0#6
-  +'TLabel'#6'Label2'#4'Left'#3#224#0#6'Height'#2#16#3'Top'#3#0#1#5'Width'#2'N'
+  +'TLabel'#6'Label2'#4'Left'#3#224#0#6'Height'#2#15#3'Top'#3#0#1#5'Width'#2'N'
   +#7'Caption'#6#13'Scroll Speed '#11'ParentColor'#8#0#0#6'TLabel'#7'FontLbl'#4
-  +'Left'#3#144#1#6'Height'#2#16#3'Top'#3'('#1#5'Width'#2'n'#7'Caption'#6#18'Cu'
+  +'Left'#3#144#1#6'Height'#2#15#3'Top'#3'('#1#5'Width'#2'n'#7'Caption'#6#18'Cu'
   +'rrent Font: None'#11'ParentColor'#8#0#0#6'TLabel'#6'Label5'#4'Left'#3' '#2#6
   +'Height'#2'!'#3'Top'#3#24#1#5'Width'#3#219#0#8'AutoSize'#8#7'Caption'#6'8(Us'
   +'e click and drag to adjust  window size and position)'#11'ParentColor'#8#8
@@ -19,10 +19,10 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'t'#2#16#6'Height'#3#241#0#4'Hint'#6'#Use Stop button  to change message '#3
   +'Top'#2#8#5'Width'#3#249#1#10'ActivePage'#7#8'Textpage'#8'TabIndex'#2#0#8'Ta'
   +'bOrder'#2#3#0#9'TTabSheet'#8'Textpage'#4'Hint'#6'!Stop message before chang'
-  +'ing text'#7'Caption'#6#7'Message'#12'ClientHeight'#3#212#0#11'ClientWidth'#3
-  +#241#1#0#6'TLabel'#6'Label1'#4'Left'#2#16#6'Height'#2#16#3'Top'#3#168#0#5'Wi'
+  +'ing text'#7'Caption'#6#7'Message'#12'ClientHeight'#3#208#0#11'ClientWidth'#3
+  +#243#1#0#6'TLabel'#6'Label1'#4'Left'#2#16#6'Height'#2#15#3'Top'#3#168#0#5'Wi'
   +'dth'#2'O'#7'Caption'#6#12'Message text'#11'ParentColor'#8#0#0#5'TEdit'#7'Te'
-  +'xtEdt'#4'Left'#2'p'#6'Height'#2#24#3'Top'#3#168#0#5'Width'#3'Y'#1#8'TabOrde'
+  +'xtEdt'#4'Left'#2'p'#6'Height'#2#25#3'Top'#3#168#0#5'Width'#3'Y'#1#8'TabOrde'
   +'r'#2#0#4'Text'#6#29'Welcome - today is &dt       '#0#0#5'TMemo'#5'Memo1'#4
   +'Left'#2#16#6'Height'#3#145#0#3'Top'#2#8#5'Width'#3#193#1#5'Color'#4#255#255
   +#221#0#13'Lines.Strings'#1#6'MEnter display text in the box below and click '
@@ -30,7 +30,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'time in a format defined on the '#6'E"Date/Time" page.  Embed &ct in the me'
   +'ssage to display countdown (or '#6'6count-up) time as defined on the count '
   +'up/down page.  '#6#0#0#8'TabOrder'#2#1#0#0#0#9'TTabSheet'#12'DateTimePage'#7
-  +'Caption'#6#9'Date/Time'#12'ClientHeight'#3#212#0#11'ClientWidth'#3#241#1#10
+  +'Caption'#6#9'Date/Time'#12'ClientHeight'#3#208#0#11'ClientWidth'#3#243#1#10
   +'ImageIndex'#2#1#0#11'TRadioGroup'#11'DTFormatGrp'#4'Left'#2#8#6'Height'#3
   +#161#0#3'Top'#2#24#5'Width'#3#217#1#8'AutoFill'#9#7'Caption'#6#15'Select a f'
   +'ormat'#28'ChildSizing.LeftRightSpacing'#2#6#29'ChildSizing.EnlargeHorizonta'
@@ -38,23 +38,23 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'omogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'
   +#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7
   +#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#12'Cl'
-  +'ientHeight'#3#140#0#11'ClientWidth'#3#213#1#9'ItemIndex'#2#0#13'Items.Strin'
+  +'ientHeight'#3#145#0#11'ClientWidth'#3#215#1#9'ItemIndex'#2#0#13'Items.Strin'
   +'gs'#1#6#13'Jan 03  11:24'#6#12'Jan 03, 2005'#6#8'11:24 PM'#6'"Friday, Janua'
   +'ry 03, 2003  11:24 PM'#0#8'TabOrder'#2#0#0#0#0#9'TTabSheet'#9'TabSheet1'#7
-  +'Caption'#6#13'Count Up/Down'#12'ClientHeight'#3#212#0#11'ClientWidth'#3#241
-  +#1#10'ImageIndex'#2#2#0#6'TLabel'#6'Label4'#4'Left'#2#16#6'Height'#2#16#3'To'
-  +'p'#2#16#5'Width'#2'b'#7'Caption'#6#16'Target Date/Time'#11'ParentColor'#8#0
+  +'Caption'#6#13'Count Up/Down'#12'ClientHeight'#3#208#0#11'ClientWidth'#3#243
+  +#1#10'ImageIndex'#2#2#0#6'TLabel'#6'Label4'#4'Left'#2#16#6'Height'#2#15#3'To'
+  +'p'#2#16#5'Width'#2'd'#7'Caption'#6#16'Target Date/Time'#11'ParentColor'#8#0
   +#0#9'TGroupBox'#9'GroupBox1'#4'Left'#2#24#6'Height'#2'9'#3'Top'#2'H'#5'Width'
-  +#3#193#1#7'Caption'#6#24'Display count time units'#12'ClientHeight'#2'$'#11
-  +'ClientWidth'#3#189#1#8'TabOrder'#2#0#0#9'TCheckBox'#7'Yearbox'#4'Left'#2#16
-  +#6'Height'#2#20#3'Top'#2#6#5'Width'#2'6'#7'Caption'#6#5'Years'#8'TabOrder'#2
-  +#0#0#0#9'TCheckBox'#6'DayBox'#4'Left'#2'X'#6'Height'#2#20#3'Top'#2#6#5'Width'
-  +#2'2'#7'Caption'#6#4'Days'#8'TabOrder'#2#1#0#0#9'TCheckBox'#7'HourBox'#4'Lef'
-  +'t'#3#160#0#6'Height'#2#20#3'Top'#2#6#5'Width'#2'6'#7'Caption'#6#5'Hours'#7
+  +#3#193#1#7'Caption'#6#24'Display count time units'#12'ClientHeight'#2')'#11
+  +'ClientWidth'#3#191#1#8'TabOrder'#2#0#0#9'TCheckBox'#7'Yearbox'#4'Left'#2#16
+  +#6'Height'#2#22#3'Top'#2#6#5'Width'#2'6'#7'Caption'#6#5'Years'#8'TabOrder'#2
+  +#0#0#0#9'TCheckBox'#6'DayBox'#4'Left'#2'X'#6'Height'#2#22#3'Top'#2#6#5'Width'
+  +#2'5'#7'Caption'#6#4'Days'#8'TabOrder'#2#1#0#0#9'TCheckBox'#7'HourBox'#4'Lef'
+  +'t'#3#160#0#6'Height'#2#22#3'Top'#2#6#5'Width'#2';'#7'Caption'#6#5'Hours'#7
   +'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#2#0#0#9'TCheckBox'#9'Minut'
-  +'eBox'#4'Left'#3#240#0#6'Height'#2#20#3'Top'#2#6#5'Width'#2'B'#7'Caption'#6#7
+  +'eBox'#4'Left'#3#240#0#6'Height'#2#22#3'Top'#2#6#5'Width'#2'G'#7'Caption'#6#7
   +'Minutes'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#3#0#0#9'TCheckB'
-  +'ox'#9'SecondBox'#4'Left'#3'P'#1#6'Height'#2#20#3'Top'#2#6#5'Width'#2'G'#7'C'
+  +'ox'#9'SecondBox'#4'Left'#3'P'#1#6'Height'#2#22#3'Top'#2#6#5'Width'#2'K'#7'C'
   +'aption'#6#7'Seconds'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'#2#4#0
   +#0#0#11'TRadioGroup'#9'FormatGrp'#4'Left'#2#24#6'Height'#2'@'#3'Top'#3#136#0
   +#5'Width'#3#193#1#8'AutoFill'#9#7'Caption'#6#6'Format'#28'ChildSizing.LeftRi'
@@ -62,31 +62,31 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'size'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'Chi'
   +'ldSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertic'
   +'al'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopT'
-  +'oBottom'#27'ChildSizing.ControlsPerLine'#2#1#12'ClientHeight'#2'+'#11'Clien'
-  +'tWidth'#3#189#1#9'ItemIndex'#2#0#13'Items.Strings'#1#6#14'yy:dd:hh:mm:ss'#6
+  +'oBottom'#27'ChildSizing.ControlsPerLine'#2#1#12'ClientHeight'#2'0'#11'Clien'
+  +'tWidth'#3#191#1#9'ItemIndex'#2#0#13'Items.Strings'#1#6#14'yy:dd:hh:mm:ss'#6
   +'''yy years dd days mm minutes ss seconds '#0#8'TabOrder'#2#1#0#0#15'TDateTi'
-  ,'mePicker'#9'CountTime'#4'Left'#3#24#1#6'Height'#2#24#3'Top'#2'('#5'Width'#2
-  +'I'#11'CenturyFrom'#3#149#7#7'MaxDate'#5#0#0#0#0#0#4#146#180#20'@'#7'MinDate'
+  ,'mePicker'#9'CountTime'#4'Left'#3#24#1#6'Height'#2#21#3'Top'#2'('#5'Width'#2
+  +'G'#11'CenturyFrom'#3#149#7#7'MaxDate'#5#0#0#0#0#0#4#146#180#20'@'#7'MinDate'
   +#5#0#0#0#0#0#0#20#210#14#192#8'TabOrder'#2#2#17'TrailingSeparator'#8#15'Text'
   +'ForNullDate'#6#4'NULL'#12'LeadingZeros'#9#4'Kind'#7#7'dtkTime'#10'TimeForma'
   +'t'#7#4'tf24'#11'TimeDisplay'#7#5'tdHMS'#8'DateMode'#7#10'dmComboBox'#4'Date'
   +#5#0#0#0#0#0#0'W'#149#14'@'#4'Time'#5#0#0#0#248#208'S'#129#237#254'?'#20'Use'
   +'DefaultSeparators'#9#17'HideDateTimeParts'#11#0#10'MonthNames'#6#4'Long'#0#0
-  +#15'TDateTimePicker'#9'CountDate'#4'Left'#2#24#6'Height'#2#24#3'Top'#2'('#5
-  +'Width'#2'Y'#11'CenturyFrom'#3#149#7#7'MaxDate'#5#0#0#0#0#0#4#146#180#20'@'#7
+  +#15'TDateTimePicker'#9'CountDate'#4'Left'#2#24#6'Height'#2#21#3'Top'#2'('#5
+  +'Width'#2'W'#11'CenturyFrom'#3#149#7#7'MaxDate'#5#0#0#0#0#0#4#146#180#20'@'#7
   +'MinDate'#5#0#0#0#0#0#0#20#210#14#192#8'TabOrder'#2#3#17'TrailingSeparator'#8
   +#15'TextForNullDate'#6#4'NULL'#12'LeadingZeros'#9#4'Kind'#7#7'dtkDate'#10'Ti'
   +'meFormat'#7#4'tf24'#11'TimeDisplay'#7#5'tdHMS'#8'DateMode'#7#10'dmComboBox'
   +#4'Date'#5#0#0#0#0#0#0'W'#149#14'@'#4'Time'#5#0#0#0'@y'#183'_'#237#254'?'#20
   +'UseDefaultSeparators'#9#17'HideDateTimeParts'#11#0#10'MonthNames'#6#4'Long'
   +#0#0#0#0#9'TGroupBox'#6'LedGrp'#4'Left'#3#24#2#6'Height'#3#193#0#3'Top'#2#8#5
-  +'Width'#3#233#0#7'Caption'#6#3'LED'#12'ClientHeight'#3#172#0#11'ClientWidth'
-  +#3#229#0#8'TabOrder'#2#0#0#6'TLabel'#6'Label3'#4'Left'#2#24#6'Height'#2#16#3
+  +'Width'#3#233#0#7'Caption'#6#3'LED'#12'ClientHeight'#3#177#0#11'ClientWidth'
+  +#3#231#0#8'TabOrder'#2#0#0#6'TLabel'#6'Label3'#4'Left'#2#24#6'Height'#2#15#3
   +'Top'#2#28#5'Width'#2'H'#7'Caption'#6#13'Size (pixels)'#11'ParentColor'#8#0#0
-  +#7'TUpDown'#11'LEDPixelsUD'#4'Left'#3#145#0#6'Height'#2#24#3'Top'#2#28#5'Wid'
+  +#7'TUpDown'#11'LEDPixelsUD'#4'Left'#3#145#0#6'Height'#2#25#3'Top'#2#28#5'Wid'
   +'th'#2#12#9'Associate'#7#10'LEDSizeEdt'#3'Max'#2'2'#3'Min'#2#5#8'Position'#2
   +#10#8'TabOrder'#2#0#4'Wrap'#8#0#0#5'TEdit'#10'LEDSizeEdt'#4'Left'#2'x'#6'Hei'
-  +'ght'#2#24#3'Top'#2#28#5'Width'#2#25#8'OnChange'#7#3'gth'#8'TabOrder'#2#1#4
+  +'ght'#2#25#3'Top'#2#28#5'Width'#2#25#8'OnChange'#7#3'gth'#8'TabOrder'#2#1#4
   +'Text'#6#2'10'#0#0#7'TButton'#11'LEDColorBtn'#4'Left'#2#22#6'Height'#2#25#3
   +'Top'#2'@'#5'Width'#2'K'#7'Caption'#6#8'On Color'#7'OnClick'#7#16'LEDColorBt'
   +'nClick'#8'TabOrder'#2#2#0#0#7'TButton'#14'LEDOffColorBtn'#4'Left'#2#24#6'He'
@@ -98,7 +98,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChi'
   +'lds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Lay'
   +'out'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1
-  +#12'ClientHeight'#2','#11'ClientWidth'#2'U'#9'ItemIndex'#2#0#13'Items.String'
+  +#12'ClientHeight'#2'1'#11'ClientWidth'#2'W'#9'ItemIndex'#2#0#13'Items.String'
   +'s'#1#6#5'Round'#6#6'Square'#0#7'OnClick'#7#13'ShapeGrpClick'#8'TabOrder'#2#4
   +#0#0#7'TButton'#13'BoardColorBtn'#4'Left'#2#22#6'Height'#2'!'#3'Top'#3#136#0
   +#5'Width'#3#139#0#7'Caption'#6#16'Background Color'#7'OnClick'#7#18'BoardCol'
@@ -111,7 +111,7 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'BarChange'#8'Position'#2#10#8'TabOrder'#2#2#0#0#7'TButton'#11'LoadFontBtn'#4
   +'Left'#3#144#1#6'Height'#2#25#3'Top'#3#8#1#5'Width'#2'K'#7'Caption'#6#4'Font'
   +#7'OnClick'#7#16'LoadFontBtnClick'#8'TabOrder'#2#4#0#0#9'TCheckBox'#12'NewSc'
-  +'reenBox'#4'Left'#3#16#2#6'Height'#2#20#3'Top'#3#8#1#5'Width'#3#234#0#7'Capt'
+  +'reenBox'#4'Left'#3#16#2#6'Height'#2#22#3'Top'#3#8#1#5'Width'#3#245#0#7'Capt'
   +'ion'#6'"Display message in separate window'#7'OnClick'#7#17'NewScreenBoxCli'
   +'ck'#8'TabOrder'#2#5#0#0#11'TStaticText'#11'StaticText1'#6'Cursor'#7#11'crHa'
   +'ndPoint'#4'Left'#2#0#6'Height'#2#20#3'Top'#3#30#2#5'Width'#3#16#3#5'Align'#7
@@ -120,8 +120,8 @@ LazarusResources.Add('TForm1','FORMDATA',[
   +'Font.Height'#2#243#9'Font.Name'#6#13'MS Sans Serif'#10'Font.Style'#11#6'fsB'
   +'old'#11'fsUnderline'#0#7'OnClick'#7#16'StaticText1Click'#10'ParentFont'#8#8
   +'TabOrder'#2#6#0#0#11'TOpenDialog'#11'OpenDialog1'#5'Title'#6#13'Select a Fo'
-  +'nt'#10'DefaultExt'#6#4'.LED'#6'Filter'#6'9LED Font (*.LED, *.Font)|*.LED;*.'
-  +'Font|All files (*.*)|*.*'#4'left'#3#176#2#3'top'#2#24#0#0#12'TColorDialog'
+  +'nt'#10'DefaultExt'#6#4'.led'#6'Filter'#6'9LED Font (*.LED, *.Font)|*.led;*.'
+  +'font|All files (*.*)|*.*'#4'left'#3#176#2#3'top'#2#24#0#0#12'TColorDialog'
   +#12'ColorDialog1'#5'Color'#7#7'clBlack'#20'CustomColors.Strings'#1#6#13'Colo'
   +'rA=000000'#6#13'ColorB=000080'#6#13'ColorC=008000'#6#13'ColorD=008080'#6#13
   +'ColorE=800000'#6#13'ColorF=800080'#6#13'ColorG=808000'#6#13'ColorH=808080'#6

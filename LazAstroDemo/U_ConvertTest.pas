@@ -10,8 +10,12 @@ unit U_ConvertTest;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ComCtrls, ExtCtrls, UAstronomy, Buttons, shellapi,DateTimePicker;
+  {Windows,} Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, ComCtrls, ExtCtrls, UAstronomy, Buttons
+
+  {shellapi,}
+  , lclintf
+  , DateTimePicker;
 
 type
 
@@ -89,7 +93,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 Uses math;
 
 var
@@ -335,8 +339,9 @@ end;
 
 procedure TTConvertTest.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL);
+  OpenURL('http://www.delphiforfun.org/');
+  {ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  nil, nil, SW_SHOWNORMAL);}
 end;
 
 end.

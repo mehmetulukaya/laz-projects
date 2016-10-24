@@ -9,7 +9,7 @@
         <Filename Value="circles.dpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="16"/>
+        <TopLine Value="12"/>
         <CursorPos X="17" Y="12"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -17,7 +17,6 @@
       </Unit0>
       <Unit1>
         <Filename Value="src\platform\win\agg_platform_support.pas"/>
-        <UnitName Value="agg_platform_support"/>
         <EditorIndex Value="1"/>
         <TopLine Value="46"/>
         <CursorPos X="5" Y="58"/>
@@ -26,18 +25,14 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="2" HistoryIndex="1">
       <Position1>
-        <Filename Value="circles.dpr"/>
-        <Caret TopLine="176"/>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
       </Position1>
       <Position2>
         <Filename Value="src\platform\win\agg_platform_support.pas"/>
-      </Position2>
-      <Position3>
-        <Filename Value="src\platform\win\agg_platform_support.pas"/>
         <Caret Line="58" Column="2" TopLine="46"/>
-      </Position3>
+      </Position2>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

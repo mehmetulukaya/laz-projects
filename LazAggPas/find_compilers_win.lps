@@ -9,17 +9,29 @@
         <Filename Value="find_compilers_win.dpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="68" Y="6"/>
+        <CursorPos X="12" Y="11"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
     </Units>
-    <JumpHistory Count="1">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="find_compilers_win.dpr"/>
         <Caret Line="474" Column="32" TopLine="466"/>
       </Position1>
+      <Position2>
+        <Filename Value="find_compilers_win.dpr"/>
+        <Caret Line="6" Column="68"/>
+      </Position2>
+      <Position3>
+        <Filename Value="find_compilers_win.dpr"/>
+        <Caret Line="11" Column="12"/>
+      </Position3>
+      <Position4>
+        <Filename Value="find_compilers_win.dpr"/>
+        <Caret Line="34" Column="2" TopLine="22"/>
+      </Position4>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

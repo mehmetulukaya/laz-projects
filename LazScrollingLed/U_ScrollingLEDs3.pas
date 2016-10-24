@@ -10,8 +10,12 @@ unit U_ScrollingLEDs3;
 
 interface
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ExtCtrls, ComCtrls, EditBtn, inifiles, shellapi, DateTimePicker;
+  {Windows,} Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, ExtCtrls, ComCtrls, EditBtn, inifiles,DateTimePicker
+
+  ,lclintf
+
+  {shellapi, DateTimePicker};
 
 type
   TLedchar=record
@@ -112,7 +116,7 @@ implementation
 
 uses U_LEDWindow3;
 
-{$R *.DFM}
+{$R *.dfm}
   {*************************** DrawBlankColumn *******************}
   procedure TForm1.DrawBlankColumn(c:TCanvas; x1:integer);
   {Draw a single column of LEDs in the off state at X1}
@@ -726,8 +730,10 @@ end;
 
 procedure TForm1.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL) ;
+  {ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  nil, nil, SW_SHOWNORMAL) ;}
+
+  OpenURL('http://www.delphiforfun.org/');
 end;
 
 

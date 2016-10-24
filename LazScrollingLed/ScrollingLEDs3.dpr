@@ -14,7 +14,7 @@ uses
   U_ScrollingLEDs3 in 'U_ScrollingLEDs3.pas' {Form1},
   U_LEDWindow3 in 'U_LEDWindow3.pas' {LEDForm};
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

@@ -1,7 +1,7 @@
 object TConvertTest: TTConvertTest
-  Left = 282
+  Left = 238
   Height = 600
-  Top = 59
+  Top = 0
   Width = 779
   Caption = 'TAstronomy Conversion Tests'
   ClientHeight = 600
@@ -13,26 +13,26 @@ object TConvertTest: TTConvertTest
   Font.Style = [fsBold]
   OnClose = FormClose
   Position = poScreenCenter
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.6.0.4'
   object Label1: TLabel
     Left = 16
-    Height = 13
+    Height = 14
     Top = 84
-    Width = 94
+    Width = 101
     Caption = 'Latitude (D M S)'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 16
-    Height = 13
+    Height = 14
     Top = 36
-    Width = 104
+    Width = 113
     Caption = 'Longitude (D M S)'
     ParentColor = False
   end
   object Label3: TLabel
     Left = 360
-    Height = 13
+    Height = 14
     Top = 24
     Width = 28
     Caption = 'Date'
@@ -40,17 +40,17 @@ object TConvertTest: TTConvertTest
   end
   object Label8: TLabel
     Left = 360
-    Height = 13
+    Height = 14
     Top = 80
-    Width = 61
+    Width = 65
     Caption = 'Time Zone'
     ParentColor = False
   end
   object DatePicker: TDateTimePicker
     Left = 416
-    Height = 21
+    Height = 20
     Top = 20
-    Width = 89
+    Width = 97
     CenturyFrom = 1941
     MaxDate = 2958465
     MinDate = -53780
@@ -69,10 +69,10 @@ object TConvertTest: TTConvertTest
   end
   object TZBox: TComboBox
     Left = 432
-    Height = 21
+    Height = 29
     Top = 76
     Width = 81
-    ItemHeight = 13
+    ItemHeight = 0
     Items.Strings = (
       '-12'
       '-11'
@@ -115,8 +115,8 @@ object TConvertTest: TTConvertTest
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 31
-    ClientWidth = 77
+    ClientHeight = 47
+    ClientWidth = 79
     ItemIndex = 1
     Items.Strings = (
       'North'
@@ -137,8 +137,8 @@ object TConvertTest: TTConvertTest
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 31
-    ClientWidth = 77
+    ClientHeight = 47
+    ClientWidth = 79
     ItemIndex = 0
     Items.Strings = (
       'East'
@@ -148,7 +148,7 @@ object TConvertTest: TTConvertTest
   end
   object LatEdt: TEdit
     Left = 136
-    Height = 21
+    Height = 24
     Top = 80
     Width = 97
     TabOrder = 4
@@ -156,7 +156,7 @@ object TConvertTest: TTConvertTest
   end
   object LongEdt: TEdit
     Left = 136
-    Height = 21
+    Height = 24
     Top = 32
     Width = 97
     TabOrder = 5
@@ -176,8 +176,8 @@ object TConvertTest: TTConvertTest
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 55
-    ClientWidth = 173
+    ClientHeight = 58
+    ClientWidth = 175
     ItemIndex = 0
     Items.Strings = (
       'Added 0 hours to local'
@@ -223,30 +223,30 @@ object TConvertTest: TTConvertTest
     Top = 120
     Width = 257
     Caption = 'Data In'
-    ClientHeight = 391
-    ClientWidth = 253
+    ClientHeight = 394
+    ClientWidth = 255
     TabOrder = 8
     object Label6: TLabel
       Left = 24
-      Height = 13
+      Height = 14
       Top = 124
-      Width = 75
+      Width = 80
       Caption = 'Time (H,M,S)'
       ParentColor = False
     end
     object HrDegInLbl: TLabel
       Left = 32
-      Height = 13
+      Height = 14
       Top = 340
-      Width = 60
+      Width = 62
       Caption = 'X  (D,M,S)'
       ParentColor = False
     end
     object Label9: TLabel
       Left = 32
-      Height = 13
+      Height = 14
       Top = 372
-      Width = 60
+      Width = 62
       Caption = 'Y  (D,M,S)'
       ParentColor = False
     end
@@ -264,8 +264,8 @@ object TConvertTest: TTConvertTest
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 71
-      ClientWidth = 181
+      ClientHeight = 74
+      ClientWidth = 183
       ItemIndex = 0
       Items.Strings = (
         'Local '
@@ -289,8 +289,8 @@ object TConvertTest: TTConvertTest
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 151
-      ClientWidth = 181
+      ClientHeight = 154
+      ClientWidth = 183
       ItemIndex = 2
       Items.Strings = (
         'Horizon (Azimuth,Altitude)'
@@ -307,7 +307,7 @@ object TConvertTest: TTConvertTest
     end
     object XInEdt: TEdit
       Left = 104
-      Height = 21
+      Height = 24
       Top = 336
       Width = 105
       TabOrder = 2
@@ -315,7 +315,7 @@ object TConvertTest: TTConvertTest
     end
     object YInEdt: TEdit
       Left = 104
-      Height = 21
+      Height = 24
       Top = 368
       Width = 105
       TabOrder = 3
@@ -323,9 +323,9 @@ object TConvertTest: TTConvertTest
     end
     object TimeIn: TDateTimePicker
       Left = 104
-      Height = 21
+      Height = 20
       Top = 120
-      Width = 73
+      Width = 77
       CenturyFrom = 1941
       MaxDate = 2958465
       MinDate = -53780
@@ -349,30 +349,30 @@ object TConvertTest: TTConvertTest
     Top = 136
     Width = 257
     Caption = 'Data Out'
-    ClientHeight = 375
-    ClientWidth = 253
+    ClientHeight = 378
+    ClientWidth = 255
     TabOrder = 9
     object Label14: TLabel
       Left = 24
-      Height = 13
+      Height = 14
       Top = 124
-      Width = 75
+      Width = 80
       Caption = 'Time (H,M,S)'
       ParentColor = False
     end
     object HrDegOutLbl: TLabel
       Left = 32
-      Height = 13
+      Height = 14
       Top = 300
-      Width = 60
+      Width = 62
       Caption = 'X  (D,M,S)'
       ParentColor = False
     end
     object Label16: TLabel
       Left = 32
-      Height = 13
+      Height = 14
       Top = 332
-      Width = 60
+      Width = 62
       Caption = 'Y  (D,M,S)'
       ParentColor = False
     end
@@ -390,8 +390,8 @@ object TConvertTest: TTConvertTest
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 71
-      ClientWidth = 181
+      ClientHeight = 74
+      ClientWidth = 183
       ItemIndex = 1
       Items.Strings = (
         'Local '
@@ -404,9 +404,9 @@ object TConvertTest: TTConvertTest
     end
     object TimeOut: TDateTimePicker
       Left = 104
-      Height = 21
+      Height = 20
       Top = 120
-      Width = 73
+      Width = 77
       CenturyFrom = 1941
       MaxDate = 2958465
       MinDate = -53780
@@ -437,8 +437,8 @@ object TConvertTest: TTConvertTest
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 103
-      ClientWidth = 181
+      ClientHeight = 106
+      ClientWidth = 183
       ItemIndex = 0
       Items.Strings = (
         'Horizon (Azimuth,Altitude)'
@@ -452,7 +452,7 @@ object TConvertTest: TTConvertTest
     end
     object XoutEdt: TEdit
       Left = 120
-      Height = 21
+      Height = 24
       Top = 296
       Width = 105
       TabOrder = 3
@@ -460,7 +460,7 @@ object TConvertTest: TTConvertTest
     end
     object YOutEdt: TEdit
       Left = 120
-      Height = 21
+      Height = 24
       Top = 328
       Width = 105
       TabOrder = 4
@@ -478,47 +478,47 @@ object TConvertTest: TTConvertTest
     Visible = False
     object Label4: TLabel
       Left = 48
-      Height = 13
+      Height = 14
       Top = 32
-      Width = 47
+      Width = 51
       Caption = 'Sunrise '
       ParentColor = False
     end
     object Label5: TLabel
       Left = 37
-      Height = 13
+      Height = 14
       Top = 63
-      Width = 57
+      Width = 63
       Caption = '   Azimuth'
       ParentColor = False
     end
     object Label10: TLabel
       Left = 51
-      Height = 13
+      Height = 14
       Top = 93
-      Width = 44
+      Width = 47
       Caption = 'Sunset '
       ParentColor = False
     end
     object Label11: TLabel
       Left = 37
-      Height = 13
+      Height = 14
       Top = 124
-      Width = 57
+      Width = 63
       Caption = '   Azimuth'
       ParentColor = False
     end
     object Label7: TLabel
       Left = 16
-      Height = 13
+      Height = 14
       Top = 152
-      Width = 151
+      Width = 161
       Caption = 'LST = Local Sideeal Time)'
       ParentColor = False
     end
     object SRAz: TEdit
       Left = 104
-      Height = 21
+      Height = 24
       Top = 59
       Width = 73
       ReadOnly = True
@@ -527,7 +527,7 @@ object TConvertTest: TTConvertTest
     end
     object SSAz: TEdit
       Left = 104
-      Height = 21
+      Height = 24
       Top = 120
       Width = 73
       ReadOnly = True
@@ -536,7 +536,7 @@ object TConvertTest: TTConvertTest
     end
     object SRmsg: TEdit
       Left = 16
-      Height = 21
+      Height = 24
       Top = 176
       Width = 153
       ReadOnly = True
@@ -544,7 +544,7 @@ object TConvertTest: TTConvertTest
     end
     object SSTime: TEdit
       Left = 104
-      Height = 21
+      Height = 24
       Top = 91
       Width = 73
       ReadOnly = True
@@ -553,7 +553,7 @@ object TConvertTest: TTConvertTest
     end
     object SRTime: TEdit
       Left = 104
-      Height = 21
+      Height = 24
       Top = 27
       Width = 73
       ReadOnly = True

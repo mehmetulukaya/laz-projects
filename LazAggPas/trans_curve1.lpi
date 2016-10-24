@@ -47,8 +47,8 @@
       <Filename Value="trans_curve1"/>
     </Target>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir);src;src\ctrl;src\svg;src\util;src\platform\win;expat-wrap"/>
-      <OtherUnitFiles Value="src;src\ctrl;src\svg;src\util;src\platform\win;expat-wrap"/>
+      <IncludeFiles Value="$(ProjOutDir);src;src\ctrl;src\svg;src\util;src\platform\$(TargetOS);expat-wrap"/>
+      <OtherUnitFiles Value="src;src\ctrl;src\svg;src\util;src\platform\$(TargetOS);expat-wrap"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
@@ -56,7 +56,13 @@
         <SyntaxMode Value="Delphi"/>
       </SyntaxOptions>
     </Parsing>
+    <CodeGeneration>
+      <TargetOS Value="win32"/>
+    </CodeGeneration>
     <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

@@ -4,7 +4,7 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="1">
+    <Units Count="3">
       <Unit0>
         <Filename Value="gpc_test.dpr"/>
         <IsPartOfProject Value="True"/>
@@ -13,7 +13,37 @@
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="src\agg_conv_gpc.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="5" Y="43"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="gpc\gpc.pas"/>
+        <UnitName Value="GPC"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="25"/>
+        <CursorPos X="3" Y="38"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="src\agg_conv_gpc.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="src\agg_conv_gpc.pas"/>
+        <Caret Line="43" Column="2" TopLine="31"/>
+      </Position2>
+      <Position3>
+        <Filename Value="gpc\gpc.pas"/>
+      </Position3>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>

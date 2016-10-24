@@ -4,17 +4,79 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="1">
+    <Units Count="5">
       <Unit0>
         <Filename Value="aa_demo.dpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
+        <TopLine Value="5"/>
         <CursorPos X="68" Y="5"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="src\platform\win\agg_platform_support.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="41"/>
+        <CursorPos Y="53"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="src\platform\win\agg_win32_bmp.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="39"/>
+        <CursorPos X="2" Y="39"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="src\platform\linux\agg_platform_support.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="1542"/>
+        <CursorPos X="16" Y="1545"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\3.0.0\packages\x11\src\xlib.pp"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="168"/>
+        <CursorPos X="9" Y="180"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="7" HistoryIndex="4">
+      <Position1>
+        <Filename Value="src\platform\linux\agg_platform_support.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="src\platform\linux\agg_platform_support.pas"/>
+        <Caret Line="1554" Column="52" TopLine="1541"/>
+      </Position2>
+      <Position3>
+        <Filename Value="src\platform\linux\agg_platform_support.pas"/>
+        <Caret Line="134" TopLine="110"/>
+      </Position3>
+      <Position4>
+        <Filename Value="src\platform\linux\agg_platform_support.pas"/>
+        <Caret Line="37" TopLine="37"/>
+      </Position4>
+      <Position5>
+        <Filename Value="src\platform\linux\agg_platform_support.pas"/>
+        <Caret Line="1554" Column="46" TopLine="1542"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\3.0.0\packages\x11\src\xlib.pp"/>
+        <Caret Line="180" Column="9" TopLine="168"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\..\..\usr\share\fpcsrc\3.0.0\packages\x11\src\xlib.pp"/>
+        <Caret Line="47" Column="4" TopLine="35"/>
+      </Position7>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>

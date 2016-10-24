@@ -4,9 +4,6 @@
     <Version Value="9"/>
     <PathDelim Value="\"/>
     <General>
-      <Flags>
-        <UseDefaultCompilerOptions Value="True"/>
-      </Flags>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
       <Title Value="gradients"/>
@@ -50,8 +47,8 @@
       <Filename Value="gradients"/>
     </Target>
     <SearchPaths>
-      <IncludeFiles Value="src;src\ctrl;src\svg;src\util;src\platform\win;expat-wrap;$(ProjOutDir)"/>
-      <OtherUnitFiles Value="src;src\ctrl;src\svg;src\util;src\platform\win;expat-wrap"/>
+      <IncludeFiles Value="src;src\ctrl;src\svg;src\util;src\platform\$(TargetOS);expat-wrap;$(ProjOutDir)"/>
+      <OtherUnitFiles Value="src;src\ctrl;src\svg;src\util;src\platform\$(TargetOS);expat-wrap"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
@@ -60,6 +57,9 @@
       </SyntaxOptions>
     </Parsing>
     <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

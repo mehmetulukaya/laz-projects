@@ -14,8 +14,17 @@ unit U_AstroDemo;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, DateTimePicker,ComCtrls, ExtCtrls, Menus, ShellAPI, UAstronomy;
+  {Windows,} Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, ComCtrls, ExtCtrls, Menus
+  {ShellAPI,}
+  , DateTimePicker
+  , lclintf
+  , LCLType
+  , strutils
+  , dateutils
+  , UAstronomy
+
+  ;
 
 type
 
@@ -157,7 +166,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 Uses math,  U_ConvertTest;
 
 const
@@ -294,7 +303,9 @@ begin
   with memo do
   begin
     SelStart := 0;
-    Perform(EM_SCROLLCARET, 0, 0);
+    //Perform(EM_SCROLLCARET, 0, 0);
+    SetCaretPos(0,0);
+    //SendMessage();
   end;
 end;
 
@@ -1110,12 +1121,13 @@ type
 
 {************* Button1Click ************}
 procedure TForm1.Button1Click(Sender: TObject);
- var
+ {var
    TZInfo:TTimeZoneInformation;
    DL,tz, dlbias:Integer;
-   dt:TDatetime;
+   dt:TDatetime;}
 begin
-  DL:=getTimeZoneInformation(TZinfo);
+  { TODO : Do some function for Linux/Windows time zone. }
+  {DL:=getTimeZoneInformation(TZinfo);
   TZ:=-trunc(TZinfo.bias/60);
   if (TZ>=-12) and (TZ<=11) then TZBox.itemindex:=TZ+12
   else
@@ -1133,12 +1145,12 @@ begin
        showmessage('Windows Daylight saving offset not 0, 1, or 2, hours, 0 assumed');
        dlsrgrp.itemindex:=0;
      end;
-   end;
+   end; }
    {convert cureent datetime to specified time type}
-   astro.getprintdatetime(ttlocal,TDtType(timebox.itemindex),now,true,dt);
+   {astro.getprintdatetime(ttlocal,TDtType(timebox.itemindex),now,true,dt);
    timepicker.time:=frac(dt);
    datepicker.date:=int(dt);
-   If @currentDisplayRtn<>nil then CurrentDisplayRtn(Sender);
+   If @currentDisplayRtn<>nil then CurrentDisplayRtn(Sender);  }
 end;
 
 {************* DisplayCoordsAsType **********8}
@@ -1238,8 +1250,9 @@ end;
 {********** FormClick *********}
 procedure TForm1.FormClick(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL);
+  OpenURL('http://www.delphiforfun.org/');
+  //ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  //nil, nil, SW_SHOWNORMAL);
 end;
 
 {********* FormResize ***********}
@@ -1259,8 +1272,9 @@ end;
 
 procedure TForm1.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL);
+  OpenURL('http://www.delphiforfun.org/');
+  //ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  //nil, nil, SW_SHOWNORMAL);
 end;
 
 (*

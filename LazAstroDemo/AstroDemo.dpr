@@ -17,7 +17,7 @@ uses
   U_ConvertTest in 'U_ConvertTest.pas' {TConvertTest},
   UAstronomy in 'UAstronomy.pas';
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

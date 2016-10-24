@@ -4,18 +4,39 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="1">
+    <Units Count="2">
       <Unit0>
         <Filename Value="trans_curve1.dpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="31"/>
-        <CursorPos X="2" Y="43"/>
+        <TopLine Value="7"/>
+        <CursorPos X="2" Y="22"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
+      <Unit1>
+        <Filename Value="src\agg_font_win32_tt.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="36"/>
+        <CursorPos Y="36"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="trans_curve1.dpr"/>
+        <Caret Line="43" Column="2" TopLine="31"/>
+      </Position1>
+      <Position2>
+        <Filename Value="src\agg_font_win32_tt.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="src\agg_font_win32_tt.pas"/>
+        <Caret Line="37" Column="13" TopLine="23"/>
+      </Position3>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>

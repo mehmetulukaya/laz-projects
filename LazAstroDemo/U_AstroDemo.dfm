@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 170
+  Left = 0
   Height = 694
-  Top = 9
-  Width = 1102
+  Top = 0
+  Width = 1022
   Caption = 'Astronomy Unit Demo, Version 2.0'
-  ClientHeight = 674
-  ClientWidth = 1102
+  ClientHeight = 673
+  ClientWidth = 1022
   Color = clBtnFace
   Font.Color = clWindowText
   Font.Height = -14
@@ -15,7 +15,7 @@ object Form1: TForm1
   OnClick = FormClick
   OnResize = FormResize
   Position = poScreenCenter
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.6.0.4'
   object PBox: TPaintBox
     Left = 608
     Height = 345
@@ -89,47 +89,47 @@ object Form1: TForm1
     TabOrder = 3
     object Label2: TLabel
       Left = 39
-      Height = 16
+      Height = 17
       Top = 64
-      Width = 106
+      Width = 125
       Caption = 'Longitude (D M S)'
       ParentColor = False
     end
     object Label1: TLabel
       Left = 39
-      Height = 16
+      Height = 17
       Top = 14
-      Width = 94
+      Width = 112
       Caption = 'Latitude (D M S)'
       ParentColor = False
     end
     object Label3: TLabel
       Left = 39
-      Height = 16
+      Height = 17
       Top = 100
-      Width = 29
+      Width = 34
       Caption = 'Date'
       ParentColor = False
     end
     object Label8: TLabel
       Left = 226
-      Height = 16
+      Height = 17
       Top = 100
-      Width = 65
+      Width = 77
       Caption = 'Time Zone'
       ParentColor = False
     end
     object Label4: TLabel
       Left = 512
-      Height = 16
+      Height = 17
       Top = 19
-      Width = 141
+      Width = 163
       Caption = 'Meters above sea level'
       ParentColor = False
     end
     object LongEdt: TEdit
       Left = 167
-      Height = 24
+      Height = 27
       Hint = 'May be entered as decimal degrees  or degrees, minutes, seconds'
       Top = 59
       Width = 120
@@ -151,8 +151,8 @@ object Form1: TForm1
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 2
-      ClientHeight = 20
-      ClientWidth = 155
+      ClientHeight = 39
+      ClientWidth = 157
       Columns = 2
       ItemIndex = 1
       Items.Strings = (
@@ -175,8 +175,8 @@ object Form1: TForm1
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 2
-      ClientHeight = 19
-      ClientWidth = 155
+      ClientHeight = 38
+      ClientWidth = 157
       Columns = 2
       ItemIndex = 0
       Items.Strings = (
@@ -188,7 +188,7 @@ object Form1: TForm1
     end
     object LatEdt: TEdit
       Left = 167
-      Height = 24
+      Height = 27
       Hint = 'May be entered as decimal degrees  or degrees, minutes, seconds'
       Top = 10
       Width = 120
@@ -198,10 +198,10 @@ object Form1: TForm1
     end
     object TZBox: TComboBox
       Left = 305
-      Height = 24
+      Height = 29
       Top = 100
       Width = 100
-      ItemHeight = 16
+      ItemHeight = 0
       Items.Strings = (
         '-12'
         '-11'
@@ -246,8 +246,8 @@ object Form1: TForm1
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 3
-      ClientHeight = 25
-      ClientWidth = 264
+      ClientHeight = 28
+      ClientWidth = 266
       Columns = 3
       ItemIndex = 0
       Items.Strings = (
@@ -260,7 +260,7 @@ object Form1: TForm1
     end
     object HeightEdt: TEdit
       Left = 660
-      Height = 24
+      Height = 27
       Top = 19
       Width = 70
       OnChange = BaseDataChange
@@ -269,7 +269,7 @@ object Form1: TForm1
     end
     object HeightUD: TUpDown
       Left = 730
-      Height = 24
+      Height = 27
       Top = 19
       Width = 15
       Associate = HeightEdt
@@ -281,10 +281,10 @@ object Form1: TForm1
     end
     object TimeBox: TComboBox
       Left = 601
-      Height = 24
+      Height = 29
       Top = 100
       Width = 149
-      ItemHeight = 16
+      ItemHeight = 0
       Items.Strings = (
         'Local Time'
         'Universal Time (UT)'
@@ -304,9 +304,9 @@ object Form1: TForm1
     end
     object DatePicker: TDateTimePicker
       Left = 83
-      Height = 24
+      Height = 23
       Top = 100
-      Width = 87
+      Width = 105
       CenturyFrom = 1941
       MaxDate = 2958465
       MinDate = -53780
@@ -326,9 +326,9 @@ object Form1: TForm1
     end
     object TimePicker: TDateTimePicker
       Left = 482
-      Height = 24
+      Height = 23
       Top = 100
-      Width = 71
+      Width = 85
       CenturyFrom = 1941
       MaxDate = 2958465
       MinDate = -53780
@@ -376,10 +376,10 @@ object Form1: TForm1
   end
   object PlanetBox: TComboBox
     Left = 807
-    Height = 24
+    Height = 29
     Top = 66
     Width = 130
-    ItemHeight = 16
+    ItemHeight = 0
     Items.Strings = (
       'MERCURY'
       'VENUS'
@@ -399,8 +399,8 @@ object Form1: TForm1
     Cursor = crHandPoint
     Left = 0
     Height = 24
-    Top = 650
-    Width = 1102
+    Top = 649
+    Width = 1022
     Align = alBottom
     Alignment = taCenter
     Caption = 'Copyright  © 2003, 2015  Gary Darby,  www.DelphiForFun.org'
@@ -424,9 +424,9 @@ object Form1: TForm1
     OnExit = AnallemmPanelExit
     object AnDateLbl: TLabel
       Left = 16
-      Height = 19
+      Height = 20
       Top = 46
-      Width = 34
+      Width = 35
       Caption = 'Date'
       Font.Color = clWindowText
       Font.Height = -17
@@ -436,9 +436,9 @@ object Form1: TForm1
     end
     object AzLbl: TLabel
       Left = 16
-      Height = 19
+      Height = 20
       Top = 68
-      Width = 40
+      Width = 42
       Caption = 'AzLbl'
       Font.Color = clWindowText
       Font.Height = -17
@@ -448,9 +448,9 @@ object Form1: TForm1
     end
     object AltLbl: TLabel
       Left = 16
-      Height = 19
+      Height = 20
       Top = 93
-      Width = 39
+      Width = 42
       Caption = 'AltLbl'
       Font.Color = clWindowText
       Font.Height = -17
@@ -485,8 +485,8 @@ object Form1: TForm1
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 68
-      ClientWidth = 221
+      ClientHeight = 73
+      ClientWidth = 223
       Font.Color = clWindowText
       Font.Height = -13
       Font.Name = 'Arial'

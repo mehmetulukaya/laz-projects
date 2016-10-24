@@ -16,7 +16,6 @@
       </Unit0>
       <Unit1>
         <Filename Value="src\platform\win\agg_platform_support.pas"/>
-        <UnitName Value="agg_platform_support"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="1684"/>

@@ -11,7 +11,7 @@ unit U_LEDWindow3;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  {Windows,} Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   ExtCtrls;
 
 type
@@ -33,7 +33,7 @@ implementation
 
 uses U_ScrollingLEDs3;
 
-{$R *.DFM}
+{$R *.dfm}
 
 
 procedure TLEDForm.Image2Click(Sender: TObject);

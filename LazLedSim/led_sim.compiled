@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="D:\lazarus\fpc\2.6.4\bin\i386-win32\fpc.exe" Date="1195610990"/>
-  <Params Value=" -MObjFPC -Scgi -Os2 -Xs -WG -l -vewnhibq -FuD:\Git\laz-projects\LazLedSim\led_component\ledshape\lib\i386-win32 -FuD:\lazarus\lcl\units\i386-win32\win32 -FuD:\lazarus\lcl\units\i386-win32 -FuD:\lazarus\components\lazutils\lib\i386-win32 -FuD:\lazarus\packager\units\i386-win32 -FuD:\Git\laz-projects\LazLedSim\ -dLCL -dLCLwin32 led_sim.lpr"/>
+  <Compiler Value="/usr/bin/fpc" Date="1449326971"/>
+  <Params Value=" -MObjFPC -Scgi -Os2 -Xs -l -vewnhibq -Fl/opt/gnome/lib -Fu/home/mehmet/Belgeler/GitProjects/laz-projects/LazLedSim/led_component/ledshape/lib/i386-linux -Fu/usr/share/lazarus/1.6/lcl/units/i386-linux/gtk2 -Fu/usr/share/lazarus/1.6/lcl/units/i386-linux -Fu/usr/share/lazarus/1.6/components/lazutils/lib/i386-linux -Fu/usr/share/lazarus/1.6/packager/units/i386-linux -Fu/home/mehmet/Belgeler/GitProjects/laz-projects/LazLedSim/ -dLCL -dLCLgtk2 led_sim.lpr"/>
 </CONFIG>

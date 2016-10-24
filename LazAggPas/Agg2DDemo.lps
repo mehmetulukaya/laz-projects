@@ -17,23 +17,18 @@
       </Unit0>
       <Unit1>
         <Filename Value="src\platform\win\agg_platform_support.pas"/>
-        <UnitName Value="agg_platform_support"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="46"/>
-        <CursorPos X="2" Y="58"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="2" Y="61"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="1">
       <Position1>
-        <Filename Value="src\platform\win\agg_platform_support.pas"/>
-      </Position1>
-      <Position2>
         <Filename Value="Agg2DDemo.dpr"/>
         <Caret Line="9" Column="20" TopLine="6"/>
-      </Position2>
+      </Position1>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

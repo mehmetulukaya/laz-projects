@@ -1,12 +1,12 @@
 object Form1: TForm1
-  Left = 379
+  Left = 377
   Height = 83
-  Top = 292
+  Top = 244
   Width = 480
   Caption = 'Kara Şimşek - Knight Rider'
   ClientHeight = 83
   ClientWidth = 480
-  LCLVersion = '1.4.2.0'
+  LCLVersion = '1.6.0.4'
   object LedShape1: TLedShape
     Left = 91
     Height = 15
@@ -369,9 +369,9 @@ object Form1: TForm1
   end
   object CheckBox1: TCheckBox
     Left = 10
-    Height = 23
+    Height = 22
     Top = 9
-    Width = 88
+    Width = 86
     Caption = 'Start/Stop'
     OnChange = CheckBox1Change
     TabOrder = 0

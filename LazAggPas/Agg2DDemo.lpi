@@ -4,9 +4,6 @@
     <Version Value="9"/>
     <PathDelim Value="\"/>
     <General>
-      <Flags>
-        <UseDefaultCompilerOptions Value="True"/>
-      </Flags>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
       <Title Value="Agg2DDemo"/>
@@ -50,9 +47,9 @@
       <Filename Value="Agg2DDemo"/>
     </Target>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir);src;src\ctrl;src\svg;src\util;src\platform\win;expat-wrap"/>
+      <IncludeFiles Value="$(ProjOutDir);src;src\ctrl;src\svg;src\util;src\platform\$(TargetOS);expat-wrap"/>
       <Libraries Value="src;src\ctrl;src\svg;src\util;src\platform\win;expat-wrap"/>
-      <OtherUnitFiles Value="src;src\ctrl;src\svg;src\util;src\platform\win;expat-wrap"/>
+      <OtherUnitFiles Value="src;src\ctrl;src\svg;src\util;src\platform\$(TargetOS);expat-wrap"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
@@ -61,6 +58,9 @@
       </SyntaxOptions>
     </Parsing>
     <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

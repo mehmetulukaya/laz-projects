@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 203
+  Left = 0
   Height = 650
-  Top = 39
-  Width = 1041
+  Top = 44
+  Width = 1022
   Caption = 'Age Problem Solver Version 4'
   ClientHeight = 650
-  ClientWidth = 1041
+  ClientWidth = 1022
   Color = clBtnFace
   Font.Color = clWindowText
   Font.Height = -16
@@ -13,7 +13,6 @@ object Form1: TForm1
   OnCreate = FormCreate
   Position = poScreenCenter
   LCLVersion = '1.6.0.4'
-  Visible = False
   object Label1: TLabel
     Left = 28
     Height = 19
@@ -69,7 +68,7 @@ object Form1: TForm1
     Left = 0
     Height = 20
     Top = 630
-    Width = 1041
+    Width = 1022
     Align = alBottom
     Alignment = taCenter
     Caption = 'Copyright © 2007, Gary Darby,  www.DelphiForFun.org'

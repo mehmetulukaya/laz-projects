@@ -5,7 +5,7 @@ uses
   U_AgeProblemSolver4 in 'U_AgeProblemSolver4.pas' {Form1},
   UTEval in 'UTEval.pas';
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

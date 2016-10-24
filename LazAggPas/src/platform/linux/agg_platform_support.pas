@@ -1551,7 +1551,7 @@ begin
  m_specific.m_window_attributes.background_pixel:=
   XWhitePixel(m_specific.m_display ,m_specific.m_screen );
 
- m_specific.m_window_attributes.override_redirect:=false;
+ m_specific.m_window_attributes.override_redirect:=TBool( false);
 
  window_mask:=CWBackPixel or CWBorderPixel;
 
