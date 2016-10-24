@@ -16,9 +16,8 @@
         <ComponentName Value="frmEnglishClock"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="main"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="63"/>
+        <TopLine Value="96"/>
         <CursorPos X="17" Y="179"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>

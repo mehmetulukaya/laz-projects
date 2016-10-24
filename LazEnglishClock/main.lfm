@@ -1,7 +1,7 @@
 object frmEnglishClock: TfrmEnglishClock
-  Left = 466
+  Left = 464
   Height = 273
-  Top = 247
+  Top = 199
   Width = 263
   BorderStyle = bsSizeToolWin
   Caption = 'English Clock'
@@ -9,7 +9,7 @@ object frmEnglishClock: TfrmEnglishClock
   ClientWidth = 263
   Color = clGray
   FormStyle = fsStayOnTop
-  LCLVersion = '1.2.4.0'
+  LCLVersion = '1.6.0.4'
   object pnl_Time: TPanel
     Left = 0
     Height = 31
@@ -20,7 +20,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_IT: TLabel
     Left = 16
-    Height = 16
+    Height = 15
     Top = 42
     Width = 16
     Caption = 'IT'
@@ -36,7 +36,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_IS: TLabel
     Left = 70
-    Height = 16
+    Height = 15
     Top = 42
     Width = 16
     Caption = 'IS'
@@ -52,7 +52,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_HALF: TLabel
     Left = 132
-    Height = 16
+    Height = 15
     Top = 42
     Width = 32
     Caption = 'HALF'
@@ -67,7 +67,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_TEN_: TLabel
     Left = 186
-    Height = 16
+    Height = 15
     Top = 42
     Width = 24
     Caption = 'TEN'
@@ -82,7 +82,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_QUARTER: TLabel
     Left = 16
-    Height = 16
+    Height = 15
     Top = 70
     Width = 56
     Caption = 'QUARTER'
@@ -97,7 +97,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_TWENTY: TLabel
     Left = 132
-    Height = 16
+    Height = 15
     Top = 70
     Width = 48
     Caption = 'TWENTY'
@@ -112,7 +112,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_FIVE_: TLabel
     Left = 16
-    Height = 16
+    Height = 15
     Top = 101
     Width = 32
     Caption = 'FIVE'
@@ -127,7 +127,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_MINUTES: TLabel
     Left = 99
-    Height = 16
+    Height = 15
     Top = 101
     Width = 56
     Caption = 'MINUTES'
@@ -142,7 +142,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_TO: TLabel
     Left = 186
-    Height = 16
+    Height = 15
     Top = 101
     Width = 16
     Caption = 'TO'
@@ -157,7 +157,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_PAST: TLabel
     Left = 16
-    Height = 16
+    Height = 15
     Top = 129
     Width = 32
     Caption = 'PAST'
@@ -172,7 +172,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_ONE: TLabel
     Left = 99
-    Height = 16
+    Height = 15
     Top = 129
     Width = 24
     Caption = 'ONE'
@@ -187,7 +187,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_THREE: TLabel
     Left = 186
-    Height = 16
+    Height = 15
     Top = 129
     Width = 40
     Caption = 'THREE'
@@ -202,7 +202,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_TWO: TLabel
     Left = 16
-    Height = 16
+    Height = 15
     Top = 157
     Width = 24
     Caption = 'TWO'
@@ -217,7 +217,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_FOUR: TLabel
     Left = 99
-    Height = 16
+    Height = 15
     Top = 157
     Width = 32
     Caption = 'FOUR'
@@ -232,7 +232,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_FIVE: TLabel
     Left = 186
-    Height = 16
+    Height = 15
     Top = 157
     Width = 32
     Caption = 'FIVE'
@@ -247,7 +247,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_SIX: TLabel
     Left = 16
-    Height = 16
+    Height = 15
     Top = 185
     Width = 24
     Caption = 'SIX'
@@ -262,7 +262,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_SEVEN: TLabel
     Left = 99
-    Height = 16
+    Height = 15
     Top = 185
     Width = 40
     Caption = 'SEVEN'
@@ -277,7 +277,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_EIGHT: TLabel
     Left = 186
-    Height = 16
+    Height = 15
     Top = 185
     Width = 40
     Caption = 'EIGHT'
@@ -292,7 +292,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_NINE: TLabel
     Left = 16
-    Height = 16
+    Height = 15
     Top = 213
     Width = 32
     Caption = 'NINE'
@@ -307,7 +307,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_TEN: TLabel
     Left = 99
-    Height = 16
+    Height = 15
     Top = 213
     Width = 24
     Caption = 'TEN'
@@ -322,7 +322,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_ELEVEN: TLabel
     Left = 186
-    Height = 16
+    Height = 15
     Top = 213
     Width = 48
     Caption = 'ELEVEN'
@@ -337,7 +337,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_TWELVE: TLabel
     Left = 16
-    Height = 16
+    Height = 15
     Top = 238
     Width = 48
     Caption = 'TWELVE'
@@ -352,7 +352,7 @@ object frmEnglishClock: TfrmEnglishClock
   end
   object lbl_OCLOCK: TLabel
     Left = 132
-    Height = 16
+    Height = 15
     Top = 238
     Width = 56
     Caption = 'O''CLOCK'
