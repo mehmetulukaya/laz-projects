@@ -4,10 +4,11 @@
     <PathDelim Value="\"/>
     <Version Value="9"/>
     <BuildModes Active="Default"/>
-    <Units Count="3">
+    <Units Count="4">
       <Unit0>
         <Filename Value="Compass.dpr"/>
         <IsPartOfProject Value="True"/>
+        <CursorPos Y="5"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -19,7 +20,8 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="14" Y="14"/>
+        <TopLine Value="28"/>
+        <CursorPos X="10" Y="37"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -32,9 +34,18 @@
         <TopLine Value="418"/>
         <CursorPos X="14" Y="430"/>
         <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\..\..\usr\share\lazarus\1.6\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="79"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
     </Units>
-    <JumpHistory Count="7" HistoryIndex="6">
+    <JumpHistory Count="15" HistoryIndex="14">
       <Position1>
         <Filename Value="Compass.dpr"/>
       </Position1>
@@ -61,6 +72,37 @@
         <Filename Value="U_Compass.pas"/>
         <Caret Line="13" Column="13"/>
       </Position7>
+      <Position8>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="14" Column="14"/>
+      </Position8>
+      <Position9>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="57" Column="23" TopLine="42"/>
+      </Position9>
+      <Position10>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="13" Column="21"/>
+      </Position10>
+      <Position11>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="54" Column="13" TopLine="42"/>
+      </Position11>
+      <Position12>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="13" Column="26"/>
+      </Position12>
+      <Position13>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="257" Column="5" TopLine="235"/>
+      </Position13>
+      <Position14>
+        <Filename Value="U_Compass.pas"/>
+        <Caret Line="258" TopLine="236"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Compass.dpr"/>
+      </Position15>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

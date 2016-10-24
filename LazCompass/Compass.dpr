@@ -9,7 +9,7 @@ uses
   Forms, Interfaces,
   U_Compass in 'U_Compass.pas' {Form1};
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

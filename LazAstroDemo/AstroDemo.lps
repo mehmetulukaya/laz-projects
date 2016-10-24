@@ -19,9 +19,10 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="593"/>
-        <CursorPos X="3" Y="598"/>
+        <TopLine Value="7"/>
+        <CursorPos X="12" Y="22"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -29,9 +30,7 @@
       </Unit1>
       <Unit2>
         <Filename Value="UAstronomy.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="7"/>
-        <TopLine Value="88"/>
         <CursorPos Y="88"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>

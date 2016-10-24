@@ -10,7 +10,7 @@ unit U_Compass;
 interface
 
 uses
-  {Windows,} Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  {Windows,}LCLIntf,LCLType, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   {shellAPI,} StdCtrls, ExtCtrls, Spin;
 
 type
@@ -34,7 +34,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 
 uses math;
 
@@ -252,8 +252,9 @@ end;
 
 procedure TForm1.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL) ;
+  OpenURL('http://www.delphiforfun.org/');
+  //ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  //nil, nil, SW_SHOWNORMAL) ;
 end;
 
 end.

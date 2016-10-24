@@ -1,51 +1,51 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('TForm1','FORMDATA',[
-  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3'K'#1#6'Height'#3#228#1#3'Top'#2'P'#5'Widt'
-  +'h'#3#13#2#13'ActiveControl'#7#5'Memo1'#8'AutoSize'#9#7'Caption'#6#20'Compas'
-  +'s Drawing Demo'#12'ClientHeight'#3#228#1#11'ClientWidth'#3#13#2#5'Color'#7#9
-  +'clBtnFace'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#242#9'Font.N'
-  +'ame'#6#5'Arial'#10'OnActivate'#7#12'FormActivate'#8'Position'#7#14'poScreen'
-  +'Center'#10'LCLVersion'#6#7'1.6.0.4'#7'Visible'#8#0#11'TStaticText'#11'Stati'
-  +'cText1'#6'Cursor'#7#11'crHandPoint'#4'Left'#2#0#6'Height'#2#23#3'Top'#3#205
-  +#1#5'Width'#3#13#2#5'Align'#7#8'alBottom'#9'Alignment'#7#8'taCenter'#7'Capti'
-  +'on'#6'4Copyright '#194#169' 2010, Gary Darby,  www.DelphiForFun.org'#10'Fon'
-  +'t.Color'#7#6'clBlue'#11'Font.Height'#2#239#9'Font.Name'#6#5'Arial'#10'Font.'
-  +'Style'#11#6'fsBold'#11'fsUnderline'#0#7'OnClick'#7#16'StaticText1Click'#10
-  +'ParentFont'#8#8'TabOrder'#2#0#0#0#6'TPanel'#6'Panel1'#4'Left'#2#0#6'Height'
-  +#3#205#1#3'Top'#2#0#5'Width'#3#13#2#5'Align'#7#8'alClient'#12'ClientHeight'#3
-  +#205#1#11'ClientWidth'#3#13#2#8'TabOrder'#2#1#0#9'TPaintBox'#7'Compass'#4'Le'
-  +'ft'#2#25#6'Height'#3','#1#3'Top'#2'o'#5'Width'#3','#1#7'OnPaint'#7#12'Compa'
-  +'ssPaint'#0#0#6'TLabel'#6'Label1'#4'Left'#3'N'#1#6'Height'#2#16#3'Top'#2#7#5
-  +'Width'#3#163#0#7'Caption'#6#24'Heading angle in degrees'#11'ParentColor'#8#0
-  +#0#5'TMemo'#5'Memo1'#4'Left'#2#25#6'Height'#2'D'#3'Top'#2#30#5'Width'#3#222#0
-  +#5'Color'#4#255#255#221#0#12'Font.CharSet'#7#15'TURKISH_CHARSET'#10'Font.Col'
-  +'or'#7#12'clWindowText'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Fon'
-  +'t.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#13'Lines.Strings'#1
-  +#6#31'Here''s a sample Compass drawing'#6'"demonstration which will show how'
-  +' '#6#14'to rotate the '#6'''dial or the pointer in Delphi code.    '#6#10'T'
-  +'he angle '#6#30'is specified in the "Heading" '#6#17'SpinEdit control;'#6#0
-  +#6'#It uses a TPaintbox, "Compass", to '#6#12'repaint the '#6#30'compass whe'
-  +'n needed.  Compass '#6#3'is '#6'$completely redrawn for each call so '#6#10
-  +'its owner '#6'"(Panel1) has its "Doublebuffered" '#6#13'property set '#6'"T'
-  +'rue to prevent flashing when the '#6#9'space is '#6#25'cleared before redra'
-  +'wing.'#6#0#6'#It uses the TLogRec data structure '#6#7'and the'#6' CreateFo'
-  +'ntIndirect procedure to '#6#12'draw letters'#6'#and numbers at right angles'
-  +' to the '#6#9'direction'#6#8'radial..'#6#0#6' The pointer is two back-to-ba'
-  +'ck '#6#15'triangles drawn'#6'#with the Polygon method and filled '#6#14'wit'
-  +'h different'#6#29'Brush property colors of the '#6#17'Paintbox''s Canvas'#6
-  +#9'property.'#0#10'ParentFont'#8#8'TabOrder'#2#0#0#0#9'TSpinEdit'#7'Heading'
-  +#4'Left'#3#175#1#6'Height'#2'"'#3'Top'#2#30#5'Width'#2'A'#10'Font.Color'#7#12
-  +'clWindowText'#11'Font.Height'#2#236#9'Font.Name'#6#5'Arial'#8'MaxValue'#3#16
-  +#14#8'MinValue'#3#240#241#8'OnChange'#7#12'ForceRepaint'#10'ParentFont'#8#8
-  +'TabOrder'#2#1#5'Value'#2'-'#0#0#11'TRadioGroup'#7'TypeGrp'#4'Left'#3#7#1#6
-  +'Height'#2'A'#3'Top'#2#30#5'Width'#3#161#0#8'AutoFill'#9#7'Caption'#6#12'Com'
-  +'pass type'#28'ChildSizing.LeftRightSpacing'#2#6#29'ChildSizing.EnlargeHoriz'
-  +'ontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24
-  +'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChi'
-  +'lds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Lay'
-  +'out'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1
-  +#12'ClientHeight'#2'0'#11'ClientWidth'#3#159#0#9'ItemIndex'#2#0#13'Items.Str'
-  +'ings'#1#6#11'Rotate dial'#6#14'Rotate pointer'#0#7'OnClick'#7#12'ForceRepai'
-  +'nt'#8'TabOrder'#2#2#0#0#0#0
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3'G'#1#6'Height'#3#228#1#3'Top'#2#0#5'Width'
+  +#3#13#2#13'ActiveControl'#7#5'Memo1'#8'AutoSize'#9#7'Caption'#6#20'Compass D'
+  +'rawing Demo'#12'ClientHeight'#3#228#1#11'ClientWidth'#3#13#2#5'Color'#7#9'c'
+  +'lBtnFace'#10'Font.Color'#7#12'clWindowText'#11'Font.Height'#2#242#9'Font.Na'
+  +'me'#6#5'Arial'#10'OnActivate'#7#12'FormActivate'#8'Position'#7#14'poScreenC'
+  +'enter'#10'LCLVersion'#6#7'1.6.0.4'#0#11'TStaticText'#11'StaticText1'#6'Curs'
+  +'or'#7#11'crHandPoint'#4'Left'#2#0#6'Height'#2#23#3'Top'#3#205#1#5'Width'#3
+  +#13#2#5'Align'#7#8'alBottom'#9'Alignment'#7#8'taCenter'#7'Caption'#6'4Copyri'
+  +'ght '#194#169' 2010, Gary Darby,  www.DelphiForFun.org'#10'Font.Color'#7#6
+  +'clBlue'#11'Font.Height'#2#239#9'Font.Name'#6#5'Arial'#10'Font.Style'#11#6'f'
+  +'sBold'#11'fsUnderline'#0#7'OnClick'#7#16'StaticText1Click'#10'ParentFont'#8
+  +#8'TabOrder'#2#0#0#0#6'TPanel'#6'Panel1'#4'Left'#2#0#6'Height'#3#205#1#3'Top'
+  +#2#0#5'Width'#3#13#2#5'Align'#7#8'alClient'#12'ClientHeight'#3#205#1#11'Clie'
+  +'ntWidth'#3#13#2#8'TabOrder'#2#1#0#9'TPaintBox'#7'Compass'#4'Left'#2#25#6'He'
+  +'ight'#3','#1#3'Top'#2'o'#5'Width'#3','#1#7'OnPaint'#7#12'CompassPaint'#0#0#6
+  +'TLabel'#6'Label1'#4'Left'#3'N'#1#6'Height'#2#16#3'Top'#2#7#5'Width'#3#163#0
+  +#7'Caption'#6#24'Heading angle in degrees'#11'ParentColor'#8#0#0#5'TMemo'#5
+  +'Memo1'#4'Left'#2#25#6'Height'#2'D'#3'Top'#2#30#5'Width'#3#222#0#5'Color'#4
+  +#255#255#221#0#12'Font.CharSet'#7#15'TURKISH_CHARSET'#10'Font.Color'#7#12'cl'
+  +'WindowText'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7
+  +#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#13'Lines.Strings'#1#6#31'Here'
+  +'''s a sample Compass drawing'#6'"demonstration which will show how '#6#14't'
+  +'o rotate the '#6'''dial or the pointer in Delphi code.    '#6#10'The angle '
+  +#6#30'is specified in the "Heading" '#6#17'SpinEdit control;'#6#0#6'#It uses'
+  +' a TPaintbox, "Compass", to '#6#12'repaint the '#6#30'compass when needed. '
+  +' Compass '#6#3'is '#6'$completely redrawn for each call so '#6#10'its owner'
+  +' '#6'"(Panel1) has its "Doublebuffered" '#6#13'property set '#6'"True to pr'
+  +'event flashing when the '#6#9'space is '#6#25'cleared before redrawing.'#6#0
+  +#6'#It uses the TLogRec data structure '#6#7'and the'#6' CreateFontIndirect '
+  +'procedure to '#6#12'draw letters'#6'#and numbers at right angles to the '#6
+  +#9'direction'#6#8'radial..'#6#0#6' The pointer is two back-to-back '#6#15'tr'
+  +'iangles drawn'#6'#with the Polygon method and filled '#6#14'with different'
+  +#6#29'Brush property colors of the '#6#17'Paintbox''s Canvas'#6#9'property.'
+  +#0#10'ParentFont'#8#8'TabOrder'#2#0#0#0#9'TSpinEdit'#7'Heading'#4'Left'#3#175
+  +#1#6'Height'#2'"'#3'Top'#2#30#5'Width'#2'A'#10'Font.Color'#7#12'clWindowText'
+  +#11'Font.Height'#2#236#9'Font.Name'#6#5'Arial'#8'MaxValue'#3#16#14#8'MinValu'
+  +'e'#3#240#241#8'OnChange'#7#12'ForceRepaint'#10'ParentFont'#8#8'TabOrder'#2#1
+  +#5'Value'#2'-'#0#0#11'TRadioGroup'#7'TypeGrp'#4'Left'#3#7#1#6'Height'#2'A'#3
+  +'Top'#2#30#5'Width'#3#161#0#8'AutoFill'#9#7'Caption'#6#12'Compass type'#28'C'
+  +'hildSizing.LeftRightSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crs'
+  +'HomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousCh'
+  +'ildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSi'
+  +'zing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLe'
+  +'ftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#12'ClientHeig'
+  +'ht'#2'0'#11'ClientWidth'#3#159#0#9'ItemIndex'#2#0#13'Items.Strings'#1#6#11
+  +'Rotate dial'#6#14'Rotate pointer'#0#7'OnClick'#7#12'ForceRepaint'#8'TabOrde'
+  +'r'#2#2#0#0#0#0
 ]);

@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 331
+  Left = 327
   Height = 484
-  Top = 80
+  Top = 0
   Width = 525
   ActiveControl = Memo1
   AutoSize = True
@@ -15,7 +15,6 @@ object Form1: TForm1
   OnActivate = FormActivate
   Position = poScreenCenter
   LCLVersion = '1.6.0.4'
-  Visible = False
   object StaticText1: TStaticText
     Cursor = crHandPoint
     Left = 0
