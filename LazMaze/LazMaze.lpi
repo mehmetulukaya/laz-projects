@@ -48,7 +48,6 @@
         <ComponentName Value="frmMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="UfrmMain"/>
       </Unit2>
       <Unit3>
         <Filename Value="UGlobals.pas"/>
@@ -61,7 +60,6 @@
       <Unit5>
         <Filename Value="UTCell.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="UTCell"/>
       </Unit5>
     </Units>
   </ProjectOptions>

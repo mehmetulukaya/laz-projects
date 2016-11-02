@@ -9,8 +9,10 @@ unit U_DrawRings;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, ExtCtrls, shellAPI;
+  {Windows,}
+  lclintf,LCLType,
+  Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, ExtCtrls{, shellAPI};
 
 type
   TForm1 = class(TForm)
@@ -28,7 +30,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 
 var
   // colors:array[1..5] of Tcolor= (clblue, clblack, clred, clyellow, clgreen);  // mu changed look at below line
@@ -42,7 +44,7 @@ var
 begin
   x_colors[4] := rgb(242,196,0);  {make the 4th ring orange instead of yellow}
 
-  with image2, canvas do
+  with image2, image2.Canvas do
   begin
     {need to define picture size before we can draw on it}
     picture.bitmap.width:=Width;
@@ -73,7 +75,7 @@ begin
     begin
       pen.color:= x_colors[i];
       with c[i] do ellipse(x-r,y-r,x+r,y+r);
-      sleep(1000);
+      //sleep(100);
       update;
     end;
 
@@ -83,16 +85,16 @@ begin
     {1 and 4}
      pen.color:=x_colors[1];
      with c[1] do arc(x-r,y-r,x+r,y+r,   x+r,y+r,x+r,y);
-     update; sleep(1000);
+     update; //sleep(100);
 
     {2 and 4}
      pen.color:=x_colors[2];
      with c[2] do arc(x-r,y-r,x+r,y+r,  x-r,y+r,x,y+r);
-     update; sleep(1000);
+     update; //sleep(100);
 
      {2 and 5}
      with c[2] do arc(x-r,y-r,x+r,y+r,  x+r,y+r,x+r,y);
-     update; sleep(1000);
+     update; //sleep(100);
 
      {3 and 5}
      pen.color:=x_colors[3];
@@ -102,8 +104,9 @@ end;
 
 procedure TForm1.StaticText1Click(Sender: TObject);
 begin
-   ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL) ;
+  OpenURL('http://www.delphiforfun.org/');
+  //ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  //nil, nil, SW_SHOWNORMAL) ;
 end;
 
 end.

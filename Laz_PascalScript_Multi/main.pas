@@ -5,8 +5,9 @@ unit main;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, uPSComponent, Forms, Controls, Graphics, Dialogs,
-  StdCtrls,
+  Classes, LclIntf, Messages,LMessages, LclType, LResources,
+  SysUtils, FileUtil, uPSComponent, Forms, Controls, Graphics, Dialogs,
+  StdCtrls, ExtCtrls,
 
   uPSComponent_Default,
   uPSComponent_Forms,
@@ -14,14 +15,10 @@ uses
   uPSComponent_StdCtrls,
   uPSRuntime,uPSCompiler
 
-  {$IFDEF MSWINDOWS}
-  ,Windows
-  {$ENDIF}
   ;
-{$IFDEF MSWINDOWS}
+
 const
   WM_SET_CAPTION = WM_USER + $01;
-{$ENDIF}
 type
 
   { TForm1 }
@@ -40,9 +37,7 @@ type
   public
     { public declarations }
   protected
-    {$IFDEF MSWINDOWS}
-     procedure WMSetCaption(var Message: TMessage); message WM_SET_CAPTION;
-    {$ENDIF}
+     procedure WMSetCaption(var Message: TLMessage); message WM_SET_CAPTION;
   end;
 
 var
@@ -69,7 +64,12 @@ uses
 { TForm1 }
 
 
-{$IFDEF MSWINDOWS}
+procedure AppProcMes;
+begin
+  Application.ProcessMessages;
+  Sleep(1);
+end;
+
 procedure SetLabelCaption(const aName, aCaption:string);
 var
   C:TComponent;
@@ -79,9 +79,11 @@ begin
   len := (Length(aCaption) + 1) * SizeOf(Char);
   GetMem(buf, len);
   Move(aCaption[1], buf^, len);
-  SendMessage(Form1.Handle, WM_SET_CAPTION, Integer(Form1.FindComponent(aName)), Integer(buf));
+  LclIntf.SendMessage(Form1.Handle,
+                      WM_SET_CAPTION,
+                      Integer(Form1.FindComponent(aName)),
+                      Integer(buf));
 end;
-{$ENDIF}
 
 type
   TScriptThread = class (TThread)
@@ -98,7 +100,8 @@ type
 
 constructor TScriptThread.Create(aText:String);
 begin
-  inherited Create(False);
+  //inherited Create(False);
+  //inherited Create(True);
   FreeOnTerminate := True;
   fScript:=TPSScript.Create(nil);
   fScript.Script.Text := aText;
@@ -106,6 +109,7 @@ begin
   fScript.OnExecute := @PSScriptExecute;
   fScript.OnCompImport := @PSScriptCompImport;
   fScript.OnExecImport := @PSScriptExecImport;
+  Execute;
 end;
 
 destructor TScriptThread.Destroy;
@@ -144,18 +148,16 @@ end;
 
 procedure TScriptThread.PSScriptExecute(Sender: TPSScript);
 begin
-  //Sender.SetVarToInstance('Application', Application);
-  //Sender.SetVarToInstance('Form1', Self);
+  Sender.SetVarToInstance('Application', Application);
+  Sender.SetVarToInstance('Form1', Self);
 end;
 
 procedure TScriptThread.PSScriptCompile(Sender: TPSScript);
 begin
-  //Sender.AddRegisteredVariable('Application', 'TApplication');
-  //Sender.AddRegisteredVariable('Form1', 'TForm');
-  {$IFDEF MSWINDOWS}
-  Sender.AddFunction(@SetLabelCaption, 'procedure SetLabelCaption(const aName, aCaption:string)');
-  {$ENDIF}
-
+  Sender.AddRegisteredVariable('Application', 'TApplication');
+  Sender.AddRegisteredVariable('Form1', 'TForm');
+  Sender.AddFunction(@SetLabelCaption, 'procedure SetLabelCaption(const aName, aCaption:string);');
+  Sender.AddFunction(@AppProcMes, 'procedure AppProcMes;');
 end;
 
 
@@ -166,7 +168,6 @@ begin
   TScriptThread.Create(Memo3.Text);
 end;
 
-{$IFDEF MSWINDOWS}
 procedure TForm1.WMSetCaption(var Message: TMessage);
 var
   buf: pChar;
@@ -177,6 +178,6 @@ begin
     FreeMem(buf);
   end;
 end;
-{$ENDIF}
+
 end.
 

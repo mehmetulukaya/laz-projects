@@ -1,12 +1,12 @@
 object Form1: TForm1
-  Left = 300
+  Left = 258
   Height = 328
-  Top = 121
+  Top = 0
   Width = 661
   Caption = 'Form1'
   ClientHeight = 328
   ClientWidth = 661
-  LCLVersion = '1.4.2.0'
+  LCLVersion = '1.6.0.4'
   object Label1: TLabel
     Left = 16
     Height = 13
@@ -47,8 +47,9 @@ object Form1: TForm1
       '  repeat    '
       '    SetLabelCaption(''Label1'', '
       'inttostr(sayi));'
+      '   AppProcMes;'
       '    inc(sayi);'
-      '  until sayi>30000;'
+      '  until sayi>300;'
       'end.'
     )
     TabOrder = 0
@@ -75,8 +76,9 @@ object Form1: TForm1
       '  repeat    '
       '    SetLabelCaption(''Label2'', '
       'inttostr(sayi));'
+      '   AppProcMes;'
       '    inc(sayi);'
-      '  until sayi>30000;'
+      '  until sayi>300;'
       'end.'
     )
     TabOrder = 2
@@ -94,8 +96,9 @@ object Form1: TForm1
       '  repeat    '
       '    SetLabelCaption(''Label3'', '
       'inttostr(sayi));'
+      '   AppProcMes;'
       '    inc(sayi);'
-      '  until sayi>30000;'
+      '  until sayi>300;'
       'end.'
     )
     TabOrder = 3

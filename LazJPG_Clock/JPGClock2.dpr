@@ -9,7 +9,7 @@ uses
   Forms, Interfaces,
   U_JPGClock2 in 'U_JPGClock2.pas' {Form1};
 
-{$R *.RES}
+{$R *.res}
                    
 begin
   Application.Initialize;

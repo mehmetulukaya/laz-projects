@@ -118,6 +118,7 @@
           </Parsing>
           <CodeGeneration>
             <SmartLinkUnit Value="True"/>
+            <TargetOS Value="win32"/>
             <Optimizations>
               <OptimizationLevel Value="3"/>
             </Optimizations>
@@ -160,12 +161,10 @@
         <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Frm_TstPlayMidi"/>
       </Unit1>
       <Unit2>
         <Filename Value="..\Source\Unt_PlayMidi.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Unt_PlayMidi"/>
       </Unit2>
     </Units>
   </ProjectOptions>

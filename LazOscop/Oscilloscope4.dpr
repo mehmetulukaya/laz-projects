@@ -19,7 +19,7 @@ uses
   UWavein4 in 'UWavein4.pas',
   U_Spectrum4 in 'U_Spectrum4.pas' {Form2};
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

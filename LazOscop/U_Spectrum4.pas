@@ -82,7 +82,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 
 var
   Lsp:integer=2;  {pixels between spectrum lines}

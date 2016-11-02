@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
-  <Compiler Value="D:\lazarus\fpc\2.6.4\bin\i386-win32\fpc.exe" Date="1184004117"/>
-  <Params Value=" -MObjFPC -Schi -CX -O3 -XX -WG -l -vewnhibq -FiD:\lazarus\examples\MU_Projects\LazPlayMidi\FPC\i386-win32\units -FiD:\lazarus\examples\MU_Projects\include -FuD:\lazarus\examples\MU_Projects\LazPlayMidi\Source -FuD:\lazarus\lcl\units\i386-win32\win32 -FuD:\lazarus\lcl\units\i386-win32 -FuD:\lazarus\components\lazutils\lib\i386-win32 -FuD:\lazarus\packager\units\i386-win32 -FuD:\lazarus\examples\MU_Projects\LazPlayMidi\FPC\ -FUD:\lazarus\examples\MU_Projects\LazPlayMidi\FPC\i386-win32\units\ -FED:\lazarus\examples\MU_Projects\LazPlayMidi\FPC\i386-win32\ -dLCL -dLCLwin32 Prj_TstPlayMidi.dpr"/>
+  <Compiler Value="/usr/bin/fpc" Date="1449326971"/>
+  <Params Value=" -Twin32 -MObjFPC -Schi -CX -O3 -XX -WG -l -vewnhibq -Fi/home/mehmet/Belgeler/GitProjects/laz-projects/LazPlayMidi/FPC/i386-win32/units -Fi/home/mehmet/Belgeler/GitProjects/laz-projects/include -Fu/home/mehmet/Belgeler/GitProjects/laz-projects/LazPlayMidi/Source -Fu/home/mehmet/.lazarus/lib/units/i386-win32/win32 -Fu/home/mehmet/.lazarus/lib/LCLBase/units/i386-win32 -Fu/home/mehmet/.lazarus/lib/LazUtils/lib/i386-win32 -Fu/home/mehmet/.lazarus/lib/units/i386-win32 -Fu/home/mehmet/Belgeler/GitProjects/laz-projects/LazPlayMidi/FPC/ -FU/home/mehmet/Belgeler/GitProjects/laz-projects/LazPlayMidi/FPC/i386-win32/units/ -FE/home/mehmet/Belgeler/GitProjects/laz-projects/LazPlayMidi/FPC/i386-win32/ -dLCL -dLCLwin32 Prj_TstPlayMidi.dpr"/>
+  <Complete Value="False"/>
 </CONFIG>

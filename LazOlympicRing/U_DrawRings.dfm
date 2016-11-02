@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 285
+  Left = 277
   Height = 417
-  Top = 128
+  Top = 0
   Width = 567
   Caption = 'Draw Olympic Rings'
   ClientHeight = 417
@@ -11,7 +11,7 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'MS Sans Serif'
   Position = poScreenCenter
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.6.0.4'
   object Image1: TImage
     Left = 280
     Height = 121

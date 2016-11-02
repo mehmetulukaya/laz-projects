@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 279
+  Left = 277
   Height = 446
-  Top = 137
+  Top = 89
   Width = 665
   Caption = 'Molekyl6'
-  ClientHeight = 426
+  ClientHeight = 425
   ClientWidth = 665
   Color = clBtnFace
   Font.Color = clWindowText
@@ -13,10 +13,10 @@ object Form1: TForm1
   Menu = MainMenu1
   OnActivate = FormActivate
   OnCloseQuery = FormCloseQuery
-  LCLVersion = '1.4.4.0'
+  LCLVersion = '1.6.0.4'
   object Image1: TImage
     Left = 0
-    Height = 403
+    Height = 402
     Top = 0
     Width = 665
     Align = alClient
@@ -25,7 +25,7 @@ object Form1: TForm1
   object StatusBar1: TStatusBar
     Left = 0
     Height = 23
-    Top = 403
+    Top = 402
     Width = 665
     Panels = <    
       item

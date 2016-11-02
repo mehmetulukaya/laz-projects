@@ -3,7 +3,9 @@ unit UfrmMain;
 interface
 
 uses
-  Windows, SysUtils, Classes, Graphics, Controls, Forms,
+  {Windows,}
+ lclintf, LCLType,
+  sysutils, Classes, Graphics, Controls, Forms,
   Dialogs, StdCtrls, Spin, Buttons,
   UMakeMaze,   ExtCtrls, ComCtrls, Menus;
 

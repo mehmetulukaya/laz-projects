@@ -9,7 +9,7 @@
         <Filename Value="Prj_TstPlayMidi.dpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="23" Y="12"/>
+        <CursorPos X="17" Y="9"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -19,8 +19,8 @@
         <ComponentName Value="Form2"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Frm_TstPlayMidi"/>
         <EditorIndex Value="2"/>
+        <TopLine Value="21"/>
         <CursorPos X="16" Y="132"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -29,9 +29,9 @@
       <Unit2>
         <Filename Value="..\Source\Unt_PlayMidi.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Unt_PlayMidi"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="20" Y="71"/>
+        <TopLine Value="10"/>
+        <CursorPos X="29" Y="16"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -43,7 +43,7 @@
         <UsageCount Value="10"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="18" HistoryIndex="17">
+    <JumpHistory Count="20" HistoryIndex="19">
       <Position1>
         <Filename Value="Prj_TstPlayMidi.dpr"/>
       </Position1>
@@ -114,6 +114,14 @@
         <Filename Value="..\Source\Unt_PlayMidi.pas"/>
         <Caret Line="13" TopLine="13"/>
       </Position18>
+      <Position19>
+        <Filename Value="..\Source\Unt_PlayMidi.pas"/>
+        <Caret Line="71" Column="20" TopLine="48"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Prj_TstPlayMidi.dpr"/>
+        <Caret Line="12" Column="23"/>
+      </Position20>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

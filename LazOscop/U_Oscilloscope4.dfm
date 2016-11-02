@@ -1,11 +1,11 @@
 object frmMain: TfrmMain
-  Left = 180
+  Left = 0
   Height = 682
   Top = 8
-  Width = 1096
+  Width = 1022
   Caption = 'Dual Trace Oscilloscope Ver 4.2.4'
-  ClientHeight = 662
-  ClientWidth = 1096
+  ClientHeight = 661
+  ClientWidth = 1022
   Color = clBtnFace
   Font.Color = clWindowText
   Font.Height = -11
@@ -15,12 +15,12 @@ object frmMain: TfrmMain
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
   Position = poScreenCenter
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.6.0.4'
   object statustext: TPanel
     Left = 0
     Height = 36
     Top = 0
-    Width = 1096
+    Width = 1022
     Align = alTop
     BevelInner = bvLowered
     BevelWidth = 2
@@ -38,11 +38,11 @@ object frmMain: TfrmMain
     Left = 0
     Height = 463
     Top = 36
-    Width = 1096
+    Width = 1022
     Align = alTop
     Caption = 'Panel5'
     ClientHeight = 463
-    ClientWidth = 1096
+    ClientWidth = 1022
     TabOrder = 1
     object Panel6: TPanel
       Left = 730
@@ -165,8 +165,8 @@ object frmMain: TfrmMain
         Top = 200
         Width = 160
         Caption = 'Trigger'
-        ClientHeight = 234
-        ClientWidth = 156
+        ClientHeight = 237
+        ClientWidth = 158
         TabOrder = 1
         object btnTriggCh1: TSpeedButton
           Left = 9
@@ -209,7 +209,7 @@ object frmMain: TfrmMain
         end
         object Label4: TLabel
           Left = 81
-          Height = 13
+          Height = 14
           Top = 13
           Width = 7
           Caption = '0'
@@ -217,9 +217,9 @@ object frmMain: TfrmMain
         end
         object Label3: TLabel
           Left = 9
-          Height = 16
+          Height = 17
           Top = 233
-          Width = 150
+          Width = 142
           Caption = 'Level (-128 to +128): '
           Font.Color = clWindowText
           Font.Height = -13
@@ -349,14 +349,14 @@ object frmMain: TfrmMain
         Top = 9
         Width = 136
         Caption = 'Channel 1'
-        ClientHeight = 199
-        ClientWidth = 132
+        ClientHeight = 202
+        ClientWidth = 134
         TabOrder = 0
         object Label5: TLabel
           Left = 84
-          Height = 16
+          Height = 17
           Top = 17
-          Width = 41
+          Width = 39
           Caption = 'Offset'
           Font.Color = clWindowText
           Font.Height = -13
@@ -366,7 +366,7 @@ object frmMain: TfrmMain
         end
         object Label6: TLabel
           Left = 9
-          Height = 20
+          Height = 21
           Top = 65
           Width = 39
           Caption = 'Gain'
@@ -405,7 +405,7 @@ object frmMain: TfrmMain
         end
         object upGainCh1: TUpDown
           Left = 41
-          Height = 28
+          Height = 31
           Top = 91
           Width = 21
           Associate = edtGainCh1
@@ -417,7 +417,7 @@ object frmMain: TfrmMain
         end
         object edtGainCh1: TEdit
           Left = 8
-          Height = 28
+          Height = 31
           Top = 91
           Width = 33
           Font.Color = clWindowText
@@ -430,9 +430,9 @@ object frmMain: TfrmMain
         end
         object OnCh1Box: TCheckBox
           Left = 8
-          Height = 24
+          Height = 22
           Top = 24
-          Width = 46
+          Width = 41
           Caption = 'On'
           Font.Color = clWindowText
           Font.Height = -17
@@ -449,14 +449,14 @@ object frmMain: TfrmMain
         Top = 234
         Width = 137
         Caption = 'Channel 2'
-        ClientHeight = 200
-        ClientWidth = 133
+        ClientHeight = 203
+        ClientWidth = 135
         TabOrder = 1
         object Label7: TLabel
           Left = 84
-          Height = 16
+          Height = 17
           Top = 17
-          Width = 41
+          Width = 39
           Caption = 'Offset'
           Font.Color = clWindowText
           Font.Height = -13
@@ -466,7 +466,7 @@ object frmMain: TfrmMain
         end
         object Label8: TLabel
           Left = 9
-          Height = 20
+          Height = 21
           Top = 73
           Width = 39
           Caption = 'Gain'
@@ -505,7 +505,7 @@ object frmMain: TfrmMain
         end
         object upGainCh2: TUpDown
           Left = 36
-          Height = 28
+          Height = 31
           Top = 99
           Width = 21
           Associate = edtGainCh2
@@ -517,7 +517,7 @@ object frmMain: TfrmMain
         end
         object edtGainCh2: TEdit
           Left = 8
-          Height = 28
+          Height = 31
           Top = 99
           Width = 28
           Font.Color = clWindowText
@@ -530,9 +530,9 @@ object frmMain: TfrmMain
         end
         object OnCh2Box: TCheckBox
           Left = 8
-          Height = 24
+          Height = 22
           Top = 32
-          Width = 46
+          Width = 41
           Caption = 'On'
           Font.Color = clWindowText
           Font.Height = -17
@@ -561,8 +561,8 @@ object frmMain: TfrmMain
         Top = 4
         Width = 131
         Caption = 'Time'
-        ClientHeight = 331
-        ClientWidth = 127
+        ClientHeight = 334
+        ClientWidth = 129
         TabOrder = 0
         object Label2: TLabel
           Left = 9
@@ -576,9 +576,9 @@ object frmMain: TfrmMain
         end
         object ScaleLbl: TLabel
           Left = 15
-          Height = 13
+          Height = 14
           Top = 22
-          Width = 36
+          Width = 34
           Caption = 'Scale:'
           ParentColor = False
         end
@@ -612,7 +612,7 @@ object frmMain: TfrmMain
         end
         object SweepEdt: TEdit
           Left = 9
-          Height = 21
+          Height = 24
           Top = 151
           Width = 31
           OnChange = SweepEdtChange
@@ -621,7 +621,7 @@ object frmMain: TfrmMain
         end
         object SweepUD: TUpDown
           Left = 40
-          Height = 21
+          Height = 24
           Top = 151
           Width = 17
           Associate = SweepEdt
@@ -638,8 +638,8 @@ object frmMain: TfrmMain
         Top = 191
         Width = 131
         Caption = 'Capture frame'
-        ClientHeight = 144
-        ClientWidth = 127
+        ClientHeight = 147
+        ClientWidth = 129
         TabOrder = 1
         object btnExpand1: TSpeedButton
           Left = 9
@@ -680,17 +680,17 @@ object frmMain: TfrmMain
         end
         object Label11: TLabel
           Left = 9
-          Height = 13
+          Height = 14
           Top = 17
-          Width = 47
+          Width = 46
           Caption = 'Expand:'
           ParentColor = False
         end
         object Label13: TLabel
           Left = 9
-          Height = 13
+          Height = 14
           Top = 61
-          Width = 31
+          Width = 30
           Caption = 'Gain:'
           ParentColor = False
         end
@@ -724,9 +724,9 @@ object frmMain: TfrmMain
         end
         object Label12: TLabel
           Left = 40
-          Height = 13
+          Height = 14
           Top = 110
-          Width = 54
+          Width = 50
           Caption = '<-- X -->'
           ParentColor = False
           OnDblClick = Label12DblClick
@@ -751,20 +751,20 @@ object frmMain: TfrmMain
         Width = 140
         Align = alBottom
         Caption = 'Intensities'
-        ClientHeight = 79
-        ClientWidth = 136
+        ClientHeight = 82
+        ClientWidth = 138
         TabOrder = 2
         object Label9: TLabel
           Left = 9
-          Height = 13
+          Height = 14
           Top = 30
-          Width = 31
+          Width = 30
           Caption = 'Scale'
           ParentColor = False
         end
         object Label1: TLabel
           Left = 54
-          Height = 13
+          Height = 14
           Top = 30
           Width = 33
           Caption = 'Beam'
@@ -772,7 +772,7 @@ object frmMain: TfrmMain
         end
         object Label10: TLabel
           Left = 93
-          Height = 13
+          Height = 14
           Top = 30
           Width = 30
           Caption = 'focus'
@@ -829,8 +829,8 @@ object frmMain: TfrmMain
       TabOrder = 3
       object IntroSheet: TTabSheet
         Caption = 'Introduction'
-        ClientHeight = 435
-        ClientWidth = 567
+        ClientHeight = 429
+        ClientWidth = 569
         ImageIndex = 1
         object Memo1: TMemo
           Left = 0
@@ -872,28 +872,25 @@ object frmMain: TfrmMain
       end
       object Runsheet: TTabSheet
         Caption = 'Oscilloscope'
-        ClientHeight = 435
-        ClientWidth = 567
+        ClientHeight = 429
+        ClientWidth = 569
         inline frmOscilloscope1: TfrmOscilloscope
-          Height = 435
-          Width = 567
+          Height = 429
+          Width = 569
           Align = alClient
-          ClientHeight = 435
-          ClientWidth = 567
+          ClientHeight = 429
+          ClientWidth = 569
           inherited Image1: TImage
-            Height = 435
-            Width = 567
+            Height = 429
+            Width = 569
             Stretch = True
           end
           inherited Image2: TImage
-            Left = 0
             Height = 347
-            Top = 0
             Width = 483
           end
           inherited ImgScreen: TImage
             Left = 252
-            Top = 128
           end
         end
       end
@@ -903,8 +900,8 @@ object frmMain: TfrmMain
     Cursor = crHandPoint
     Left = 0
     Height = 20
-    Top = 642
-    Width = 1096
+    Top = 641
+    Width = 1022
     Align = alBottom
     Alignment = taCenter
     Caption = 'Copyright © 2014, Gary Darby,  www.DelphiForFun.org'

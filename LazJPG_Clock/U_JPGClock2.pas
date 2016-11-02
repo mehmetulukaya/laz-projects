@@ -8,13 +8,18 @@ unit U_JPGClock2;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  shellAPI, StdCtrls, ExtCtrls, ComCtrls, {jpeg,} Spin, dateutils, Inifiles,
+  {Windows,} LCLIntf,LCLType, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  {shellAPI,} StdCtrls, ExtCtrls, ComCtrls, {jpeg,} Spin, dateutils, Inifiles,
+
+
 
   DateTimePicker;
 
 type
   TClockMode=(Realtime, Onetime, FastTime, Stopped);
+
+  { TForm1 }
+
   TForm1 = class(TForm)
     StaticText1: TStaticText;
     PageControl1: TPageControl;
@@ -64,6 +69,7 @@ type
     procedure LoadBtnClick(Sender: TObject);
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
     procedure NewBtnClick(Sender: TObject);
+    procedure TabSheet2Show(Sender: TObject);
     procedure TesttimeClick(Sender: TObject);
     procedure runclock;
     procedure FormActivate(Sender: TObject);
@@ -89,19 +95,20 @@ type
     function checkmodified:boolean;
     {Two rotate bmp procedures tested: times and results are approximately equal}
     {Set world transfer method}
-    (*
-    procedure RotateBitmapSWT(Bmp: TBitmap; Rads: Single; AdjustSize: Boolean;
-                              BkColor: TColor = clNone); *)
+
+    {procedure RotateBitmapSWT(Bmp: TBitmap; Rads: Single; AdjustSize: Boolean;
+                              BkColor: TColor = clNone);}
     {Parallelogram Blit method}
-    procedure RotateBitmapPLG(Bmp: TBitmap; Rads: Single; AdjustSize: Boolean;
-                              BkColor: TColor = clNone);
+    {procedure RotateBitmapPLG(Bmp: TBitmap; Rads: Single; AdjustSize: Boolean;
+                              BkColor: TColor = clNone);}
+
   end;
 
 var
   Form1: TForm1;
 
 implementation
-{$R *.DFM}
+{$R *.dfm}
 uses math;
 const
   TwoPi=2*Pi;
@@ -346,7 +353,8 @@ begin
       canvas.draw(facecenter.x-trunc(scalem*mcenter.x),
                  facecenter.y-trunc(scalem*Mcenter.y),minutebitmap);
     end;
-    RotateBitmapPlg(minutehandmap, Minangle,false, clwhite);
+    //RotateBitmapPlg(minutehandmap, Minangle,false, clwhite);
+    //RotateBitmapSWT(minutehandmap, Minangle,false, clwhite);
 
     {rotate hour hand}
     with hourHandmap, canvas do
@@ -357,7 +365,8 @@ begin
       canvas.draw(facecenter.x-trunc(scaleh*Hcenter.x),
                   facecenter.y-trunc(scaleh*Hcenter.y),Hourbitmap);
     end;
-    RotateBitmapPLG(HourHandmap, HourAngle,false, clwhite);
+    //RotateBitmapPLG(HourHandmap, HourAngle,false, clwhite);
+    //RotateBitmapSWT(HourHandmap, HourAngle,false, clwhite);
 
     with faceimage.picture.Bitmap do
     begin
@@ -482,6 +491,11 @@ begin
   newclock;
 end;
 
+procedure TForm1.TabSheet2Show(Sender: TObject);
+begin
+  FaceImage.Picture.LoadFromFile(dir+'PlainFace.bmp');
+end;
+
 {*********** LoadClock **********}
 procedure TForm1.loadclock(filename:String);
 {Load a predefined clock definition}
@@ -580,9 +594,9 @@ begin
    runclock;
 end;
 
-(*
+
 {SetWorldPlatform rotation method}
-procedure TForm1.RotateBitmapSWT(Bmp: TBitmap; Rads: Single; AdjustSize: Boolean;
+{procedure TForm1.RotateBitmapSWT(Bmp: TBitmap; Rads: Single; AdjustSize: Boolean;
   BkColor: TColor = clNone);
 var
   C: Single;
@@ -624,11 +638,11 @@ begin
   finally
     Tmp.Free;
   end;
-end;
-*)
+end;}
+
 
 {Parallelogram  Blt}
-procedure TForm1.RotateBitmapPLG(Bmp: TBitmap; Rads: Single; AdjustSize: Boolean;
+{procedure TForm1.RotateBitmapPLG(Bmp: TBitmap; Rads: Single; AdjustSize: Boolean;
   BkColor: TColor = clNone);
 var
   C: Single;
@@ -673,14 +687,13 @@ begin
   finally
     Tmp.Free;
   end;
-end;
+end; }
 
 procedure TForm1.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL) ;
+  OpenURL('http://www.delphiforfun.org/');
+  //ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  //nil, nil, SW_SHOWNORMAL) ;
 end;
-
-
 
 end.

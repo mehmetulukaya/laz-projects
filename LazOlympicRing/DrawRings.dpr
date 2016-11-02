@@ -4,7 +4,7 @@ uses
   Forms, Interfaces,
   U_DrawRings in 'U_DrawRings.pas' {Form1};
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

@@ -8,18 +8,18 @@
       <Unit0>
         <Filename Value="OpenGLApp.dpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="73"/>
-        <CursorPos X="13" Y="92"/>
+        <TopLine Value="3"/>
+        <CursorPos X="5" Y="15"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit0>
       <Unit1>
         <Filename Value="Textures.pas"/>
-        <UnitName Value="Textures"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos Y="234"/>
+        <TopLine Value="14"/>
+        <CursorPos X="11" Y="29"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -67,7 +67,7 @@
         <UsageCount Value="10"/>
       </Unit7>
     </Units>
-    <JumpHistory Count="12" HistoryIndex="11">
+    <JumpHistory Count="14" HistoryIndex="13">
       <Position1>
         <Filename Value="Textures.pas"/>
         <Caret Line="233" TopLine="222"/>
@@ -116,6 +116,14 @@
         <Filename Value="Textures.pas"/>
         <Caret Line="234" TopLine="223"/>
       </Position12>
+      <Position13>
+        <Filename Value="OpenGLApp.dpr"/>
+        <Caret Line="92" Column="13" TopLine="103"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Textures.pas"/>
+        <Caret Line="234"/>
+      </Position14>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

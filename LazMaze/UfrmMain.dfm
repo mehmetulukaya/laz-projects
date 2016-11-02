@@ -1,10 +1,10 @@
 object frmMain: TfrmMain
-  Left = 303
+  Left = 301
   Height = 570
-  Top = 114
+  Top = 66
   Width = 653
   Caption = 'frmMain'
-  ClientHeight = 550
+  ClientHeight = 549
   ClientWidth = 653
   Color = clBtnFace
   Font.Color = clWindowText
@@ -15,46 +15,46 @@ object frmMain: TfrmMain
   OnCreate = FormCreate
   OnDestroy = FormDestroy
   OnShow = FormShow
-  LCLVersion = '1.4.0.4'
+  LCLVersion = '1.6.0.4'
   object pnlLeft: TPanel
     Left = 0
-    Height = 527
+    Height = 526
     Top = 0
     Width = 133
     Align = alLeft
     BevelOuter = bvLowered
-    ClientHeight = 527
+    ClientHeight = 526
     ClientWidth = 133
     TabOrder = 0
     object Label3: TLabel
       Left = 8
-      Height = 13
+      Height = 14
       Top = 292
-      Width = 53
+      Width = 61
       Caption = 'Block Size:'
       ParentColor = False
     end
     object Label2: TLabel
       Left = 32
-      Height = 13
+      Height = 14
       Top = 132
-      Width = 27
+      Width = 30
       Caption = 'Rows'
       ParentColor = False
     end
     object Label5: TLabel
       Left = 32
-      Height = 13
+      Height = 14
       Top = 148
-      Width = 40
+      Width = 49
       Caption = 'Columns'
       ParentColor = False
     end
     object lblRows: TLabel
       Left = 76
-      Height = 13
+      Height = 14
       Top = 132
-      Width = 45
+      Width = 49
       Caption = 'lblRows'
       Font.Color = clWindowText
       Font.Height = -11
@@ -65,9 +65,9 @@ object frmMain: TfrmMain
     end
     object lblCols: TLabel
       Left = 76
-      Height = 13
+      Height = 14
       Top = 148
-      Width = 38
+      Width = 43
       Caption = 'lblCols'
       Font.Color = clWindowText
       Font.Height = -11
@@ -88,31 +88,31 @@ object frmMain: TfrmMain
     end
     object Label4: TLabel
       Left = 8
-      Height = 13
+      Height = 14
       Top = 372
-      Width = 114
+      Width = 136
       Caption = 'Colors (click to change):'
       ParentColor = False
     end
     object Label6: TLabel
       Left = 8
-      Height = 13
+      Height = 14
       Top = 316
-      Width = 48
+      Width = 56
       Caption = 'Step Size:'
       ParentColor = False
     end
     object Label7: TLabel
       Left = 8
-      Height = 13
+      Height = 14
       Top = 340
-      Width = 50
+      Width = 58
       Caption = 'Ends Size:'
       ParentColor = False
     end
     object sbCols: TScrollBar
       Left = 22
-      Height = 16
+      Height = 14
       Top = 106
       Width = 105
       LargeChange = 16
@@ -127,7 +127,7 @@ object frmMain: TfrmMain
       Left = 4
       Height = 105
       Top = 124
-      Width = 16
+      Width = 14
       Kind = sbVertical
       LargeChange = 16
       Max = 256
@@ -139,7 +139,7 @@ object frmMain: TfrmMain
     end
     object spnRandSeed: TSpinEdit
       Left = 28
-      Height = 21
+      Height = 24
       Top = 256
       Width = 81
       Enabled = False
@@ -148,9 +148,9 @@ object frmMain: TfrmMain
     end
     object chkRandSeed: TCheckBox
       Left = 10
-      Height = 19
+      Height = 22
       Top = 236
-      Width = 96
+      Width = 115
       Caption = 'Use Rand Seed'
       OnClick = chkRandSeedClick
       TabOrder = 3
@@ -247,9 +247,9 @@ object frmMain: TfrmMain
     end
     object chkAutoSolve: TCheckBox
       Left = 8
-      Height = 19
+      Height = 22
       Top = 64
-      Width = 103
+      Width = 128
       Caption = 'Solve on creation'
       Checked = True
       State = cbChecked
@@ -257,7 +257,7 @@ object frmMain: TfrmMain
     end
     object spnTileSize: TSpinEdit
       Left = 64
-      Height = 21
+      Height = 24
       Top = 288
       Width = 61
       MaxValue = 36
@@ -282,9 +282,9 @@ object frmMain: TfrmMain
     end
     object chkShowVisited: TCheckBox
       Left = 8
-      Height = 19
+      Height = 22
       Top = 84
-      Width = 106
+      Width = 132
       Caption = 'Show Visited Cells'
       OnClick = chkShowVisitedClick
       TabOrder = 14
@@ -292,7 +292,7 @@ object frmMain: TfrmMain
     object spnStepSize: TSpinEdit
       Tag = 1
       Left = 64
-      Height = 21
+      Height = 24
       Top = 312
       Width = 61
       MaxValue = 36
@@ -304,7 +304,7 @@ object frmMain: TfrmMain
     object spnEndsSize: TSpinEdit
       Tag = 2
       Left = 64
-      Height = 21
+      Height = 24
       Top = 336
       Width = 61
       MaxValue = 36
@@ -316,12 +316,12 @@ object frmMain: TfrmMain
   end
   object pnlPaintArea: TPanel
     Left = 133
-    Height = 527
+    Height = 526
     Top = 0
     Width = 520
     Align = alClient
     BevelOuter = bvLowered
-    ClientHeight = 527
+    ClientHeight = 526
     ClientWidth = 520
     Color = clWhite
     ParentColor = False
@@ -329,7 +329,7 @@ object frmMain: TfrmMain
     OnResize = pnlPaintAreaResize
     object pb: TPaintBox
       Left = 1
-      Height = 525
+      Height = 524
       Top = 1
       Width = 518
       Align = alClient
@@ -342,7 +342,7 @@ object frmMain: TfrmMain
   object sb: TStatusBar
     Left = 0
     Height = 23
-    Top = 527
+    Top = 526
     Width = 653
     Panels = <>
   end

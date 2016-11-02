@@ -91,7 +91,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 
 
 var

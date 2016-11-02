@@ -10,7 +10,7 @@ uses
   Forms, Interfaces,
   U_Molecules in 'U_Molecules.pas' {Form1};
 
-{$R *.RES}
+{$R *.res}
 
 begin
   Application.Initialize;

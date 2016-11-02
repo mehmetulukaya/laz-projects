@@ -35,7 +35,9 @@ run.  Many thanks to "Krille", a very sharp Delphi programmer from Sweden.
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  {Windows, }
+  LCLIntf,LCLType,
+  Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   StdCtrls, UWaveIn4 ,mmsystem,  ExtCtrls, ComCtrls, shellApi, Menus, Buttons,
   ufrmOscilloscope4;  //, ufrmInputControl4;
 
@@ -234,7 +236,7 @@ implementation
 
 uses U_Spectrum4,uSettings ;
 
-{$R *.DFM}
+{$R *.dfm}
 var
   framesPerBuffer:integer=2;
   numbuffers :integer=4;
@@ -932,7 +934,7 @@ end;
 {************** StaticText1Click ************}
 procedure TfrmMain.StaticText1Click(Sender: TObject);
 begin
-   ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
+  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
                nil, nil, SW_SHOWNORMAL);
 end;
 

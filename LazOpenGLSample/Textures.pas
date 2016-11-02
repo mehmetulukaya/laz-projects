@@ -24,7 +24,9 @@ unit Textures;
 interface
 
 uses
-  Windows,
+  //Windows,
+  LCLIntf,
+  LCLType,
   // OpenGL,
   Gl,
   Glu,

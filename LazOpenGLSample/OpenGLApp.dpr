@@ -12,7 +12,9 @@
 program OpenGLApp;
 
 uses
-  Windows,
+  //Windows,
+  lclintf,
+  LCLType,
   Messages,
   // OpenGL,
   Gl,

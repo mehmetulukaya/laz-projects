@@ -8,7 +8,7 @@
       <Unit0>
         <Filename Value="DrawRings.dpr"/>
         <IsPartOfProject Value="True"/>
-        <CursorPos X="23" Y="5"/>
+        <CursorPos X="10" Y="7"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -17,11 +17,10 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="U_DrawRings"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="46"/>
-        <CursorPos X="20" Y="46"/>
+        <TopLine Value="39"/>
+        <CursorPos X="29" Y="47"/>
         <UsageCount Value="10"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -29,23 +28,21 @@
       <Unit2>
         <Filename Value="..\..\fpc\2.6.4\source\packages\fcl-image\src\fpcanvas.pp"/>
         <UnitName Value="FPCanvas"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="352"/>
         <CursorPos X="14" Y="362"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\lcl\graphics.pp"/>
         <UnitName Value="Graphics"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="666"/>
         <CursorPos X="14" Y="677"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit3>
     </Units>
-    <JumpHistory Count="8" HistoryIndex="7">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
         <Filename Value="DrawRings.dpr"/>
         <Caret Line="5" Column="23"/>
@@ -78,6 +75,38 @@
         <Filename Value="U_DrawRings.pas"/>
         <Caret Line="74" Column="21" TopLine="62"/>
       </Position8>
+      <Position9>
+        <Filename Value="U_DrawRings.pas"/>
+        <Caret Line="46" Column="20" TopLine="46"/>
+      </Position9>
+      <Position10>
+        <Filename Value="U_DrawRings.pas"/>
+        <Caret Line="31" Column="10" TopLine="13"/>
+      </Position10>
+      <Position11>
+        <Filename Value="U_DrawRings.pas"/>
+        <Caret Line="13" Column="19"/>
+      </Position11>
+      <Position12>
+        <Filename Value="U_DrawRings.pas"/>
+        <Caret Line="15" Column="33" TopLine="3"/>
+      </Position12>
+      <Position13>
+        <Filename Value="U_DrawRings.pas"/>
+        <Caret Line="109" Column="5" TopLine="87"/>
+      </Position13>
+      <Position14>
+        <Filename Value="U_DrawRings.pas"/>
+        <Caret Line="47" Column="27" TopLine="36"/>
+      </Position14>
+      <Position15>
+        <Filename Value="U_DrawRings.pas"/>
+        <Caret Line="86" Column="22" TopLine="76"/>
+      </Position15>
+      <Position16>
+        <Filename Value="U_DrawRings.pas"/>
+        <Caret Line="47" Column="26" TopLine="33"/>
+      </Position16>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
