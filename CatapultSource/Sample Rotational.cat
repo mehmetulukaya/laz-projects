@@ -1,0 +1,22 @@
+[General]
+Unitstype=2
+Gravity=32.15184
+Air Drag Coef=0.05
+[Geometry]
+Initial Angle=-10
+Final Angle=50
+Pivot Height=3.2808
+Fixed Spring End=0
+Fixed Angle Force=50
+Spring Constant=56.25
+Beam Force Dist.=-3.2808
+Beam Length=8.202
+Beam Projectile Dist.=6.5616
+Beam Mass=0
+Projectile Mass=2.25
+[Simulator]
+Fire Max Secs=1
+Flight Max Secs=20
+Fire Return rate=20
+Fire Calc per return=10
+Flight Calc per return=10
