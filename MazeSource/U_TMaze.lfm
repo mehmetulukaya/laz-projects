@@ -1,0 +1,36 @@
+object MazeMsgForm: TMazeMsgForm
+  Left = 518
+  Top = 247
+  Width = 828
+  Height = 582
+  Caption = 'MazeMsgForm'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  PixelsPerInch = 120
+  object Image1: TImage
+    Left = 272
+    Top = 57
+    Width = 368
+    Height = 360
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 518
+    Width = 810
+    Height = 19
+    Panels = <    
+      item
+        Text = 'Status: New maze'
+        Width = 100
+      end    
+      item
+        Text = 'File: None'
+        Width = 100
+      end>
+    SimplePanel = False
+  end
+end

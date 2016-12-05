@@ -1,0 +1,32 @@
+object HelpForm: THelpForm
+  Left = 167
+  Top = 51
+  Width = 522
+  Height = 512
+  Anchors = [akLeft, akTop, akRight, akBottom]
+  Caption = 'Maze Help'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OnActivate = FormCreate
+  PixelsPerInch = 96
+  object RichEdit1: TRichEdit
+    Left = 26
+    Top = 26
+    Width = 456
+    Height = 431
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    ParentShowHint = False
+    ScrollBars = ssVertical
+    ShowHint = True
+    TabOrder = 0
+  end
+end

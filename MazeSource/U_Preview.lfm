@@ -1,0 +1,146 @@
+object PreviewForm: TPreviewForm
+  Left = 107
+  Top = 124
+  BorderStyle = bsDialog
+  Caption = 'Print Preview'
+  ClientHeight = 470
+  ClientWidth = 660
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -10
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Position = poScreenCenter
+  WindowState = wsMaximized
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  object Image1: TImage
+    Left = 202
+    Top = 13
+    Width = 429
+    Height = 430
+  end
+  object BitBtn1: TBitBtn
+    Left = 111
+    Top = 410
+    Width = 60
+    Height = 31
+    TabOrder = 0
+    Kind = bkOK
+  end
+  object ScalingGroup: TRadioGroup
+    Left = 20
+    Top = 52
+    Width = 130
+    Height = 59
+    Caption = 'Scaling'
+    ItemIndex = 0
+    Items.Strings = (
+      'Full size'
+      'Scale to fit  page'
+    )
+    TabOrder = 1
+    OnClick = ScalingGroupClick
+  end
+  object Layoutgroup: TRadioGroup
+    Left = 20
+    Top = 124
+    Width = 130
+    Height = 52
+    Caption = 'Paper Layout'
+    ItemIndex = 1
+    Items.Strings = (
+      'Portrait'
+      'Landscape'
+    )
+    TabOrder = 2
+    OnClick = LayoutgroupClick
+  end
+  object PrevBtn: TButton
+    Left = 18
+    Top = 20
+    Width = 61
+    Height = 20
+    Caption = 'Prev page'
+    TabOrder = 3
+    OnClick = PrevBtnClick
+  end
+  object NextBtn: TButton
+    Left = 111
+    Top = 20
+    Width = 60
+    Height = 20
+    Caption = 'Next page'
+    TabOrder = 4
+    OnClick = NextBtnClick
+  end
+  object GroupBox1: TGroupBox
+    Left = 20
+    Top = 189
+    Width = 130
+    Height = 76
+    Caption = 'Margin (inches)'
+    TabOrder = 5
+    object Label1: TLabel
+      Left = 5
+      Top = 6
+      Width = 57
+      Height = 13
+      Caption = 'Top/Bottom'
+    end
+    object Label2: TLabel
+      Left = 5
+      Top = 38
+      Width = 48
+      Height = 13
+      Caption = 'Left/Right'
+    end
+    object TBProto: TEdit
+      Left = 70
+      Top = 2
+      Width = 33
+      Height = 21
+      TabOrder = 0
+      Text = '0.5'
+      OnExit = TBMarginEdtExit
+    end
+    object LRProto: TEdit
+      Left = 70
+      Top = 34
+      Width = 33
+      Height = 21
+      TabOrder = 1
+      Text = '0.5'
+      OnChange = LRMarginEdtChange
+    end
+  end
+  object PrintBtn: TButton
+    Left = 20
+    Top = 410
+    Width = 60
+    Height = 31
+    Caption = 'Print'
+    TabOrder = 6
+    OnClick = PrintBtnClick
+  end
+  object HdrBtn: TButton
+    Left = 26
+    Top = 346
+    Width = 111
+    Height = 20
+    Caption = 'Header/Footer'
+    TabOrder = 7
+    OnClick = HdrGroupClick
+  end
+  object PrintColorsBox: TCheckBox
+    Left = 16
+    Top = 280
+    Width = 169
+    Height = 33
+    Caption = 'Print background/border colors '
+    TabOrder = 8
+    OnClick = PrintColorsBoxClick
+  end
+end

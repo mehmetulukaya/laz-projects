@@ -1,0 +1,323 @@
+object Form1: TForm1
+  Left = 0
+  Height = 718
+  Top = 0
+  Width = 1022
+  HorzScrollBar.Tracking = True
+  HorzScrollBar.Visible = False
+  Caption = ' Maze  V 3.2'
+  ClientHeight = 697
+  ClientWidth = 1022
+  Color = 16114603
+  Font.Color = clWindowText
+  Font.Height = -20
+  Font.Name = 'MS Sans Serif'
+  KeyPreview = True
+  Menu = MainMenu1
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnResize = FormResize
+  Position = poScreenCenter
+  LCLVersion = '1.6.2.0'
+  WindowState = wsMaximized
+  object Panel1: TPanel
+    Left = 0
+    Height = 674
+    Top = 0
+    Width = 280
+    Align = alLeft
+    ClientHeight = 674
+    ClientWidth = 280
+    TabOrder = 2
+    object GenBtn: TBitBtn
+      Left = 27
+      Height = 35
+      Top = 36
+      Width = 99
+      Caption = 'Generate'
+      OnClick = GenBtnClick
+      TabOrder = 0
+    end
+    object DesignBtn: TButton
+      Left = 27
+      Height = 34
+      Top = 80
+      Width = 99
+      Caption = 'Design'
+      OnClick = Design1Click
+      TabOrder = 1
+    end
+    object ResetBtn: TButton
+      Left = 27
+      Height = 34
+      Top = 128
+      Width = 99
+      Caption = 'Reset'
+      OnClick = ResetBtnClick
+      TabOrder = 2
+    end
+    object ShowPathGroup: TRadioGroup
+      Left = 27
+      Height = 102
+      Top = 189
+      Width = 203
+      AutoFill = True
+      Caption = 'Show:'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 77
+      ClientWidth = 201
+      ItemIndex = 0
+      Items.Strings = (
+        'No paths'
+        'Solution path only'
+        'All paths'
+      )
+      OnClick = ShowPathGroupClick
+      TabOrder = 3
+    end
+    object GroupBox1: TGroupBox
+      Left = 27
+      Height = 93
+      Top = 314
+      Width = 203
+      Caption = 'Move Counts'
+      ClientHeight = 68
+      ClientWidth = 201
+      Color = clBtnFace
+      ParentColor = False
+      TabOrder = 4
+      object SolvedlengthLbl: TLabel
+        Left = 14
+        Height = 24
+        Top = 10
+        Width = 167
+        Caption = 'Solution  path: 0'
+        ParentColor = False
+      end
+      object PlayMoveLbl: TLabel
+        Left = 14
+        Height = 24
+        Top = 41
+        Width = 138
+        Caption = 'Player Moves:'
+        ParentColor = False
+      end
+    end
+    object InfoMemo: TMemo
+      Left = 17
+      Height = 136
+      Top = 449
+      Width = 241
+      Color = 14548991
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'MS Sans Serif'
+      Lines.Strings = (
+        'Click on:'
+        ''
+        ' Generate to make a maze, '
+        ' Design to enter Design mode'
+        ' Reset to start over'
+        ''
+      )
+      ParentFont = False
+      TabOrder = 5
+    end
+    object RandseedEdt: TEdit
+      Left = 36
+      Height = 34
+      Top = 622
+      Width = 203
+      TabOrder = 6
+      Text = '2021758695'
+      Visible = False
+    end
+    object TestBtn: TButton
+      Left = 36
+      Height = 30
+      Top = 670
+      Width = 90
+      Caption = 'Test'
+      OnClick = TestBtnClick
+      TabOrder = 7
+      Visible = False
+    end
+  end
+  object StatusBar1: TStatusBar
+    Cursor = crHandPoint
+    Left = 0
+    Height = 23
+    Top = 674
+    Width = 1022
+    Panels = <    
+      item
+        Text = 'New maze'
+        Width = 150
+      end    
+      item
+        Width = 50
+      end    
+      item
+        Alignment = taCenter
+        Style = psOwnerDraw
+        Text = 'Copyright  © 2001, 2008, Gary Darby,  www.DelphiForFun.org'
+        Width = 50
+      end>
+    SimplePanel = False
+    OnClick = StatusBar1Click
+    OnDrawPanel = StatusBar1DrawPanel
+  end
+  object ScrollBox1: TScrollBox
+    Left = 280
+    Height = 642
+    Top = 0
+    Width = 704
+    HorzScrollBar.Page = 1
+    VertScrollBar.Page = 1
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    left = 552
+    top = 248
+    object Design1: TMenuItem
+      Caption = 'File'
+      object New1: TMenuItem
+        Caption = 'New'
+        OnClick = ResetBtnClick
+      end
+      object Open1: TMenuItem
+        Caption = 'Open'
+        OnClick = Open1Click
+      end
+      object Save1: TMenuItem
+        Caption = 'Save'
+        OnClick = Save1Click
+      end
+      object SaveAs1: TMenuItem
+        Caption = 'Save As ...'
+        OnClick = SaveAs1Click
+      end
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object PrintSetup1: TMenuItem
+        Caption = 'Print Setup'
+        OnClick = PrintSetupClick
+      end
+      object PrintPreviewPrint1: TMenuItem
+        Caption = 'Print Preview / Print'
+        OnClick = PrintPreviewClick
+      end
+      object N2: TMenuItem
+        Caption = '-'
+      end
+      object Exit1: TMenuItem
+        Caption = 'Exit'
+        OnClick = Exit1Click
+      end
+    end
+    object Options1: TMenuItem
+      Caption = 'Options'
+      OnClick = Options1Click
+    end
+    object Zoom1: TMenuItem
+      Caption = 'Zoom'
+      object Zoomtoscreenheight1: TMenuItem
+        Caption = 'Fill screen height'
+        OnClick = Zoomtoscreenheight1Click
+      end
+      object Zoomtoscreenwidth1: TMenuItem
+        Caption = 'Fill screen width'
+        OnClick = Zoomtoscreenwidth1Click
+      end
+    end
+    object Help1: TMenuItem
+      Caption = 'Help'
+      object B1: TMenuItem
+        Caption = 'Browse documentation'
+        OnClick = Help1Click
+      end
+      object About1: TMenuItem
+        Caption = 'About'
+        OnClick = About1Click
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = '.maz'
+    Filter = 'Maze (*.maz)|*.maz'
+    left = 552
+    top = 288
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.maz'
+    Filter = 'Maze (*.maz)|*.maz|BMP (*.bmp)|*.bmp'
+    left = 552
+    top = 112
+  end
+  object PopupMenu1: TPopupMenu
+    AutoPopup = False
+    left = 552
+    top = 192
+    object StartPoint1: TMenuItem
+      Caption = 'Start Point'
+      OnClick = StartPoint1Click
+    end
+    object ExitPoint1: TMenuItem
+      Caption = 'Exit Point'
+      OnClick = ExitPoint1Click
+    end
+    object N3: TMenuItem
+      Caption = '-'
+    end
+    object Invertborderpoints1: TMenuItem
+      Caption = 'Invert  border points'
+      OnClick = Invertborderpoints1Click
+    end
+    object N4: TMenuItem
+      Caption = '-'
+    end
+    object Eliminatearow1: TMenuItem
+      Caption = 'E&liminate this row'
+      OnClick = Eliminatearow1Click
+    end
+    object Elimateacolumn1: TMenuItem
+      Caption = 'Eli&mate this column'
+      OnClick = Elimateacolumn1Click
+    end
+    object Insertcolumnleft1: TMenuItem
+      Caption = 'Insert column left'
+      OnClick = Insertcolumnleft1Click
+    end
+    object Insertcolumnright1: TMenuItem
+      Caption = 'Insert column right'
+      OnClick = Insertcolumnright1Click
+    end
+    object Insertrowabove1: TMenuItem
+      Caption = 'Insert row above'
+      OnClick = Insertrowabove1Click
+    end
+    object Insertrowbelow1: TMenuItem
+      Caption = 'Insert row below'
+      OnClick = Insertrowbelow1Click
+    end
+  end
+  object PrinterSetupDialog1: TPrinterSetupDialog
+    left = 552
+    top = 72
+  end
+  object PrintDialog1: TPrintDialog
+    FromPage = 1
+    ToPage = 1
+    left = 552
+    top = 161
+  end
+end
