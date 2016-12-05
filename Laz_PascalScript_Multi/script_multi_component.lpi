@@ -67,9 +67,6 @@
         <SyntaxMode Value="Delphi"/>
       </SyntaxOptions>
     </Parsing>
-    <CodeGeneration>
-      <TargetOS Value="win32"/>
-    </CodeGeneration>
     <Linking>
       <Debugging>
         <StripSymbols Value="True"/>

@@ -93,14 +93,13 @@ type
     procedure PSScriptExecImport(Sender: TObject; se: TPSExec; x: TPSRuntimeClassImporter);
     procedure PSScriptCompile(Sender: TPSScript);
   public
-    constructor Create(aText:String);
+    constructor Create(aText:String);overload;
     destructor Destroy; override;
     procedure Execute; override;
   end;
 
 constructor TScriptThread.Create(aText:String);
 begin
-  //inherited Create(False);
   //inherited Create(True);
   FreeOnTerminate := True;
   fScript:=TPSScript.Create(nil);
@@ -109,6 +108,7 @@ begin
   fScript.OnExecute := @PSScriptExecute;
   fScript.OnCompImport := @PSScriptCompImport;
   fScript.OnExecImport := @PSScriptExecImport;
+  inherited Create(True);
   Execute;
 end;
 
@@ -179,5 +179,8 @@ begin
   end;
 end;
 
+
+
 end.
+uses Classes;
 
