@@ -20,7 +20,7 @@ uses
   U_About in 'U_About.pas' {AboutBox},
   U_TMaze in 'U_TMaze.pas' {MazeMsgForm};
 
-{$R *.res}
+{ R *.RES}
 
 begin
   Application.Initialize;

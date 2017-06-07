@@ -36,7 +36,7 @@ var
 
 implementation
 
-{$R *.DFM}
+{$R *.dfm}
 
 {************* FormCreate ***********}
 procedure TForm1.FormCreate(Sender: TObject);
