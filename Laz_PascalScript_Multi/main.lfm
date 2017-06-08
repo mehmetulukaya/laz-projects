@@ -1,11 +1,11 @@
 object Form1: TForm1
-  Left = 185
+  Left = 272
   Height = 328
-  Top = 0
-  Width = 661
+  Top = 131
+  Width = 861
   Caption = 'Form1'
   ClientHeight = 328
-  ClientWidth = 661
+  ClientWidth = 861
   LCLVersion = '1.6.0.4'
   object Label1: TLabel
     Left = 16
@@ -38,20 +38,20 @@ object Form1: TForm1
     Left = 5
     Height = 235
     Top = 17
-    Width = 212
+    Width = 276
     Lines.Strings = (
       'var'
-      '  sayi : integer;'
+      '  num : integer;'
       'begin'
-      '  sayi := 1;'
+      '  num := 1;'
       '  repeat    '
-      '    SetLabelCaption(''Label1'', '
-      'inttostr(sayi));'
-      '   AppProcMes;'
-      '    inc(sayi);'
-      '  until sayi>300;'
+      '    SetLabelCaption(''Label1'', inttostr(num));'
+      '    AppProcMes;'
+      '    inc(num);'
+      '  until num>10000;'
       'end.'
     )
+    ScrollBars = ssBoth
     TabOrder = 0
   end
   object Button4: TButton
@@ -64,43 +64,43 @@ object Form1: TForm1
     TabOrder = 1
   end
   object Memo2: TMemo
-    Left = 223
+    Left = 290
     Height = 235
     Top = 17
-    Width = 212
+    Width = 276
     Lines.Strings = (
       'var'
-      '  sayi : integer;'
+      '  num : integer;'
       'begin'
-      '  sayi := 1;'
+      '  num := 1;'
       '  repeat    '
-      '    SetLabelCaption(''Label2'', '
-      'inttostr(sayi));'
-      '   AppProcMes;'
-      '    inc(sayi);'
-      '  until sayi>300;'
+      '    SetLabelCaption(''Label2'', inttostr(num));'
+      '    AppProcMes;'
+      '    inc(num);'
+      '  until num>10000;'
       'end.'
     )
+    ScrollBars = ssBoth
     TabOrder = 2
   end
   object Memo3: TMemo
-    Left = 441
+    Left = 572
     Height = 235
     Top = 17
-    Width = 212
+    Width = 276
     Lines.Strings = (
       'var'
-      '  sayi : integer;'
+      '  num : integer;'
       'begin'
-      '  sayi := 1;'
+      '  num := 1;'
       '  repeat    '
-      '    SetLabelCaption(''Label3'', '
-      'inttostr(sayi));'
-      '   AppProcMes;'
-      '    inc(sayi);'
-      '  until sayi>300;'
+      '    SetLabelCaption(''Label3'', inttostr(num));'
+      '    AppProcMes;'
+      '    inc(num);'
+      '  until num>10000;'
       'end.'
     )
+    ScrollBars = ssBoth
     TabOrder = 3
   end
 end

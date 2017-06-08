@@ -9,16 +9,34 @@ uses
   SysUtils, FileUtil, uPSComponent, Forms, Controls, Graphics, Dialogs,
   StdCtrls, ExtCtrls,
 
-  uPSComponent_Default,
-  uPSComponent_Forms,
-  uPSComponent_Controls,
-  uPSComponent_StdCtrls,
   uPSRuntime,uPSCompiler
 
   ;
 
 const
   WM_SET_CAPTION = WM_USER + $01;
+
+type
+
+  { TScriptThread }
+
+  TScriptThread = class (TThread)
+    fScript:TPSScript;
+    procedure PSScriptExecute(Sender: TPSScript);
+    procedure PSScriptCompImport(Sender: TObject; x: TPSPascalCompiler);
+    procedure PSScriptExecImport(Sender: TObject;
+                                 se: TPSExec; x: TPSRuntimeClassImporter);
+    procedure PSScriptCompile(Sender: TPSScript);
+
+    procedure AppProcMes;
+  protected
+    procedure Execute; override;
+  public
+    constructor Create(aText:String);overload;
+    destructor Destroy; override;
+  end;
+
+
 type
 
   { TForm1 }
@@ -42,6 +60,7 @@ type
 
 var
   Form1: TForm1;
+  thr1,thr2,thr3 : TScriptThread;
 
 implementation
 uses
@@ -63,16 +82,8 @@ uses
 
 { TForm1 }
 
-
-procedure AppProcMes;
-begin
-  Application.ProcessMessages;
-  Sleep(1);
-end;
-
 procedure SetLabelCaption(const aName, aCaption:string);
 var
-  C:TComponent;
   buf: pWideChar;
   len: integer;
 begin
@@ -85,22 +96,11 @@ begin
                       Integer(buf));
 end;
 
-type
-  TScriptThread = class (TThread)
-    fScript:TPSScript;
-    procedure PSScriptExecute(Sender: TPSScript);
-    procedure PSScriptCompImport(Sender: TObject; x: TPSPascalCompiler);
-    procedure PSScriptExecImport(Sender: TObject; se: TPSExec; x: TPSRuntimeClassImporter);
-    procedure PSScriptCompile(Sender: TPSScript);
-  public
-    constructor Create(aText:String);overload;
-    destructor Destroy; override;
-    procedure Execute; override;
-  end;
+
 
 constructor TScriptThread.Create(aText:String);
 begin
-  //inherited Create(True);
+  inherited Create(True);
   FreeOnTerminate := True;
   fScript:=TPSScript.Create(nil);
   fScript.Script.Text := aText;
@@ -108,8 +108,7 @@ begin
   fScript.OnExecute := @PSScriptExecute;
   fScript.OnCompImport := @PSScriptCompImport;
   fScript.OnExecImport := @PSScriptExecImport;
-  inherited Create(True);
-  Execute;
+  // Execute;
 end;
 
 destructor TScriptThread.Destroy;
@@ -156,16 +155,24 @@ procedure TScriptThread.PSScriptCompile(Sender: TPSScript);
 begin
   Sender.AddRegisteredVariable('Application', 'TApplication');
   Sender.AddRegisteredVariable('Form1', 'TForm');
-  Sender.AddFunction(@SetLabelCaption, 'procedure SetLabelCaption(const aName, aCaption:string);');
-  Sender.AddFunction(@AppProcMes, 'procedure AppProcMes;');
+  Sender.AddFunction(@SetLabelCaption,
+                   'procedure SetLabelCaption(const aName, aCaption:string);');
+  Sender.AddFunction(@TScriptThread.AppProcMes, 'procedure AppProcMes;');
 end;
 
+procedure TScriptThread.AppProcMes;
+begin
+  Synchronize(@Application.ProcessMessages);
+end;
 
 procedure TForm1.Button4Click(Sender: TObject);
 begin
-  TScriptThread.Create(Memo1.Text);
-  TScriptThread.Create(Memo2.Text);
-  TScriptThread.Create(Memo3.Text);
+  thr1:=TScriptThread.Create(Memo1.Text);
+  thr1.Start;
+  thr2:=TScriptThread.Create(Memo2.Text);
+  thr2.Start;
+  thr3:=TScriptThread.Create(Memo3.Text);
+  thr3.Start;
 end;
 
 procedure TForm1.WMSetCaption(var Message: TMessage);
@@ -179,8 +186,6 @@ begin
   end;
 end;
 
-
-
 end.
-uses Classes;
+
 
