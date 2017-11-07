@@ -2,6 +2,8 @@ program script_multi_component;
 
 {$mode objfpc}{$H+}
 
+{$DEFINE UseCThreads}
+
 uses
   {$DEFINE UseCThreads}
   {$IFDEF UNIX}{$IFDEF UseCThreads}

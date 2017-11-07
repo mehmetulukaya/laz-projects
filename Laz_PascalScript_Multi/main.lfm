@@ -1,12 +1,12 @@
 object Form1: TForm1
   Left = 272
-  Height = 328
-  Top = 131
-  Width = 861
+  Height = 337
+  Top = 165
+  Width = 934
   Caption = 'Form1'
-  ClientHeight = 328
-  ClientWidth = 861
-  LCLVersion = '1.6.0.4'
+  ClientHeight = 337
+  ClientWidth = 934
+  LCLVersion = '1.9.0.0'
   object Label1: TLabel
     Left = 16
     Height = 13
@@ -38,7 +38,7 @@ object Form1: TForm1
     Left = 5
     Height = 235
     Top = 17
-    Width = 276
+    Width = 300
     Lines.Strings = (
       'var'
       '  num : integer;'
@@ -47,8 +47,9 @@ object Form1: TForm1
       '  repeat    '
       '    SetLabelCaption(''Label1'', inttostr(num));'
       '    AppProcMes;'
+      '    ScrSleep(100);'
       '    inc(num);'
-      '  until num>10000;'
+      '  until num>1000;'
       'end.'
     )
     ScrollBars = ssBoth
@@ -64,10 +65,10 @@ object Form1: TForm1
     TabOrder = 1
   end
   object Memo2: TMemo
-    Left = 290
+    Left = 310
     Height = 235
     Top = 17
-    Width = 276
+    Width = 300
     Lines.Strings = (
       'var'
       '  num : integer;'
@@ -76,18 +77,19 @@ object Form1: TForm1
       '  repeat    '
       '    SetLabelCaption(''Label2'', inttostr(num));'
       '    AppProcMes;'
+      '    ScrSleep(100);'
       '    inc(num);'
-      '  until num>10000;'
+      '  until num>1000;'
       'end.'
     )
     ScrollBars = ssBoth
     TabOrder = 2
   end
   object Memo3: TMemo
-    Left = 572
+    Left = 615
     Height = 235
     Top = 17
-    Width = 276
+    Width = 300
     Lines.Strings = (
       'var'
       '  num : integer;'
@@ -96,11 +98,20 @@ object Form1: TForm1
       '  repeat    '
       '    SetLabelCaption(''Label3'', inttostr(num));'
       '    AppProcMes;'
+      '    ScrSleep(100);'
       '    inc(num);'
-      '  until num>10000;'
+      '  until num>1000;'
       'end.'
     )
     ScrollBars = ssBoth
     TabOrder = 3
+  end
+  object lblCallBack: TLabel
+    Left = 216
+    Height = 16
+    Top = 296
+    Width = 68
+    Caption = 'lblCallBack'
+    ParentColor = False
   end
 end
