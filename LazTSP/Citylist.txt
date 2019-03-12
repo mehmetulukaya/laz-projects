@@ -1,0 +1,66 @@
+Miami,FL, 25.785,-80.271
+Seattle,WA, 47.597,-122.335
+San Diego,CA, 32.779,-117.140
+Augusta,ME, 44.322,-69.777
+San Francisco,CA, 37.767,-122.424
+Sacramento,CA, 38.579,-121.468
+Los Angeles,CA, 34.044,-118.302
+Portland,OR, 45.514,-122.660
+Bend,OR, 44.034,-121.334
+Spokane,WA, 47.673,-117.386
+Las Vegas,NV, 36.151,-115.185
+Boise,ID, 43.605,-116.220
+Salt Lake City,UT, 40.723,-111.896
+Tucson,AZ, 32.240,-110.951
+Butte,MT, 45.959,-112.558
+Denver,CO, 39.744,-104.986
+Albuquerque,NM, 35.108,-106.607
+Cheyenne,WY, 41.161,-104.834
+Colorado Springs,CO, 38.852,-104.765
+Amarillo,TX, 35.196,-101.845
+Bismarck,ND, 46.817,-100.733
+Dodge City,KS, 37.755,-100.026
+Pierre,SD, 44.425,-100.291
+San Antonio,TX, 29.472,-98.511
+Lincoln,NE, 40.820,-96.680
+Oklahoma City,OK, 35.474,-97.522
+Dallas,TX, 32.815,-96.802
+Minneapolis,MN, 44.979,-93.314
+Des Moines,IA, 41.600,-93.634
+Kansas City,KS, 39.102,-94.683
+Houston,TX, 29.770,-95.409
+Duluth,MN, 46.821,-92.130
+Little Rock,AR, 34.741,-92.332
+Milwaukee,WI, 43.046,-87.962
+Springfield,IL, 39.791,-89.646
+Chicago,IL, 41.868,-87.682
+Memphis,TN, 35.117,-89.951
+Louisville,KY, 38.212,-85.692
+Gaylord,MI, 44.995,-84.668
+Lansing,MI, 42.720,-84.559
+Indianapolis,IN, 39.799,-86.150
+Nashville,TN, 36.151,-86.782
+Huntsville,AL, 34.713,-86.622
+Birmingham,AL, 33.503,-86.793
+Detroit,MI, 42.368,-83.103
+Cleveland,OH, 41.461,-81.665
+Columbus,OH, 39.999,-82.990
+Atlanta,GA, 33.798,-84.380
+Tallahassee,FL, 30.454,-84.255
+Charleston,SC, 32.837,-79.993
+Buffalo,NY, 42.909,-78.829
+Pittsburgh,PA, 40.444,-79.991
+Columbia,SC, 34.028,-81.007
+Savannah,GA, 32.051,-81.107
+Tampa,FL, 27.988,-82.485
+Charleston,WV, 38.354,-81.634
+Richmond,VA, 37.552,-77.483
+Raleigh,NC, 35.821,-78.655
+Albany,NY, 42.661,-73.767
+Philadelphia,PA, 39.998,-75.145
+Montpelier,VT, 44.262,-72.583
+New York,NY, 40.753,-73.983
+Concord,MA, 42.457,-71.375
+Boston,MA, 42.336,-71.079
+SAINT LOUIS,MO, 38.635,-90.285
+FLOYD,VA, 36.910,-80.309

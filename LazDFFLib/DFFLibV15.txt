@@ -1,0 +1,324 @@
+This is release  15 of the DFF Library - a zip file of units defining classes and routines used in many programs throughout DelphiForFun.
+
+Cumulative updates for Release 15 of DFF Library:
+------------------------------------------------
+June 1 2017
+  LatLonDistance unit added to DFF Library.  The unit contains several routines to calculate Great Circle distances between two Latitude-Longitude points assuming spherical earth, elliptcal earth, and the most accurate technique, the Vincinty Inverse algorithm.  There is also a routine to calculate the Rhumbline (constant heading) distance and heading between two points.  Finally, there are Vicinty and Rhumbline routines to calculate the distination point given a start point,initial heading, and Great Circle distance (Vincinty Direct) or start point,constant heading, and distance (Rhumbline).  
+
+All of these routines formerly required that Latitude, Longitude, and Azimuth values be entered and returned as "radians" and required conversion from and to   degres by the user.  These conversions are now internal to the routines so users can submit and retrieve these them in degrees without conversion on their part 
+
+April 30 2017
+  Corrected missing access to CycleLength function  in MathsLib unit. 
+
+22 Feb 2017
+   Update Mathslib unit to include Latitude-Longitude coversion and distance rotuines.
+  
+2 Dec 2016
+    Added UTBigIntvsV5 version with 
+   1) All "String" types converted to "ANSIString"
+   2) New "ConvertToStringBase" method added to convert big integers to or from number strings in any base up to 256
+    
+11 Nov 2016
+-  UDict dictionary unit updated to recast String and Char types as ANSIString and ANSIChar types to allow modern    Delphi versions with 2-byte character default character types  to access DFF library dictioriaries (1-byte characters). 
+  Two functions developed for specific  programs  have been added to toUDict:   
+       I)  LookPartial returns word beginning with a given set of letters and within a given length range.
+       2) An overloaded version of  GetNextWord which returns he next word without regardless of special word                                   properties  {abbreviation, foreign,otr capitalized).
+
+-  DFFUtils library routines unit was also updated to force use of ANSI characters and strings for several string    manipuation routines.
+
+20 Sep 2016
+-  Fixed dividing by negative numbers in UBigFloatV3; 
+
+27 Jun 2016
+-  UDict dictionary maintenance program
+
+20 Mar 2016
+-  UIntList - details coming 
+
+02 Mar 2016
+-  UTGraphSearch - details coming
+ 
+11 May 2015
+- Fixed memory link in UTBigIntsV4.  Free was not releasing all allocated mrmory.
+- Fixed memory leak in UTBigIntsForFloatV4. Free was not releasing all memory. 
+ 
+
+24 March, 2014
+- Updated Full.Dic and General.Dic dictionary files is minor additions and corrections
+- Updated DFFUtils.pas to include Shuffle procedure to randmly rearrange an array of integers.
+ 
+06 February 2014
+- Added 2nd version of UBigIntsV4 as UBigIntsForFloatV4.  UBigIntsV4 supports Operators (_,-,*./)   but is not compatible with its usage in UBigIFloatV4. 
+ 
+17 December, 2013
+  -- The November 16 update of UBigIntsV4 broke the ability of UBigFloatV3 to recompile.  Today I added UBigIntsForFloatV4 and updated UBigFloatV3 to use that unit.  UBigIntsForFloatV4 removes the operatoir overloads not needed for Big Float.  
+
+12 December, 2013
+ -- Updated "LineNumberClicked" function in DFFUtils unit to eliminate "subrange" error when compiling under XE5 
+
+24 November, 013
+   -- Updated MathsLib unit to include Randomize procedure and Random64 functions for versions for Delphi 7 and earlier or post-Delphi 7 versions.  
+  -- Updated UBigIntsV4 with new "Random" procedure called by the MathsLib  Random64 function for older Delphi versions..
+  -- Updated UComboV2 to handle 63-bit (Delphi 7 and earlier) or 64-bit (after D7) random integers by calling MathLib's new Randomize64 procedure and , Random64      functions.
+
+
+16 November. 2013:
+  --- Added UBigIntsV4, and update to the big integers class which  adds operator ovelrloads for Delphi versions after Delphi 7.  The  code conditionally compiles without or      without the operator overloads based on compiler version.  UBigIntsV3.pas will remain in the library distribution for now, but will no longer be updated.
+    
+14 April, 2013: 
+  -- Added  "UGetParens" unit containg function getParens, which, given an array of variables and a "standin"
+     character for operations, returns a stringlist containing all ways to parenthesize the resulting  expression.  
+     E.G. given [a,b,c] and "?",   GetParens returns strings "(a?b)?c" and "a?(b?c)"
+ 
+  -- Modified "SetMemoMargins: in DFFUtils to automatically reformat the memo after margin changes.
+
+  -- Modified Parser unit in Parser10, addin "DIVZ" operation type to force integer divides.    
+
+
+17 February, 2013:  Add "UIntegerPartition.pas" with a class  to calculate partitionings of integers. 
+
+
+Changes for Release 14 of the DFF Library:
+----------------------------------------
+New Unit
+      "UAstronomy.pas" contains our TAstronomy class with functions and procedures to calculate 
+      solar, lunar, and planetary positions and  other celestial events.   
+
+MathsLib
+     Enhanced:   "NextPermute"  now permutes Interger instead of Byte arrays.
+
+     New:  Added overloaded version of "IsPalindrome" function which has an extra
+               parameter to return the number of digits in the palindrome if it is a 
+               palidrome; 0 if not.
+        
+             Mercator projection functions (useful for plotting known locations on a Mercator map
+             or obtaining Lat/Long of a clicked map location ):
+             function GetLongToMercProjection(const Long:extended):extended;
+             function GetLatToMercProjection(const Lat:Extended):Extended;
+             function GetMercProjectionToLong(const ProjLong:extended):extended;
+             function GetMercProjectionToLat(const ProjLat:extended):extended;
+
+UBigFloatV3
+      Bug Fix: 
+                   *  August 29,2012: "Round" procedure rewitten to correct an error for values between
+                      -1 and 1 with 0 digits to the right of the decimal point specified. .     
+
+UBigIntsV3
+     Bug Fix:  * The "Mult" multiply function for Int64 type returns incorrect reults when value
+                       passed is exactly hex value $80000000.
+	  *  Aug. 12, 2012:  Fixed possible memory leak in "IsProbablyPrime - scratch pad memory
+	     not always released.
+     Enhancement:  ConvertToDecimalString function now trims leading zeros.
+    New:
+	Bitcount
+	AssignRandomPrime
+	Trim
+UGeometry
+                             
+    Enhancement:  PointInPoly function now handles polygons up to 10,000x10,000
+	            pixels (previous limit was 1,000x1,000).
+
+	 
+
+
+Changes for Release 13 of the DFF Library:
+----------------------------------------
+DFFUtils 	Changes:
+                  New Routines:
+                          LineNumberClicked - Return 0 based index of a TMemo line clicked
+                        {Clicked MemoLine, MemoLineClicked and MemoClickedLine also added as
+                         synonyms for the forgetful}
+                        LinePositionClicked - Return 1 based index of the character position
+                        within the TMemo line clicked.
+
+UTGraphSearch Changes:
+        Bug Fix
+	      Procedure Clear now fees nodes to fix memory leak.
+	Enhancement
+	      AddEdge - Call Finalize rather than issue error if node addition have not been finalized
+	      Dijkstra - call to GoalFound now includes  path info when target node found.
+	New
+	      MoveNode - Change node location coordinates
+	      DeleteEdge - Deletes an edge
+
+UtBigIntsV3
+	New
+ 	      ConvertToHex - return Hex string version of Big Integer
+	      AssignHex - Convert Hex string to Big Integer
+	      RandomOfSize(N) - Return random Big Integer with N of digits
+	      Random(X) - Return random big integer between 0 and X
+	      GetNextPrime(X) return next probable prime greater than X
+	      SetThreadSafe - Set value true to prevent sharing scratchpad memory. Default is false.
+
+UGeometry
+	New
+	      Real valued parameters and routines (counterparts of integer versions)
+		TRealPoint
+		TRealLine
+		Function RealPoint
+		Function Line (overload)
+		Function GetTheta (overload)
+		Procedure ExtendLine (overload)
+		Procedure TranslateLeftTo (overload)
+		Procedure RotateRightEndTo (overload)
+		Procedure CircleCircleIntersect (overload)
+		
+UDict (Dictionary unit)
+                Added overloaded version of Lookup function which returns true for valid words, but not
+		the Abbreviation, Foreign, Capitalized characteristic indicators.  
+ 
+		
+	
+Previous version routines:
+----------------------------
+
+DFFUtils	Support procedures:
+		AdjustGridSize - Remove extra white space around grid bolundaries
+		Reformatmemo - Reformat text to fit TMemo width 
+		SetmemoMargins - Set TMemo margins
+                		MoveToTop - Scroll top list of TMemo into view
+		RotateStrLeft - Move 1st character to end of string
+		SortStrUp - Sort string characters ascending
+		SortStrDown - Sort string chCiraractes descending
+		StrToFloatDef - Convert string to extended with default value if error
+		DeleteGridRow - Delete row N of Stringgrid
+		InsertgridRow - Insert new row after N in Stringgrid
+		Sortgrid  - Sort Stringgrid ascending on column N
+               		 IntToBinaryString - Converts integer to binary string representation.
+		GetFileSize - Computes file sizes for all files, including files greater than 4GB 
+
+MathsLib	Misc math related functions and procedures
+		function GetNextPandigital
+		function IsPolygonal
+		function GeneratePentagon
+		function IsPentagon
+		function isSquare
+		function isCube
+               		function isPalindrome
+		function GetEulerPhi
+		function IntPower
+		function gcd2
+                		function GCDMany
+		function LCMMany
+		procedure ContinuedFraction
+		function Factorial
+		TPrimes = Object relating to prime numbers
+		Prime  - Array of primes up 1,000,000
+  	             	function IsPrime  - Is N prime?
+    		function GetNextPrime  - Next prime > N
+    		function GetPrevPrime  - First prime < N
+    		procedure GetFactors - Get all prime factors of N
+                		Factors  - Array of factors of N, set by GetFactors
+	    	function GetNthPrime - Get prime of rank R
+    		procedure GetCanonicalFactors - get ccanonical prime factors of N
+		CanonicalFactors - Array of factors of N Cacnonical form (integer pairs)
+		procedure GetDivisors - Get all divisors of N
+		Divisors - Array of divisor of N
+		function Getnbrdivisors - Number of divisors of N
+
+
+
+UBigIntsV3	TInteger - Big Integer definition and arithmetic
+
+UBigFloatV3     TBigFloat Large floating point number class with many arithmetic operations
+		and functions defined.
+			function GetNumber(s: string): boolean;
+   			function GetNumber(s: string): boolean;
+ 			function ShowNumber(const View: TView): string;
+ 			function ConvertToString(const View: TView): string;
+    			function ConvertToExtended(var num: extended): boolean;
+    			function ConvertToInt64(var N: int64): boolean;
+    			function IntPart: int64;
+
+    			{assign}
+    			procedure Assign(A: TBigFloat); overload;
+    			procedure Assign(A: TBigFloat; SigDig: cardinal); overload;
+    			procedure Assign(A: TInteger); overload;
+    			procedure Assign(N: int64); overload;
+    			procedure Assign(N: int64; SigDig: integer); overload;
+    			procedure Assign(d: extended); overload;
+    			procedure Assign(S: string); overload;
+    			procedure Assign(S: string; SigDig: cardinal); overload;
+
+    			{assign fixed values}
+    			procedure AssignZero;
+    			procedure AssignHalf;
+    			procedure AssignOne;
+    			procedure AssignTwo;
+    			procedure AssignThree;
+    			procedure AssignFour;
+
+    			{add, subtract, multiply, divide and square}
+    			procedure Add(B: TBigFloat); overload;
+    			procedure Add(B: int64); overload;
+    			procedure AbsAdd(B: TBigFloat);
+    			procedure Subtract(B: TBigFloat); overload;
+    			procedure Subtract(B: int64); overload;
+    			procedure Mult(B: TBigFloat); overload;
+    			procedure Mult(B: TBigfloat; const MaxSig: cardinal); overload;
+    			procedure Mult(B: TInteger); overload;
+    			procedure Mult(B: int64); overload;
+    			procedure MultRaw(B: TBigFloat);
+    			procedure Reciprocal(const MaxSig: cardinal);
+    			procedure Divide(B: TBigFloat; const MaxSig: cardinal); overload;
+    			procedure Divide(B: TInteger; const MaxSig: cardinal); overload;
+    			procedure Divide(B: int64; const MaxSig: cardinal); overload;
+    			procedure Square(const MaxSig: cardinal);
+    			procedure SquareRaw;
+
+    			{Compare, iszero, max and min}
+    			function Compare(B: TBigFloat): integer;
+    			function IsZero: boolean;
+    			procedure MaxBigFloat(B: TBigFloat);
+    			procedure MinBigFloat(B: TBigFloat);
+
+    			{Sqroot, Nroot, Intpower and Power}
+   			procedure Sqrt; overload;
+    			procedure Sqrt(const MaxSig: cardinal); overload;
+    			procedure NRoot(N: integer; const MaxSig: cardinal);
+    			procedure IntPower(intpower: integer; const MaxSig: cardinal);
+    			procedure Power(power: TBigfloat; const MaxSig: cardinal);
+
+    			{Log, Log10 and Exp}
+    			procedure Log(const MaxSig: cardinal);
+    			procedure Log10(const MaxSig: cardinal);
+    			procedure Exp(const MaxSig: cardinal);
+
+    			{Constants - Pi and Log2}
+    			procedure PiConst(const MaxSig: cardinal);
+    			procedure Log2Const(const MaxSig: cardinal);
+
+    			{Round, Trunc, Floor, Ceiling}
+    			procedure Round(const MaxSig: cardinal); overload;
+    			procedure Round; overload;
+    			procedure Trunc(const x: integer = 0);
+    			procedure Floor(const x: integer = 0);
+    			procedure Ceiling(const x: integer = 0);
+    			{Change sign of number}
+    			procedure AbsoluteValue;
+    			procedure Negate;
+
+UCardComponent	A TCards class that can display cards images, front and back, shuffle a deck, etc.
+
+UComboV2	ComboSet class for computing combinations and permutations
+
+UDict           	A dictionary component.
+
+UGeometry	Geometrical functions
+			Line returns a line structuire from two points.
+			IntDistance returns integer distance between two points.
+			LinesIntersect (tests intersection of two line segments)
+			PointInPoly - tests if point is internal to a given polygon
+			PointPerpendicularLine - Determines line perpendicular to given point
+			 through a given line.
+			PerpDistance - returns perpendicular distance from point to
+			given line.
+			AngledLineFromLine - determines line at given angle from a point
+			on a given line.
+
+
+UTGraphSearch		Defines a structure to contain Nodes and Edges for a graph. Search 										procedures from a given source a given destination nodes for Depth first 	
+			search, Breadth first search, and Dijkstra Shortest path search are included.
+
+UIntList			An Integer list version of TStringlist
+

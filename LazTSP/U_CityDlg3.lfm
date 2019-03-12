@@ -1,0 +1,152 @@
+object CityDlg: TCityDlg
+  Left = 600
+  Height = 549
+  Top = 198
+  Width = 591
+  BorderStyle = bsDialog
+  Caption = 'Add, Change, or Delete a City'
+  ClientHeight = 549
+  ClientWidth = 591
+  Color = clBtnFace
+  DesignTimePPI = 144
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'MS Sans Serif'
+  OnActivate = FormActivate
+  Position = poScreenCenter
+  LCLVersion = '2.1.0.0'
+  object Bevel1: TBevel
+    Left = 12
+    Height = 394
+    Top = 36
+    Width = 566
+  end
+  object Label1: TLabel
+    Left = 48
+    Height = 26
+    Top = 72
+    Width = 106
+    Caption = 'City Name'
+    Font.Color = clWindowText
+    Font.Height = -23
+    Font.Name = 'Arial'
+    ParentColor = False
+    ParentFont = False
+  end
+  object AddUpdtBtn: TButton
+    Left = 66
+    Height = 38
+    Top = 460
+    Width = 112
+    Caption = 'Add/Update'
+    Default = True
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'MS Sans Serif'
+    ModalResult = 1
+    OnClick = AddUpdtBtnClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object CancelBtn: TButton
+    Left = 417
+    Height = 38
+    Top = 460
+    Width = 112
+    Cancel = True
+    Caption = 'Cancel'
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'MS Sans Serif'
+    ModalResult = 2
+    OnClick = CancelBtnClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object NameEdt: TEdit
+    Left = 168
+    Height = 28
+    Top = 66
+    Width = 302
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'MS Sans Serif'
+    ParentFont = False
+    TabOrder = 0
+  end
+  object DeleteBtn: TButton
+    Left = 236
+    Height = 38
+    Top = 460
+    Width = 112
+    Caption = 'Delete'
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'MS Sans Serif'
+    ModalResult = 1
+    OnClick = DeleteBtnClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Memo2: TMemo
+    Left = 39
+    Height = 206
+    Top = 206
+    Width = 518
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'MS Sans Serif'
+    Lines.Strings = (
+      'To enter or change Latitude and Longitude data, use '
+      'degree,minute,second or decimal degree formats like these samples:'
+      ''
+      'Latitudes'
+      '  34: 26: 10N or 34 26 10N or 34.4361'
+      '  34:25:10S or 34 26 10S or  -34.4361'
+      ''
+      'Longitudes'
+      '  100:45E  or 100:45:0E or 100.45'
+      '  100:45W or 100:45:00W or -100.75   '
+    )
+    ParentFont = False
+    TabOrder = 4
+  end
+  object LatEdt: TLabeledEdit
+    Left = 50
+    Height = 34
+    Top = 136
+    Width = 176
+    EditLabel.Height = 26
+    EditLabel.Width = 176
+    EditLabel.Caption = 'Latitude'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -23
+    EditLabel.Font.Name = 'Arial'
+    Font.Color = clWindowText
+    Font.Height = -23
+    Font.Name = 'Arial'
+    ParentFont = False
+    TabOrder = 5
+  end
+  object LongEdt: TLabeledEdit
+    Left = 370
+    Height = 34
+    Top = 128
+    Width = 186
+    EditLabel.Height = 26
+    EditLabel.Width = 186
+    EditLabel.Caption = 'Longitude'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.Color = clWindowText
+    EditLabel.Font.Height = -23
+    EditLabel.Font.Name = 'Arial'
+    Font.Color = clWindowText
+    Font.Height = -23
+    Font.Name = 'Arial'
+    ParentFont = False
+    TabOrder = 6
+  end
+end
