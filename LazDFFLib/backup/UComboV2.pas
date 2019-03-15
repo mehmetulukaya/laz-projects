@@ -474,7 +474,7 @@ begin
   if (RPick < 1) or (Number < 1) or
      ((RPick > Number) and (not(aCtype in [PermutationsRepeat,
      PermutationsWithrep, CombinationsWithRep,
-     PermutationsRepeatDown, CombinationsRepeat,CombinationsWithrep,CombinationsRepeatDown]))) then
+     PermutationsRepeatDown, CombinationsRepeat,CombinationsRepeatDown]))) then
        exit;
   Result := True;
 end;

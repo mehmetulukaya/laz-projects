@@ -1,35 +1,34 @@
 object Form1: TForm1
-  Left = 231
-  Height = 1046
-  Top = 4
-  Width = 1562
-  HorzScrollBar.Page = 1553
-  VertScrollBar.Page = 990
+  Left = 12
+  Height = 729
+  Top = 122
+  Width = 1262
+  HorzScrollBar.Page = 1040
+  VertScrollBar.Page = 666
   Anchors = []
   AutoScroll = True
   Caption = 'The Traveling Salesman Problem  V3.1'
-  ClientHeight = 1046
-  ClientWidth = 1562
+  ClientHeight = 729
+  ClientWidth = 1262
   Color = clBtnFace
-  DesignTimePPI = 144
   Font.Color = clWindowText
-  Font.Height = -17
+  Font.Height = -11
   Font.Name = 'MS Sans Serif'
   OnActivate = FormActivate
   OnClose = FormClose
   Position = poOwnerFormCenter
-  LCLVersion = '2.1.0.0'
+  LCLVersion = '2.0.0.4'
   object StaticText1: TStaticText
     Cursor = crHandPoint
     Left = 0
-    Height = 33
-    Top = 1013
-    Width = 1562
+    Height = 22
+    Top = 707
+    Width = 1262
     Align = alBottom
     Alignment = taCenter
     Caption = 'Copyright © 2002-2017  Gary Darby,  www.DelphiForFun.org'
     Font.Color = clBlue
-    Font.Height = -23
+    Font.Height = -15
     Font.Name = 'Arial'
     Font.Style = [fsBold, fsUnderline]
     OnClick = StaticText1Click
@@ -39,23 +38,23 @@ object Form1: TForm1
   end
   object PageControl1: TPageControl
     Left = 0
-    Height = 1013
+    Height = 707
     Top = 0
-    Width = 1562
+    Width = 1262
     ActivePage = TabSheet2
     Align = alClient
     Font.Color = clWindowText
-    Font.Height = -17
+    Font.Height = -11
     Font.Name = 'MS Sans Serif'
     ParentFont = False
     TabIndex = 1
     TabOrder = 1
     object IntroSheet: TTabSheet
       Caption = 'Introduction'
-      ClientHeight = 980
-      ClientWidth = 1554
+      ClientHeight = 679
+      ClientWidth = 1252
       Font.Color = clWindowText
-      Font.Height = -17
+      Font.Height = -11
       Font.Name = 'MS Sans Serif'
       ParentFont = False
       object ScrollBox1: TScrollBox
@@ -63,28 +62,28 @@ object Form1: TForm1
         Height = 980
         Top = 0
         Width = 1554
-        HorzScrollBar.Page = 1274
-        VertScrollBar.Page = 782
+        HorzScrollBar.Page = 849
+        VertScrollBar.Page = 523
         Align = alClient
         ClientHeight = 976
         ClientWidth = 1550
         Color = 14548991
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentColor = False
         ParentFont = False
         TabOrder = 0
         object RichEdit1: TMemo
-          Left = 88
-          Height = 693
-          Top = 30
-          Width = 946
+          Left = 58
+          Height = 462
+          Top = 21
+          Width = 631
           BorderStyle = bsNone
           Color = 14548991
           Font.CharSet = ANSI_CHARSET
           Font.Color = clWindowText
-          Font.Height = -23
+          Font.Height = -15
           Font.Name = 'MS Sans Serif'
           Font.Style = [fsBold]
           Lines.Strings = (
@@ -135,15 +134,15 @@ object Form1: TForm1
           TabOrder = 0
         end
         object RichEdit2: TMemo
-          Left = 36
-          Height = 752
-          Top = 30
-          Width = 1238
+          Left = 24
+          Height = 502
+          Top = 21
+          Width = 825
           BorderStyle = bsNone
           Color = 14548991
           Font.CharSet = ANSI_CHARSET
           Font.Color = clWindowText
-          Font.Height = -23
+          Font.Height = -15
           Font.Name = 'Arial'
           Lines.Strings = (
             'Pit your skill as a route planner against the computer in this program.  To Play:'
@@ -187,14 +186,14 @@ object Form1: TForm1
         end
         object StaticText3: TStaticText
           Cursor = crHandPoint
-          Left = 36
-          Height = 32
-          Top = 744
-          Width = 621
+          Left = 24
+          Height = 22
+          Top = 496
+          Width = 414
           Alignment = taCenter
           Caption = 'http://delphiforfun.org/programs/utilities/makecitylocationfile.htm'
           Font.Color = clBlue
-          Font.Height = -23
+          Font.Height = -15
           Font.Name = 'Arial'
           Font.Style = [fsUnderline]
           OnClick = StaticText3Click
@@ -205,18 +204,18 @@ object Form1: TForm1
     end
     object TabSheet2: TTabSheet
       Caption = 'Make && Find Paths'
-      ClientHeight = 980
-      ClientWidth = 1554
+      ClientHeight = 679
+      ClientWidth = 1252
       Font.Color = clWindowText
-      Font.Height = -17
+      Font.Height = -11
       Font.Name = 'MS Sans Serif'
       ImageIndex = 1
       ParentFont = False
       object Image1: TImage
-        Left = 10
-        Height = 525
+        Left = 7
+        Height = 350
         Top = 0
-        Width = 894
+        Width = 597
         OnMouseMove = Image1MouseMove
         OnMouseUp = Image1MouseUp
         Picture.Data = {
@@ -20346,13 +20345,13 @@ object Form1: TForm1
         Stretch = True
       end
       object MilesLbl: TLabel
-        Left = 40
-        Height = 29
-        Top = 774
-        Width = 100
+        Left = 26
+        Height = 19
+        Top = 517
+        Width = 73
         Caption = 'MilesLbl'
         Font.Color = clWindowText
-        Font.Height = -24
+        Font.Height = -16
         Font.Name = 'MS Sans Serif'
         Font.Style = [fsBold]
         ParentColor = False
@@ -20360,13 +20359,13 @@ object Form1: TForm1
         Visible = False
       end
       object ShortMilesLbl: TLabel
-        Left = 400
-        Height = 29
-        Top = 777
-        Width = 162
+        Left = 266
+        Height = 19
+        Top = 518
+        Width = 123
         Caption = 'ShortMilesLbl'
         Font.Color = clWindowText
-        Font.Height = -24
+        Font.Height = -16
         Font.Name = 'MS Sans Serif'
         Font.Style = [fsBold]
         ParentColor = False
@@ -20374,99 +20373,99 @@ object Form1: TForm1
         Visible = False
       end
       object Label2: TLabel
-        Left = 40
-        Height = 20
-        Top = 590
-        Width = 81
+        Left = 26
+        Height = 14
+        Top = 393
+        Width = 64
         Caption = 'User''s path'
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentColor = False
         ParentFont = False
       end
       object Label3: TLabel
-        Left = 400
-        Height = 20
-        Top = 592
-        Width = 169
+        Left = 266
+        Height = 14
+        Top = 394
+        Width = 137
         Caption = 'Program''s shortest path'
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentColor = False
         ParentFont = False
       end
       object SearchTimeLbl: TLabel
-        Left = 392
-        Height = 20
-        Top = 808
-        Width = 89
+        Left = 262
+        Height = 14
+        Top = 538
+        Width = 72
         Caption = 'Search time:'
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentColor = False
         ParentFont = False
       end
       object CityLbl: TLabel
-        Left = 4
-        Height = 20
-        Top = 474
-        Width = 47
+        Left = 2
+        Height = 14
+        Top = 315
+        Width = 38
         Caption = 'CityLbl'
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentColor = False
         ParentFont = False
       end
       object EstTimeLbl: TLabel
-        Left = 504
-        Height = 20
-        Top = 808
-        Width = 79
+        Left = 336
+        Height = 14
+        Top = 538
+        Width = 61
         Caption = 'EstTimeLbl'
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentColor = False
         ParentFont = False
       end
       object InstructLbl: TLabel
-        Left = 24
-        Height = 44
-        Top = 534
-        Width = 758
+        Left = 16
+        Height = 30
+        Top = 357
+        Width = 505
         AutoSize = False
         Caption = '''Click on a city to start or continue selecteing cities to visit.  Right click to  finalize selection.   Or  click Generate button for a random set. '
         Font.Color = clWindowText
-        Font.Height = -20
+        Font.Height = -14
         Font.Name = 'Arial'
         ParentColor = False
         ParentFont = False
         WordWrap = True
       end
       object Panel2: TPanel
-        Left = 814
-        Height = 846
-        Top = 62
-        Width = 540
+        Left = 543
+        Height = 565
+        Top = 41
+        Width = 360
         Caption = 'Panel2'
-        ClientHeight = 846
-        ClientWidth = 540
+        ClientHeight = 565
+        ClientWidth = 360
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentFont = False
         TabOrder = 4
         object Memo2: TMemo
-          Left = 201
-          Height = 578
-          Top = -54
-          Width = 508
+          Left = 134
+          Height = 385
+          Top = -37
+          Width = 338
           Font.Color = clWindowText
-          Font.Height = -17
+          Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Lines.Strings = (
             ''
@@ -20476,17 +20475,17 @@ object Form1: TForm1
         end
       end
       object Panel1: TPanel
-        Left = 1005
-        Height = 900
-        Top = -4
-        Width = 540
+        Left = 670
+        Height = 600
+        Top = -2
+        Width = 360
         Alignment = taLeftJustify
         BorderStyle = bsSingle
-        ClientHeight = 896
-        ClientWidth = 536
+        ClientHeight = 598
+        ClientWidth = 358
         Color = clWindow
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentColor = False
         ParentFont = False
@@ -20494,14 +20493,14 @@ object Form1: TForm1
         TabOrder = 2
         UseDockManager = False
         object Label1: TLabel
-          Left = 40
-          Height = 74
-          Top = 444
-          Width = 204
+          Left = 26
+          Height = 49
+          Top = 296
+          Width = 136
           AutoSize = False
           Caption = 'Nbr  of cities ito create in auto-generated routes'
           Font.Color = clWindowText
-          Font.Height = -20
+          Font.Height = -14
           Font.Name = 'MS Sans Serif'
           ParentColor = False
           ParentFont = False
@@ -20509,26 +20508,26 @@ object Form1: TForm1
           WordWrap = True
         end
         object LocLbl: TLabel
-          Left = 351
-          Height = 25
-          Top = 858
-          Width = 58
+          Left = 234
+          Height = 17
+          Top = 573
+          Width = 46
           Caption = 'LocLbl'
           Font.Color = clWindowText
-          Font.Height = -20
+          Font.Height = -14
           Font.Name = 'MS Sans Serif'
           ParentColor = False
           ParentFont = False
         end
         object StopBtn: TButton
           Cursor = crArrow
-          Left = 50
-          Height = 110
-          Top = 585
-          Width = 362
+          Left = 33
+          Height = 73
+          Top = 390
+          Width = 241
           Caption = 'Stop search'
           Font.Color = clRed
-          Font.Height = -29
+          Font.Height = -19
           Font.Name = 'Arial'
           Font.Style = [fsBold]
           OnClick = StopBtnClick
@@ -20537,25 +20536,25 @@ object Form1: TForm1
           Visible = False
         end
         object ItineraryBtn: TButton
-          Left = 50
-          Height = 38
-          Top = 538
-          Width = 230
+          Left = 33
+          Height = 25
+          Top = 359
+          Width = 153
           Caption = 'Generate random route'
           Font.Color = clWindowText
-          Font.Height = -18
+          Font.Height = -13
           Font.Name = '-'
           OnClick = ItineraryBtnClick
           ParentFont = False
           TabOrder = 0
         end
         object CityCountSpinEdit: TSpinEdit
-          Left = 254
-          Height = 28
-          Top = 462
-          Width = 74
+          Left = 169
+          Height = 26
+          Top = 309
+          Width = 49
           Font.Color = clWindowText
-          Font.Height = -17
+          Font.Height = -11
           Font.Name = 'MS Sans Serif'
           MaxValue = 50
           MinValue = 5
@@ -20565,15 +20564,15 @@ object Form1: TForm1
           Value = 10
         end
         object RoundtripBox: TCheckBox
-          Left = 348
-          Height = 29
+          Left = 232
+          Height = 23
           Hint = 'Last city must be same as first city'
-          Top = 465
-          Width = 104
+          Top = 310
+          Width = 85
           Caption = 'Round trip'
           Checked = True
           Font.Color = clWindowText
-          Font.Height = -17
+          Font.Height = -11
           Font.Name = 'MS Sans Serif'
           OnClick = RoundtripBoxClick
           ParentFont = False
@@ -20583,10 +20582,10 @@ object Form1: TForm1
           TabOrder = 2
         end
         object ModeGrp: TRadioGroup
-          Left = 50
-          Height = 98
-          Top = 718
-          Width = 294
+          Left = 33
+          Height = 65
+          Top = 479
+          Width = 197
           AutoFill = True
           Caption = 'Mouse click action'
           ChildSizing.LeftRightSpacing = 6
@@ -20596,10 +20595,10 @@ object Form1: TForm1
           ChildSizing.ShrinkVertical = crsScaleChilds
           ChildSizing.Layout = cclLeftToRightThenTopToBottom
           ChildSizing.ControlsPerLine = 1
-          ClientHeight = 67
-          ClientWidth = 290
+          ClientHeight = 46
+          ClientWidth = 195
           Font.Color = clWindowText
-          Font.Height = -23
+          Font.Height = -15
           Font.Name = 'Arial'
           ItemIndex = 1
           Items.Strings = (
@@ -20611,65 +20610,65 @@ object Form1: TForm1
           TabOrder = 3
         end
         object ShortestPathBtn: TButton
-          Left = 50
-          Height = 38
-          Top = 596
-          Width = 158
+          Left = 33
+          Height = 25
+          Top = 398
+          Width = 105
           Caption = 'Exhaustive search'
           Font.Color = clWindowText
-          Font.Height = -17
+          Font.Height = -11
           Font.Name = 'MS Sans Serif'
           OnClick = ShortestPathBtnClick
           ParentFont = False
           TabOrder = 5
         end
         object HeuristicBtn: TButton
-          Left = 230
-          Height = 38
-          Top = 596
-          Width = 156
+          Left = 153
+          Height = 25
+          Top = 398
+          Width = 104
           Caption = 'Heuristic search'
           Font.Color = clWindowText
-          Font.Height = -17
+          Font.Height = -11
           Font.Name = 'MS Sans Serif'
           OnClick = HeuristicBtnClick
           ParentFont = False
           TabOrder = 6
         end
         object ResetPathBtn: TButton
-          Left = 62
-          Height = 38
-          Top = 644
-          Width = 114
+          Left = 41
+          Height = 25
+          Top = 430
+          Width = 75
           Caption = 'Reset paths'
           Font.Color = clWindowText
-          Font.Height = -17
+          Font.Height = -11
           Font.Name = 'MS Sans Serif'
           OnClick = ResetPathBtnClick
           ParentFont = False
           TabOrder = 7
         end
         object ResetCitiesBtn: TButton
-          Left = 230
-          Height = 38
-          Top = 644
-          Width = 128
+          Left = 153
+          Height = 25
+          Top = 430
+          Width = 86
           Caption = 'Show all cities '
           Font.Color = clWindowText
-          Font.Height = -17
+          Font.Height = -11
           Font.Name = 'MS Sans Serif'
           OnClick = ResetCitiesBtnClick
           ParentFont = False
           TabOrder = 8
         end
         object Memo1: TMemo
-          Left = 9
-          Height = 416
-          Top = -3
-          Width = 540
+          Left = 6
+          Height = 278
+          Top = -2
+          Width = 360
           Color = 14548991
           Font.Color = clWindowText
-          Font.Height = -20
+          Font.Height = -14
           Font.Name = 'Arial'
           Lines.Strings = (
             'Click "Generate random  route" button to show a set of '
@@ -20693,60 +20692,64 @@ object Form1: TForm1
         end
       end
       object Userslist: TListBox
-        Left = 40
-        Height = 150
-        Top = 618
-        Width = 297
+        Left = 26
+        Height = 101
+        Top = 411
+        Width = 198
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ItemHeight = 0
         ParentFont = False
+        ScrollWidth = 196
         TabOrder = 0
+        TopIndex = -1
       end
       object Programslist: TListBox
-        Left = 400
-        Height = 159
-        Top = 618
-        Width = 390
+        Left = 266
+        Height = 106
+        Top = 411
+        Width = 261
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ItemHeight = 0
         OnClick = ProgramslistClick
         ParentFont = False
+        ScrollWidth = 259
         TabOrder = 1
+        TopIndex = -1
       end
       object Progressbar: TProgressBar
-        Left = 384
-        Height = 26
-        Top = 832
-        Width = 434
+        Left = 256
+        Height = 17
+        Top = 554
+        Width = 289
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ParentFont = False
         TabOrder = 3
         Visible = False
       end
       object SaveBtn: TButton
-        Left = 40
-        Height = 38
-        Top = 808
-        Width = 194
+        Left = 26
+        Height = 25
+        Top = 538
+        Width = 129
         Caption = 'Save paths...'
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         OnClick = SaveBtnClick
         ParentFont = False
         TabOrder = 5
       end
       object MaxtimeGrp: TRadioGroup
-        Left = 256
-        Height = 60
-        Top = 864
-        Width = 435
+        Left = 170
+        Height = 40
+        Top = 576
+        Width = 290
         AutoFill = True
         Caption = 'Search time limit'
         ChildSizing.LeftRightSpacing = 6
@@ -20756,11 +20759,11 @@ object Form1: TForm1
         ChildSizing.ShrinkVertical = crsScaleChilds
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 5
-        ClientHeight = 35
-        ClientWidth = 431
+        ClientHeight = 25
+        ClientWidth = 288
         Columns = 5
         Font.Color = clWindowText
-        Font.Height = -17
+        Font.Height = -11
         Font.Name = 'MS Sans Serif'
         ItemIndex = 2
         Items.Strings = (
@@ -20778,19 +20781,19 @@ object Form1: TForm1
   object Timer1: TTimer
     Enabled = False
     OnTimer = Timer1Timer
-    Left = 1284
-    Top = 828
+    left = 856
+    top = 552
   end
   object SaveDialog1: TSaveDialog
     Title = 'Select or enter name for saving current path'
     DefaultExt = '.txt'
     Filter = 'Text file (*.txt)|*.txt|All files (*.*)|*.*'
     Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
-    Left = 714
-    Top = 36
+    left = 477
+    top = 24
   end
   object OpenDialog1: TOpenDialog
-    Left = 642
-    Top = 48
+    left = 429
+    top = 32
   end
 end

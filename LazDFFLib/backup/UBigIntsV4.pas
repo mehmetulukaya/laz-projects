@@ -17,7 +17,7 @@ Unit UBigIntsV4;
 //{$INCLUDE UBigIntsChangeHistory.txt}
 interface
 
-uses Forms, Dialogs, SysUtils, Windows;
+uses Forms, Dialogs, SysUtils{, Windows};
 type
   TDigits = array of int64;
   {$IfDef compilerversion>15}
@@ -2336,6 +2336,7 @@ var
   end;
 
 begin
+  // find alternative solutions...
   Alen:= Length(fdigits);
   i:= Alen;
   d:= 1;
@@ -2343,8 +2344,11 @@ begin
   SetLength(self.fDigits, d);
   PA:= @self.fDigits[0];
   dmemory:= (d shr 1) * 11 * sizeof(int64);
-  HR:= GlobalAlloc(GMEM_FIXED, dmemory);
-  PR:= GlobalLock(HR);
+
+  //dmemory:=GetMem(dmemory);
+
+  //HR:= GlobalAlloc(GMEM_FIXED, dmemory);
+  //PR:= GlobalLock(HR);
   fillchar(PR[0], dmemory, 0);
   KaratsubaSquare(PA, PR, d);
   DoCarry(PR, self.Base, d * 2);
@@ -2354,8 +2358,10 @@ begin
   move(PR[0], self.fDigits[0], d * sizeof(int64));
   self.Trim;
   self.Sign:= self.Sign * self.Sign;
-  GlobalUnlock(HR);
-  GlobalFree(HR);
+
+  //GlobalUnlock(HR);
+  //GlobalFree(HR);
+
 end;
 
 /// /////additions by morf//////////////////////////
@@ -2613,7 +2619,7 @@ end;
 
 
 { GDD Operator additions Nov 2013}
-{$IF compilerVersion>15}
+{$IfDef compilerVersion>15}
 {_________  OPERATOR CLASS IMPLEMENTATIONS ____________}
 
 

@@ -214,7 +214,7 @@ var
 
 implementation
 
-uses math, Windows, Dialogs, Mathslib{, UBigIntsV4};
+uses math, {Windows,} Dialogs, Mathslib{, UBigIntsV4};
 
 var
   Count: int64;  {count of entries}

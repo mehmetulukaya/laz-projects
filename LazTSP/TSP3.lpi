@@ -2,7 +2,6 @@
 <CONFIG>
   <ProjectOptions>
     <Version Value="11"/>
-    <PathDelim Value="\"/>
     <General>
       <Flags>
         <MainUnitHasUsesSectionForAllUnits Value="False"/>
@@ -24,7 +23,7 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <BuildNr Value="10"/>
+      <BuildNr Value="16"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -62,7 +61,7 @@
         <ResourceBaseClass Value="Form"/>
       </Unit2>
       <Unit3>
-        <Filename Value="..\LazDFFLib\mathslib.pas"/>
+        <Filename Value="../LazDFFLib/mathslib.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="MathsLib"/>
       </Unit3>

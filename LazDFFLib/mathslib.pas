@@ -29,7 +29,7 @@ unit  MathsLib;
 
 interface
 
-uses Classes, SysUtils, Windows, Dialogs, UBigIntsV4;
+uses Classes, SysUtils, {Windows,} Dialogs, UBigIntsV4;
 
 type
   intset = set of byte;
@@ -1932,7 +1932,7 @@ end;
 
 procedure Randomize64 ;
 begin
-  QueryPerformanceCounter(Int64(RandSeed64))
+  // QueryPerformanceCounter(Int64(RandSeed64))
 end {Randomize64} ;
 
 {$IfDef compilerversion>15}  {After Delphi 7}

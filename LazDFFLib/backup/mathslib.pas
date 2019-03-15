@@ -29,7 +29,7 @@ unit  MathsLib;
 
 interface
 
-uses Classes, SysUtils, Windows, Dialogs, UBigIntsV4;
+uses Classes, SysUtils, {Windows,} Dialogs, UBigIntsV4;
 
 type
   intset = set of byte;
@@ -1935,7 +1935,7 @@ begin
   QueryPerformanceCounter(Int64(RandSeed64))
 end {Randomize64} ;
 
-{$IF compilerversion>15}  {After Delphi 7}
+{$IfDef compilerversion>15}  {After Delphi 7}
 {*************** 64-bit Random routines for Delphi after D7 **********}
 const
 Factor = 6364136223846793005 { Said to be OK by Knuth } ;

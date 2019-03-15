@@ -28,11 +28,11 @@ Unit U_TSP3;
 interface
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  StdCtrls, Spin, ExtCtrls, ShellAPI, DateUtils, ComCtrls, Inifiles,
+  LCLType,LCLIntf, LCLMemManager,  Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
+  StdCtrls, Spin, ExtCtrls, DateUtils, ComCtrls, Inifiles,
   Buttons
   ,mathslib
-  ,UcomboV2
+  ,UComboV2
   ;
 
 type
@@ -1841,14 +1841,12 @@ end;
 
 procedure TForm1.StaticText3Click(Sender: TObject);
 begin
-   ShellExecute(Handle, 'open', 'http://delphiforfun.org/programs/utilities/makecitylocationfile.htm',
-  nil, nil, SW_SHOWNORMAL) ;
+  OpenURL('http://delphiforfun.org/programs/utilities/makecitylocationfile.htm');
 end;
 
 procedure TForm1.StaticText1Click(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'http://www.delphiforfun.org/',
-  nil, nil, SW_SHOWNORMAL) ;
+  OpenURL('http://www.delphiforfun.org/');
 end;
 
 end.
