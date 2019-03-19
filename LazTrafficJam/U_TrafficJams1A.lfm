@@ -1,13 +1,12 @@
 object Form1: TForm1
-  Left = 95
+  Left = 127
   Height = 542
-  Top = 17
-  Width = 1018
+  Top = 15
+  Width = 762
   ActiveControl = ListBox1
-  BorderStyle = bsSingle
   Caption = 'TRAFFIC-JAMS  Version 1.1.0'
-  ClientHeight = 522
-  ClientWidth = 1018
+  ClientHeight = 517
+  ClientWidth = 762
   Color = clBtnFace
   Font.Color = clWindowText
   Font.Height = -13
@@ -18,8 +17,9 @@ object Form1: TForm1
   OnCreate = FormCreate
   OnPaint = FormPaint
   OnResize = FormResize
+  Position = poWorkAreaCenter
   ShowHint = True
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '2.0.0.4'
   Visible = True
   object BoardBox: TPaintBox
     Left = 40
@@ -27,6 +27,10 @@ object Form1: TForm1
     Hint = 'Right click to add a vehicle'
     Top = 64
     Width = 265
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    ParentFont = False
     ParentShowHint = False
     OnMouseDown = BoardBoxMouseDown
     OnMouseMove = BoardBoxMouseMove
@@ -35,9 +39,9 @@ object Form1: TForm1
   end
   object Escapelbl: TLabel
     Left = 0
-    Height = 27
+    Height = 26
     Top = 0
-    Width = 1018
+    Width = 762
     Align = alTop
     Alignment = taCenter
     Caption = 'Help the red car escape the traffic jam!'
@@ -71,9 +75,9 @@ object Form1: TForm1
   end
   object Label4: TLabel
     Left = 464
-    Height = 16
+    Height = 17
     Top = 184
-    Width = 85
+    Width = 90
     Caption = 'Select a  case'
     Font.Color = clWindowText
     Font.Height = -13
@@ -83,9 +87,9 @@ object Form1: TForm1
   end
   object MoveCountLbl: TLabel
     Left = 12
-    Height = 22
+    Height = 23
     Top = 368
-    Width = 399
+    Width = 450
     Caption = '  Vehicles moves:  100   Blocks traveled: 100    '
     Color = clTeal
     Font.CharSet = ANSI_CHARSET
@@ -100,9 +104,9 @@ object Form1: TForm1
   end
   object Label1: TLabel
     Left = 464
-    Height = 16
+    Height = 17
     Top = 32
-    Width = 81
+    Width = 88
     Caption = 'Select a level'
     Font.Color = clWindowText
     Font.Height = -13
@@ -112,9 +116,9 @@ object Form1: TForm1
   end
   object SpeedLbl: TLabel
     Left = 351
-    Height = 16
+    Height = 17
     Top = 314
-    Width = 41
+    Width = 40
     Caption = 'Speed'
     Font.Color = clWindowText
     Font.Height = -13
@@ -159,7 +163,12 @@ object Form1: TForm1
       Width = 150
       Cancel = True
       Caption = 'Load the next jam'
+      Font.CharSet = ANSI_CHARSET
+      Font.Color = clYellow
+      Font.Height = -15
+      Font.Name = 'PT Carlisle'
       OnClick = NextJamBtnClick
+      ParentFont = False
       TabOrder = 0
     end
   end
@@ -192,6 +201,7 @@ object Form1: TForm1
     ParentFont = False
     ScrollWidth = 167
     TabOrder = 0
+    TopIndex = -1
   end
   object HintBtn: TButton
     Left = 487
@@ -231,7 +241,7 @@ object Form1: TForm1
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
-    ItemHeight = 16
+    ItemHeight = 0
     OnChange = LevelBoxChange
     ParentFont = False
     Style = csSimple
@@ -250,14 +260,14 @@ object Form1: TForm1
       'Best computer score: 100 vehicles, 100 blocks'
       'Best human score: 100 vehicles, 100 blocks '
     )
-    ItemHeight = 23
+    ItemHeight = 30
     ParentFont = False
-    ScrollWidth = 401
+    ScrollWidth = 403
     TabOrder = 7
   end
   object SpeedBar: TTrackBar
     Left = 341
-    Height = 35
+    Height = 47
     Hint = 'Change vehicle speed'
     Top = 328
     Width = 108
@@ -266,6 +276,10 @@ object Form1: TForm1
     OnChange = SpeedBarChange
     Position = 20
     TickStyle = tsNone
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Arial'
+    ParentFont = False
     ParentShowHint = False
     ShowHint = True
     TabOrder = 9
@@ -275,8 +289,8 @@ object Form1: TForm1
     Cursor = crHandPoint
     Left = 0
     Height = 20
-    Top = 502
-    Width = 1018
+    Top = 497
+    Width = 762
     Align = alBottom
     Alignment = taCenter
     Caption = 'Copyright © 2008, Gary Darby,  www.DelphiForFun.org'

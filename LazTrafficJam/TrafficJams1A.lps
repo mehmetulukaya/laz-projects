@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
     <Units Count="9">
       <Unit0>
         <Filename Value="TrafficJams1A.dpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="9"/>
-        <CursorPos X="43" Y="15"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="27" Y="25"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
@@ -19,10 +19,9 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="2126"/>
-        <CursorPos Y="2126"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1991"/>
+        <CursorPos X="3" Y="1994"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -34,10 +33,12 @@
         <ComponentName Value="AboutBox"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="18"/>
-        <CursorPos Y="38"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4"/>
+        <CursorPos X="3" Y="23"/>
         <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit2>
       <Unit3>
@@ -56,10 +57,12 @@
         <ComponentName Value="WinnerDlg"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="62"/>
         <CursorPos X="21" Y="62"/>
         <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit4>
       <Unit5>
@@ -92,7 +95,7 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit8>
     </Units>
-    <JumpHistory Count="14" HistoryIndex="13">
+    <JumpHistory Count="17" HistoryIndex="16">
       <Position1>
         <Filename Value="U_TrafficJams1A.pas"/>
         <Caret Line="1750" Column="26" TopLine="1736"/>
@@ -149,6 +152,22 @@
         <Filename Value="U_TrafficJams1A.pas"/>
         <Caret Line="2127" Column="79" TopLine="2127"/>
       </Position14>
+      <Position15>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="2154" Column="52" TopLine="2071"/>
+      </Position15>
+      <Position16>
+        <Filename Value="TrafficJams1A.dpr"/>
+        <Caret Line="28" Column="39"/>
+      </Position16>
+      <Position17>
+        <Filename Value="U_TrafficJams1A.pas"/>
+        <Caret Line="2320" Column="49" TopLine="2287"/>
+      </Position17>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
 </CONFIG>

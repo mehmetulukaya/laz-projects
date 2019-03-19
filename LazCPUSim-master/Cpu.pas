@@ -369,7 +369,7 @@ var
   f: TextFile;
   ln: String;
 begin
-  if FileExistsUTF8(fl) { *Converted from FileExists* } then
+  if FileExists(fl) { *Converted from FileExists* } then
   begin
     assignFile(f, fl);
     reset(f);
@@ -1701,4 +1701,4 @@ begin
 end;//procedure TCPU.SetMemSz(sz: Integer);
 
 end.
-
+

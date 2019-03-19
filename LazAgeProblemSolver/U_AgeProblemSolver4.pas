@@ -220,8 +220,12 @@ function TForm1.FindNames(n:integer):boolean;
   function InFirstWordList(s:string):boolean;
   var index:integer;
   begin
-    result:=FirstWordsList.find(s,index);
-    //if result then s:=firstwordslist.values[s];
+    index:=0;
+    try
+      result:=FirstWordsList.Find(s,index);
+    except
+      Result:=False;
+    end;
   end;
 var
   j:integer;

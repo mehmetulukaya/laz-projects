@@ -106,12 +106,14 @@ end;
 function TEval.addvariable(newvarname:string; newvarval:single):boolean;
 var
   s:string;
+  n:Integer;
 begin
   s:=uppercase(newvarname);
   result:=true;
   if varlist.indexof(s)<0 then
   begin
-    if varlist.addobject(uppercase(newvarname),TObject(newvarval))<0
+    n:=newvarval.ToString.ToInteger;
+    if varlist.addobject(uppercase(newvarname),TObject(n))<0
     then
     begin
       if not silent then showmessage('Variable addition for '+newvarname+' failed.');
@@ -456,7 +458,7 @@ Function TEval.eval:Boolean;
           {unstack 2 operands from astack}
           if tokentype=variable then
           begin
-            opb:=single(varlist.objects[variablenbr]);
+            opb:=Integer(varlist.objects[variablenbr]);
             if verbose then verboselist.add('___OpB = Pop variable '+ id
                     + ' (value '+format('%.2f',[opb]) + ') off of temp stack');
           end
@@ -476,7 +478,7 @@ Function TEval.eval:Boolean;
           begin
             if tokentype=variable then
             begin
-              opa:=single(varlist.objects[variablenbr]);
+              opa:=Integer(varlist.objects[variablenbr]);
               if verbose then verboselist.add('___OpA = Pop variable '+id
                     + ' value '+inttostr(trunc(opa)) + ' off of temp stack');
             end
@@ -505,7 +507,7 @@ Function TEval.eval:Boolean;
     if postfixlist.count=1 then
     begin    {expression was a single variable or constant}
       with astack[1].r do
-      if tokentype=variable then value:=single(varlist.objects[variablenbr])
+      if tokentype=variable then value:=Integer(varlist.objects[variablenbr])
       else value:=constantvalue;
     end
     else if scount=1 then value:=astack[1].r.constantvalue

@@ -120,11 +120,12 @@ begin
   GetMem(buf, len);
   Move(aCaption[1], buf^, len);
   cmp := Form1.FindComponent(aName);
+
   if Assigned(cmp) then
     LclIntf.SendMessage(Form1.Handle,
                         WM_SET_CAPTION,
-                        Integer(cmp),
-                        Integer(buf));
+                        WPARAM(cmp),
+                        LPARAM(buf) );
 end;
 
 

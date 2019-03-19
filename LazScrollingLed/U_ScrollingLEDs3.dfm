@@ -12,7 +12,7 @@ object Form1: TForm1
   Font.Name = 'Arial'
   OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '2.0.0.4'
   object Image1: TImage
     Left = 16
     Height = 209
@@ -66,8 +66,8 @@ object Form1: TForm1
     object Textpage: TTabSheet
       Hint = 'Stop message before changing text'
       Caption = 'Message'
-      ClientHeight = 208
-      ClientWidth = 499
+      ClientHeight = 212
+      ClientWidth = 495
       object Label1: TLabel
         Left = 16
         Height = 15
@@ -78,7 +78,7 @@ object Form1: TForm1
       end
       object TextEdt: TEdit
         Left = 112
-        Height = 25
+        Height = 27
         Top = 168
         Width = 345
         TabOrder = 0
@@ -102,8 +102,8 @@ object Form1: TForm1
     end
     object DateTimePage: TTabSheet
       Caption = 'Date/Time'
-      ClientHeight = 208
-      ClientWidth = 499
+      ClientHeight = 212
+      ClientWidth = 495
       ImageIndex = 1
       object DTFormatGrp: TRadioGroup
         Left = 8
@@ -119,7 +119,7 @@ object Form1: TForm1
         ChildSizing.ShrinkVertical = crsScaleChilds
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 1
-        ClientHeight = 145
+        ClientHeight = 143
         ClientWidth = 471
         ItemIndex = 0
         Items.Strings = (
@@ -133,8 +133,8 @@ object Form1: TForm1
     end
     object TabSheet1: TTabSheet
       Caption = 'Count Up/Down'
-      ClientHeight = 208
-      ClientWidth = 499
+      ClientHeight = 212
+      ClientWidth = 495
       ImageIndex = 2
       object Label4: TLabel
         Left = 16
@@ -150,7 +150,7 @@ object Form1: TForm1
         Top = 72
         Width = 449
         Caption = 'Display count time units'
-        ClientHeight = 41
+        ClientHeight = 39
         ClientWidth = 447
         TabOrder = 0
         object Yearbox: TCheckBox
@@ -214,7 +214,7 @@ object Form1: TForm1
         ChildSizing.ShrinkVertical = crsScaleChilds
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 1
-        ClientHeight = 48
+        ClientHeight = 46
         ClientWidth = 447
         ItemIndex = 0
         Items.Strings = (
@@ -288,7 +288,7 @@ object Form1: TForm1
     end
     object LEDPixelsUD: TUpDown
       Left = 145
-      Height = 25
+      Height = 27
       Top = 28
       Width = 12
       Associate = LEDSizeEdt
@@ -296,11 +296,10 @@ object Form1: TForm1
       Min = 5
       Position = 10
       TabOrder = 0
-      Wrap = False
     end
     object LEDSizeEdt: TEdit
       Left = 120
-      Height = 25
+      Height = 27
       Top = 28
       Width = 25
       OnChange = gth
@@ -395,9 +394,9 @@ object Form1: TForm1
   end
   object NewScreenBox: TCheckBox
     Left = 528
-    Height = 22
+    Height = 23
     Top = 264
-    Width = 245
+    Width = 240
     Caption = 'Display message in separate window'
     OnClick = NewScreenBoxClick
     TabOrder = 5

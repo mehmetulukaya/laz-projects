@@ -7,7 +7,7 @@ uses
   U_AirportSim in 'U_AirportSim.pas' {Form1},
   U_AirportDesc in 'U_AirportDesc.pas' {Form2};
 
-{$R *.res}
+{ R *.res}
 
 begin
   Application.Initialize;

@@ -19,7 +19,7 @@ uses
   URungeKutta4 in 'URungeKutta4.pas',
   NumEdit2 in 'NumEdit2.pas';
 
-{$R *.res}
+{ R *.res}
 
 begin
   Application.Initialize;
